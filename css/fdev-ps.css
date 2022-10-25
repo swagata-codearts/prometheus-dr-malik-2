@@ -1,65 +1,128 @@
+/* Enhancement */
+.enhance{
+background-image: url(../images/male-enhacement-bg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+}
+.enhance .enhance-left .enhance-left-top-img img{
+width: 85%;
+}
+.enhance .enhance-left{
+padding-left: 100px;
+position: relative;
+}
+.enhance .enhance-left .enhance-left-bottom-img{
+position: absolute;
+left: -16px;
+top: 55%;
+}
+.enhance .enhance-left .enhance-left-bottom-img img{
+border: 6px solid var(--c-white);
+width: 65%;
+}
+.enhance .enhance-right{
+padding: 55px;
+}
+.enhance .enhance-right .custom-paragraph p{
+padding-bottom: 58px;
+}
 /* contact-us */
+.contact-us{
+position: relative;
+}
 .contact-us .contact-left{
-    background-color: var(--c-primary);
-    padding-top: 110px;
-    padding-left: 300px;
+background-color: var(--c-primary);
+padding-top: 110px;
+padding-left: 300px;
+}
+.contact-us .contact-left .custom-heading h3{
+color: var(--c-white);
 }
 .contact-us .contact-left .contact-left-bottom{
-    background-color: var(--c-secondary);
-    padding: 39px;
+background-color: var(--c-secondary);
+padding: 39px;
 }
 .contact-us .contact-left .contact-left-bottom ul li{
-    padding-bottom: 32px;
+padding-bottom: 32px;
 }
-.contact-us .contact-left .contact-left-bottom ul li h5{
-    font-family: var(--ff-primary);
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--c-primary);
+.contact-us .contact-left .contact-left-bottom ul li h4{
+font-family: var(--ff-primary);
+font-weight: 400;
+font-size: 16px;
+color: var(--c-primary);
 }
 .contact-us .contact-left .contact-left-bottom ul li p,.contact-us .contact-left .contact-left-bottom ul li a{
-    font-family: var(--ff-primary);
-    font-weight: 400;
-    font-size: 24px;
-    color: var(--c-white);
-    line-height: 34px;
+font-family: var(--ff-primary);
+font-weight: 400;
+font-size: 24px;
+color: var(--c-white);
+line-height: 34px;
+}
+.contact-us .contact-right{
+background-image: url(../images/contact-bg-2.jpg);
+background-position: center;
+background-repeat: no-repeat;
+padding: 100px 120px;
+position: absolute;
+left: 46%;
+top: 3%;
+}
+.contact-us .contact-right form .form-group .form-wrap input,.contact-us .contact-right form .form-group .form-wrap textarea{
+font-family: var(--ff-primary);
+font-weight: 400;
+font-size: 15px;
+color: var(--c-primary);
+padding: 20px;
+margin-bottom: 14px;
+border: none;
+border-radius: 0;
+}
+.contact-us .contact-right form .form-btn .custom-button{
+font-weight: 400;
+background-color: var(--c-secondary);
+color: var(--c-primary);
+border: 2px solid var(--c-secondary);
+}
+.contact-us .contact-right form .form-btn .custom-button:hover{
+background-color: transparent;
+border: 2px solid var(--c-secondary);
 }
 /* Footer Start */
 .footer-wrap{
-    background-color: var(--c-primary);
-    padding: 70px 0 60px 0;
+background-color: var(--c-primary);
+padding: 70px 0 60px 0;
 }
 .footer-wrap .column-wrap .column-heading h2{
-    font-family: var(--ff-primary);
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--c-white);
+font-family: var(--ff-primary);
+font-size: 18px;
+font-weight: 700;
+color: var(--c-white);
 }
 .footer-wrap .column-wrap .column-bottom-text{
-    margin-top: 35px;
+margin-top: 35px;
 }
 .footer-wrap .column-wrap {
-    padding: 34px 20px;
+padding: 34px 20px;
 }
 .footer-wrap .column-wrap .column-bottom-text p,.footer-wrap .column-wrap .column-bottom-text p a,.footer-wrap .column-wrap .column-bottom-text ul li a,.footer-wrap .column-wrap .column-bottom-text ul li,.footer-bottom .footer-bottom-text p{
-    font-family: var(--ff-primary);
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 300;
-    color: var(--c-white-100);
+font-family: var(--ff-primary);
+font-size: 16px;
+line-height: 26px;
+font-weight: 300;
+color: var(--c-white-100);
 }
 .footer-wrap .column-wrap .column-bottom-text p a:hover,.footer-wrap .column-wrap .column-bottom-text ul li a:hover{
-    color: var(--c-secondary);
+color: var(--c-secondary);
 }
 .footer-wrap .second-col .column-bottom-text p,.footer-wrap .column-wrap .column-bottom-text ul li{
 padding-bottom: 12px;
 } 
 .footer-wrap .column-wrap .column-bottom-text ul li span{
-    color: var(--c-secondary);
-    padding-right: 14px;
+color: var(--c-secondary);
+padding-right: 14px;
 }
 .footer-wrap .column-col:not(:last-child) .column-wrap{
-    border-right: 1px solid var(--c-blue-200);
+border-right: 1px solid var(--c-blue-200);
 }
 .footer-bottom{
 border-top: 1px solid var(--c-blue-200);
