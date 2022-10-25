@@ -1,0 +1,10 @@
+.cus-hide {
+  display: none !important;
+}
+.custom-bef-aft-content .gallery-img-box {
+  background-color: var(--c-black-700);
+  border-radius: 10px;
+  text-align: center;
+  padding: 62px 0 50px 0;
+  height: 321px;
+}
