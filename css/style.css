@@ -136,22 +136,26 @@ h1, h2, h3, h4, h5, h6 {
 
 /*custom-button-start-supriyo*/
 .custom-button {
-  background-color: var(--c-primary-text);
+  background-color: var(--c-tertiary-text);
   color: var(--c-white);
-  padding: 13px 50px 15px;
+  padding: 26px 37px;
   font-family: var(--ff-primary);
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 17px;
   text-align: center;
-  text-transform: uppercase;
   display: inline-block;
   text-decoration: none;
-  border-radius: 3px;
-  border:2px solid var(--c-primary-text);
+  border-radius: 50px;
+  border:2px solid var(--c-tertiary-text);
   transition: all 0.3s ease-in-out;
+  line-height: 0;
 }
 .custom-button:hover {
-  color: var(--c-primary-text);
+  color: var(--c-tertiary-text);
   background-color: var(--c-white);
+}
+.custom-button span {
+  margin-left: 10px;
+  font-size: 15px;
 }
 /*custom-button-end-supriyo*/
