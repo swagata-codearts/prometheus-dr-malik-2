@@ -92,10 +92,10 @@
   }
   .main-banner .carousel-caption {
     right: 0;
-    left: 0;
+    left: 120px;
     margin: 0 auto;
     text-align: left;
-    padding-right: 600px;
+    bottom: 135px;
 }
 .main-banner .carousel-caption h1 {
     font-family: var(--ff-primary);
@@ -115,5 +115,8 @@
   .banner-button {
     margin-top: 55px;
   }
-
+  .main-banner .d-block.w-100 {
+    margin-top: 70px;
+  }
+  
 /*banner-end-supriyo*/
