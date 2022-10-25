@@ -77,6 +77,9 @@ margin-bottom: 14px;
 border: none;
 border-radius: 0;
 }
+.contact-us .contact-right form .form-group .form-wrap textarea{
+height:170px ;
+}
 .contact-us .contact-right form .form-btn .custom-button{
 font-weight: 400;
 background-color: var(--c-secondary);
