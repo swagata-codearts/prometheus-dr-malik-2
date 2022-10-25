@@ -5,15 +5,17 @@
 /******** Color Schemes ********/
 
 :root {
---c-primary: #0e163d;
---c-secondary: #d4bfa3;
---c-white: #ffffff;
---c-black-text: #000000;
---c-primary-text: #101828;
---c-secondary-text: #5c5c5c;
---c-tertiary-text: #131f39;
---c-black-700: #333333;
---ff-primary: 'Chivo', sans-serif;
+  --c-primary: #0e163d;
+  --c-secondary: #d4bfa3;
+  --c-white: #ffffff;
+  --c-white-100: #f8f9ff;
+  --c-black-text: #000000;
+  --c-primary-text: #101828;
+  --c-secondary-text: #5c5c5c;
+  --c-blue-200: #232f6a;
+  --c-tertiary-text: #131f39;
+  --c-black-700: #333333;
+  --ff-primary: 'Chivo', sans-serif;
 }
 
 /******** CSS Resets ********/
