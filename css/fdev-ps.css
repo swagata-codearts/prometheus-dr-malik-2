@@ -1,0 +1,42 @@
+.footer-wrap{
+    background-color: var(--c-primary);
+    padding: 70px 0 60px 0;
+}
+.footer-wrap .column-wrap .column-heading h2{
+    font-family: var(--ff-primary);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--c-white);
+}
+.footer-wrap .column-wrap .column-bottom-text{
+    margin-top: 35px;
+}
+.footer-wrap .column-wrap {
+    padding: 34px 20px;
+}
+.footer-wrap .column-wrap .column-bottom-text p,.footer-wrap .column-wrap .column-bottom-text p a,.footer-wrap .column-wrap .column-bottom-text ul li a,.footer-wrap .column-wrap .column-bottom-text ul li,.footer-bottom .footer-bottom-text p{
+    font-family: var(--ff-primary);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    color: var(--c-white-100);
+}
+.footer-wrap .column-wrap .column-bottom-text p a:hover,.footer-wrap .column-wrap .column-bottom-text ul li a:hover{
+    color: var(--c-secondary);
+}
+.footer-wrap .second-col .column-bottom-text p,.footer-wrap .column-wrap .column-bottom-text ul li{
+padding-bottom: 12px;
+} 
+.footer-wrap .column-wrap .column-bottom-text ul li span{
+    color: var(--c-secondary);
+    padding-right: 14px;
+}
+.footer-wrap .column-col:not(:last-child) .column-wrap{
+    border-right: 1px solid var(--c-blue-200);
+}
+.footer-bottom{
+border-top: 1px solid var(--c-blue-200);
+background-color: var(--c-primary);
+text-align: center;
+padding: 21px 0;
+}
