@@ -1,3 +1,40 @@
+/*about-start*/
+
 .about-specialist .specialist-upper-content-wrap {
     padding-bottom: 20px;
   }
+
+.about-specialist .about-content {
+    padding: 70px 0 70px 260px;
+  }
+
+.about-specialist .demo1 {
+    padding-bottom: 35px;
+  }
+
+.about-specialist .custom-button-wrap {
+    display: inline-flex;
+    padding-top: 60px;
+  }
+
+.about-specialist .about-button-lst .custom-button{
+    background-color: var(--c-secondary);
+    color: var(--c-primary);
+    border: 2px solid var(--c-secondary);
+}
+
+.about-specialist .about-button-lst .custom-button:hover{
+    background-color: var(--c-white);
+}
+
+.about-specialist .about-button-lst {
+    padding-left: 20px;
+  }
+
+.about-specialist .specialist-image-wrap img {
+    width: 100%;
+    height: 627px;
+    object-fit: cover;
+  }
+
+/*about-end*/
