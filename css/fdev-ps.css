@@ -1,3 +1,30 @@
+/* contact-us */
+.contact-us .contact-left{
+    background-color: var(--c-primary);
+    padding-top: 110px;
+    padding-left: 300px;
+}
+.contact-us .contact-left .contact-left-bottom{
+    background-color: var(--c-secondary);
+    padding: 39px;
+}
+.contact-us .contact-left .contact-left-bottom ul li{
+    padding-bottom: 32px;
+}
+.contact-us .contact-left .contact-left-bottom ul li h5{
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--c-primary);
+}
+.contact-us .contact-left .contact-left-bottom ul li p,.contact-us .contact-left .contact-left-bottom ul li a{
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--c-white);
+    line-height: 34px;
+}
+/* Footer Start */
 .footer-wrap{
     background-color: var(--c-primary);
     padding: 70px 0 60px 0;
