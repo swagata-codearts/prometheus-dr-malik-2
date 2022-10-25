@@ -159,3 +159,36 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
 }
 /*custom-button-end-supriyo*/
+
+/*custom-heading-start-Deep*/
+
+.custom-heading h5 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: var(--ff-primary);
+  color: var(--c-secondary);
+  margin-bottom: 35px;
+  text-transform: capitalize;
+}
+
+.custom-heading h3 {
+  font-size: 50px;
+  font-family: var(--ff-primary);
+  font-weight: 700;
+  color: var(--c-primary-text);
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+
+/*custom-heading-end-Deep*/
+
+/*custom-paragraph-start-Deep*/
+.custom-paragraph p {
+  font-size: 18px;
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  color: var(--c-secondary-text);
+  line-height: 34px;
+  text-transform: capitalize;
+}
+/*custom-paragraph-end-Deep*/
