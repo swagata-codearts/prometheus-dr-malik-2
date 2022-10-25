@@ -146,6 +146,7 @@ margin-top: 35px;
 }
 .box-text {
 padding: 45px 0;
+padding-left: 40px;
 }
 .performed-button {
 margin-top: 75px;
@@ -160,4 +161,85 @@ background-color: transparent;
 color: var(--c-white);
 border: 2px solid var(--c-secondary);
 }
+.box-text .custom-paragraph p {
+font-size: 17px;
+line-height: 32px;
+margin-top: 35px;
+}
+.performed-section-heading .custom-heading h3 {
+color: var(--c-white);
+line-height: 65px;
+margin-bottom: 0px;
+}
+.performed-section-heading .custom-paragraph p {
+padding: 65px 0 90px 0;
+color:#84889d;
+}
 /*perfomed-procedures-end-supriyo*/
+/*male-enhancement-start-supriyo*/
+.male-enhancement {
+background-image: url(../images/enlargement-procedures-bg.png);
+text-align: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.male-enhancement.custom-pad {
+padding: 180px 0 274px 0;
+}
+.male-enhancement-1 {
+display: inline-block;
+margin-top: 36px;
+}
+.male-enhancement-2 {
+display: inline-block;
+}
+.male-enhancement-content {
+text-align: left;
+}
+.male-enhancement-content .custom-heading h3 {
+color: var(--c-white);
+}
+.male-enhancement-content .custom-paragraph p {
+color: #ccd0e2;
+padding: 18px 0;
+}
+.male-enhancement-1 .custom-button {
+background-color: var(--c-white);
+color: var(--c-primary);
+border: 2px solid transparent;
+}
+.male-enhancement-1 .custom-button:hover {
+background-color: transparent;
+color: var(--c-white);
+border: 2px solid var(--c-secondary);
+}
+.male-enhancement-2 .custom-button {
+background-color: var(--c-secondary);
+color: var(--c-primary);
+border: 2px solid var(--c-secondary);
+margin-left:15px;
+}
+.male-enhancement-2 .custom-button:hover {
+background-color: transparent;
+color: var(--c-white);
+border: 2px solid var(--c-secondary);
+}
+.male-enhancement-img img {
+margin-top: 30px;
+}
+.male-enhancement-img {
+position: relative;
+z-index: 9;
+}
+.male-enhancement-img::after {
+position: absolute;
+content: '';
+border: 3px solid var(--c-white);
+width: 79%;
+height: 713px;
+left: 30px;
+top: -20px;
+z-index: -1;
+}
+/*male-enhancement-end-supriyo*/
