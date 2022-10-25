@@ -38,3 +38,12 @@
   }
 
 /*about-end*/
+
+/*atlanta-start*/
+.atlanta {
+    text-align: center;
+  }
+.atlanta .custom-paragraph p{
+    padding: 0 128px;
+}
+/*atlanta-end*/
