@@ -7,7 +7,7 @@ width: 100%;
 }
 .top-header {
 border-bottom: 1px solid #dbdbdb;
-padding: 20px 0;
+padding: 20px 124px;
 }
 .header-left ul li {
 display: inline-block;
@@ -39,7 +39,7 @@ font-size: 16px;
 margin-left: 5px;
 }
 .header-left ul li a:hover {
-color: var(--c-secondary);
+color: var(--c-secondary-text);
 }
 .header-right a {
 text-decoration: none;
@@ -53,13 +53,13 @@ font-size: 16px;
 margin-left: 5px;
 }
 .header-right a:hover {
-color: var(--c-secondary);
+color: var(--c-secondary-text);
 }
 .header-right {
 text-align: end;
 }
 .navbar.navbar-expand-lg.py-0 {
-padding: 20px 0 !important;
+padding: 20px 124px !important;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
 font-family: var(--ff-primary);
@@ -98,8 +98,7 @@ z-index: 1;
 }
 .main-banner .carousel-caption {
 right: 0;
-left: 120px;
-margin: 0 auto;
+left: 23px;
 text-align: left;
 bottom: 180px;
 }
@@ -122,7 +121,7 @@ line-height: 42px;
 margin-top: 36px;
 }
 .main-banner .d-block.w-100 {
-margin-top: 70px;
+margin-top: 65px;
 }
 /*banner-end-supriyo*/
 /*perfomed-procedures-start-supriyo*/
@@ -133,6 +132,9 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
+.performed-section-wrap {
+    padding: 0 124px;
+  }
 .performed-box {
 background-color: var(--c-white);
 padding: 15px;
@@ -157,6 +159,10 @@ padding-left: 40px;
 .performed-button {
 margin-top: 75px;
 }
+.performed-box-img img {
+object-fit: cover;
+width: 100%;
+}
 .performed-button .custom-button {
 background-color: var(--c-secondary);
 color: var(--c-primary);
@@ -164,7 +170,7 @@ border: 2px solid var(--c-secondary);
 }
 .performed-button .custom-button:hover {
 background-color: transparent;
-color: var(--c-white);
+color: var(--c-secondary);
 border: 2px solid var(--c-secondary);
 }
 .box-text .custom-paragraph p {
@@ -179,7 +185,7 @@ margin-bottom: 0px;
 }
 .performed-section-heading .custom-paragraph p {
 padding: 65px 0 90px 0;
-color:#84889d;
+color:var(--c-white-200);
 }
 /*perfomed-procedures-end-supriyo*/
 /*male-enhancement-start-supriyo*/
@@ -190,6 +196,9 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
+.male-enhancement-wrap {
+    padding: 0 124px;
+  }
 .male-enhancement.custom-pad {
 padding: 177px 0 290px 0;
 }
@@ -218,7 +227,7 @@ border: 2px solid transparent;
 .male-enhancement-1 .custom-button:hover {
 background-color: transparent;
 color: var(--c-white);
-border: 2px solid var(--c-secondary);
+border: 2px solid var(--c-white);
 }
 .male-enhancement-2 .custom-button {
 background-color: var(--c-secondary);
@@ -228,7 +237,7 @@ margin-left:15px;
 }
 .male-enhancement-2 .custom-button:hover {
 background-color: transparent;
-color: var(--c-white);
+color:var(--c-secondary);
 border: 2px solid var(--c-secondary);
 }
 .male-enhancement-img img {
@@ -252,3 +261,56 @@ z-index: -1;
 margin-bottom: 16px;;
 }
 /*male-enhancement-end-supriyo*/
+/*responsive-start-Supriyo*/
+@media (min-width: 1920px) and (max-width: 2500px){
+
+}
+@media (min-width: 1850px) and (max-width: 1920px){
+
+}
+@media (min-width: 1750px) and (max-width: 1850px){
+
+}
+@media (min-width: 1600px) and (max-width: 1750px){
+
+}
+@media (min-width: 1366px) and (max-width: 1600px){
+
+}
+@media (min-width: 1200px) and (max-width: 1366px){
+
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 991.98px) {    
+.navbar-toggler { float: left;margin: 0; height: 45px; width: 45px; border-radius: 0;z-index: 1}
+.navbar-toggler .icon-bar { width: 24px; background: #fff;transition: .5s ease;}
+.navbar-toggler.collapsed .icon-bar:nth-child(2){transform: rotate(0) translateY(0) translateX(0);}
+.navbar-toggler.collapsed .icon-bar:nth-child(3){opacity:1}
+.navbar-toggler.collapsed .icon-bar:nth-child(4){transform:rotate(0) translateY(0) translateX(0);}
+.navbar-toggler .icon-bar:nth-child(2){transform: rotate(-45deg) translateY(5px) translateX(-5px);}
+.navbar-toggler .icon-bar:nth-child(3){opacity: 0}
+.navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
+.navbar-header {display: block;}
+}
+
+
+@media (max-width: 767.98px){
+
+}
+
+@media (max-width: 575.98px){
+
+}
+
+@media only screen and (max-width: 480.98px) {	
+
+}
+/*responsive-end-Supriyo*/

@@ -11,7 +11,7 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1600px){
-	
+	.custom-button {padding: 24px 34px;font-size: 15px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
