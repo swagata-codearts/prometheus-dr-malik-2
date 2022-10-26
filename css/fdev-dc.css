@@ -66,7 +66,7 @@
     text-align: center;
   }
 .atlanta .custom-paragraph p{
-    padding: 0 70px;
+    padding: 0 126px;
 }
 .atlanta .atlanta-box {
   position: relative;
@@ -118,6 +118,71 @@
   background-color: var(--c-white);
 }
 .atlanta .atlanta-box-content-wrap {
-  padding: 70px 35px;
+  padding: 70px;
+}
+
+.atlanta .container-fluid{
+  max-width: 1642px;
 }
 /*atlanta-end*/
+/*testimonial-start*/
+.testimonial {
+  text-align: center;
+}
+.testimonial .container-fluid{
+  max-width: 1642px;
+}
+.testimonial .custom-heading h3{
+  line-height: 64px;
+  margin-bottom: 75px;
+}
+.testimonial .owl-dots {
+  text-align: center;
+  padding-top: 50px;
+}
+.testimonial .owl-dots button.owl-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  background: var(--c-primary-text);
+  margin: 0 6px;
+}
+.testimonial .owl-dots button.owl-dot.active {
+  background-color: var(--c-secondary);
+}
+.testimonial .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.testimonial .owl-nav{display: none;}
+/*testimonial-end*/
+
+/*responsive-start-Deep*/
+@media (min-width:1366px) and (max-width:1600px){
+
+}
+
+@media (min-width:1200px) and (max-width:1366px){
+  
+}
+
+@media (min-width:1024px) and (max-width:1200px){
+  
+}
+
+@media (min-width:992px) and (max-width:1024px){
+  
+}
+
+@media only screen and (max-width:991.98px){
+
+}
+
+@media only screen and (max-width:767.98px){
+  
+}
+
+@media only screen and (max-width:575.98px){
+  
+}
+/*responsive-start-Deep*/
