@@ -9,6 +9,7 @@
   --c-secondary: #d4bfa3;
   --c-white: #ffffff;
   --c-white-100: #f8f9ff;
+  --c-white-200: #ccd0e2;
   --c-black-text: #000000;
   --c-primary-text: #101828;
   --c-secondary-text: #5c5c5c;
@@ -71,7 +72,7 @@ margin-bottom: 0;
 
 .container {
 width: 100%;
-max-width: 1642px;
+max-width: 1440px;
 }
 
 
@@ -151,6 +152,7 @@ border-radius: 50px;
 border:2px solid var(--c-tertiary-text);
 transition: all 0.3s ease-in-out;
 line-height: 0;
+text-transform: capitalize;
 }
 .custom-button:hover {
 color: var(--c-tertiary-text);
