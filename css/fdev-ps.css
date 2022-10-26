@@ -226,6 +226,14 @@ padding: 21px 0;
 
 @media only screen and (max-width: 991.98px) { 
 /* fdev-ps */
+/* Enhancement Start */
+.enhance .enhance-right .enhance-right-button .custom-button {margin-right: 0px;}
+.enhance .enhance-right .custom-paragraph p {padding-bottom: 17px;}
+.enhance .enhance-right {padding-left: 15px;}
+.enhance .enhance-right .custom-heading h3 {font-size: 26px;line-height: 35px;margin-bottom: 25px;}
+.enhance .enhance-left .enhance-left-top-img img {height: 754px;}
+.enhance .enhance-left {padding-left: 30px;}
+.enhance .enhance-left .enhance-left-bottom-img img {width: 219px;height: 190px;}
 /* Contact Us start */
 .contact-us .contact-left {padding-top: 32px;padding-left: 80px;width: 550px;margin-left: 0;}
 .contact-us .contact-left .contact-left-bottom {padding: 20px;}
@@ -250,10 +258,16 @@ margin-right: 8px;}
 .footer-bottom {padding: 16px 0;}
 /* fdev-ps */
 }
-
-
 @media (max-width: 767.98px){
 /* fdev-ps */
+/* Enhancement Start */
+.enhance .enhance-right .enhance-right-button .custom-button {margin-right: 10px;}
+.enhance .enhance-right {padding-left: 0px;}
+.enhance .enhance-right .custom-heading h3 {margin-bottom: 15px;}
+.enhance .enhance-left {padding-left: 70px;}
+.enhance .enhance-left .enhance-left-top-img img {height: 620px;}
+.enhance .enhance-left .enhance-left-bottom-img img {width: 260px;height: 220px;}
+.enhance .enhance-left .enhance-left-bottom-img {bottom: 70px;}
 /* Contact Us Start */
 /* footer start */
 .footer-wrap {padding: 35px 0 25px 25px;}
@@ -268,6 +282,16 @@ margin-right: 8px;}
 
 @media (max-width: 575.98px){
 /* fdev-ps */
+/* Enhancement Start */
+.enhance .enhance-left .enhance-left-top-img img {height: 320px;}
+.enhance .enhance-left .enhance-left-bottom-img img {width: 150px;height: 120px;}
+.enhance .enhance-left .enhance-left-bottom-img {bottom: 35px;}
+.enhance .enhance-left {padding-left: 40px;}
+.enhance .enhance-right .custom-heading h3 {font-size: 19px;line-height: 26px;margin-bottom: 10px;}
+.enhance .enhance-right .custom-heading h5 {font-size: 14px;}
+.enhance .enhance-right .custom-paragraph {padding-right: 0px;}
+.enhance .enhance-right .enhance-right-button .custom-button {margin-bottom: 5px;}
+.enhance .enhance-right .custom-paragraph p {padding-bottom: 10px;}
 /* Contact Us Start*/
 /* footer start */
 .footer-wrap {padding: 30px 0 10px 10px;}

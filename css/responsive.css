@@ -45,6 +45,7 @@
 .custom-button span {font-size: 12px;}
 .custom-heading h5 {font-size: 16px;margin-bottom: 16px;}
 .custom-heading h3 {font-size: 35px;line-height: 50px;}
+.custom-paragraph p {font-size: 14px;line-height: 20px;}
 }
 
 @media (max-width: 767.98px){
@@ -58,7 +59,8 @@
 }
 
 @media (max-width: 575.98px){
-.custom-pad {padding: 30px 0;}   
+.custom-pad {padding: 30px 0;} 
+.custom-paragraph p {font-size: 13px;line-height: 18px;}  
 }
 
 @media only screen and (max-width: 480.98px) {	
