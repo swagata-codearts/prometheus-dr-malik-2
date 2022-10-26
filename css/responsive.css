@@ -3,26 +3,29 @@
 
 
 @media (min-width: 1920px) and (max-width: 2500px){
-	
+
 }
 
 @media (min-width: 1600px) and (max-width: 1920px){
-	
+
 }
 
 @media (min-width: 1200px) and (max-width: 1600px){
-	.custom-button {padding: 24px 34px;font-size: 15px;}
+.custom-button {padding: 20px 30px;font-size: 13px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+.custom-button {padding: 18px 26px;font-size: 13px;}
+.custom-button span {font-size: 13px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	
+.custom-button {padding: 16px 24px;font-size: 13px;}
+.custom-button span {font-size: 12px;}
 }
 
-@media only screen and (max-width: 991.98px) {    
+@media only screen and (max-width: 991.98px) { 
+.custom-pad {padding: 80px 0;}   
 .navbar-toggler { float: left;margin: 0; height: 45px; width: 45px; border-radius: 0;z-index: 1}
 .navbar-toggler .icon-bar { width: 24px; background: #fff;transition: .5s ease;}
 .navbar-toggler.collapsed .icon-bar:nth-child(2){transform: rotate(0) translateY(0) translateX(0);}
@@ -32,18 +35,24 @@
 .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
+.custom-button {padding: 16px 24px;font-size: 13px;}
+.custom-button span {font-size: 12px;}
 }
 
-
 @media (max-width: 767.98px){
-    
+.custom-button {padding: 14px 22px;font-size: 12px;}
+
 }
 
 @media (max-width: 575.98px){
-    
+.custom-pad {padding: 60px 0;}   
+}
+
+@media (max-width: 575.98px){
+.custom-pad {padding: 30px 0;}   
 }
 
 @media only screen and (max-width: 480.98px) {	
-    
+
 }
 
