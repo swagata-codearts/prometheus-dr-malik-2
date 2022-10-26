@@ -74,6 +74,18 @@ font-family: var(--ff-primary);
 font-weight: 400;
 font-size: 16px;
 color: var(--c-primary);
+padding-bottom: 4px;
+}
+.contact-us .contact-left .contact-left-bottom ul li .media .contact-icon,.contact-us .contact-left .contact-left-bottom ul li .media .media-body{
+    display: inline-block;
+    vertical-align: middle;
+}
+.contact-us .contact-left .contact-left-bottom ul li .media .contact-icon{
+    background-color: var(--c-primary);
+    color: var(--c-white);
+    font-size: 25px;
+    padding: 6px 15px;
+    margin-right: 20px;
 }
 .contact-us .contact-left .contact-left-bottom ul li p,.contact-us .contact-left .contact-left-bottom ul li a{
 font-family: var(--ff-primary);
@@ -87,11 +99,11 @@ background-image: url(../images/contact-bg-2.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-padding: 100px;
+padding: 80px;
 position: absolute;
-right: 0;
+right: 15px;
 top: 0;
-width: 47%;
+width: 850px;
 }
 .contact-us .contact-right form .form-group .form-wrap input,.contact-us .contact-right form .form-group .form-wrap textarea{
 font-family: var(--ff-primary);
@@ -132,7 +144,7 @@ color: var(--c-white);
 margin-top: 35px;
 }
 .footer-wrap .column-wrap {
-padding: 34px 20px;
+padding: 34px 0;
 }
 .footer-wrap .column-wrap .column-bottom-text p,.footer-wrap .column-wrap .column-bottom-text p a,.footer-wrap .column-wrap .column-bottom-text ul li a,.footer-wrap .column-wrap .column-bottom-text ul li,.footer-bottom .footer-bottom-text p{
 font-family: var(--ff-primary);
@@ -157,9 +169,61 @@ height: 25px;
 .footer-wrap .column-col:not(:last-child) .column-wrap{
 border-right: 1px solid var(--c-blue-200);
 }
+.footer-wrap .column-col:not(:first-child) .column-wrap{
+    padding-left: 90px;
+}
 .footer-bottom{
 border-top: 1px solid var(--c-blue-200);
 background-color: var(--c-primary);
 text-align: center;
 padding: 21px 0;
 }
+/* +++++++Resposive-start++++++++ */
+
+
+@media (min-width: 1920px) and (max-width: 2500px){
+	
+}
+
+@media (min-width: 1600px) and (max-width: 1920px){
+	
+}
+
+@media (min-width: 1200px) and (max-width: 1600px){
+	.custom-button {padding: 24px 34px;font-size: 15px;}
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+	
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+	
+}
+
+@media only screen and (max-width: 991.98px) { 
+.custom-pad {padding: 80px 0;}   
+.navbar-toggler { float: left;margin: 0; height: 45px; width: 45px; border-radius: 0;z-index: 1}
+.navbar-toggler .icon-bar { width: 24px; background: #fff;transition: .5s ease;}
+.navbar-toggler.collapsed .icon-bar:nth-child(2){transform: rotate(0) translateY(0) translateX(0);}
+.navbar-toggler.collapsed .icon-bar:nth-child(3){opacity:1}
+.navbar-toggler.collapsed .icon-bar:nth-child(4){transform:rotate(0) translateY(0) translateX(0);}
+.navbar-toggler .icon-bar:nth-child(2){transform: rotate(-45deg) translateY(5px) translateX(-5px);}
+.navbar-toggler .icon-bar:nth-child(3){opacity: 0}
+.navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
+.navbar-header {display: block;}
+}
+
+
+@media (max-width: 767.98px){
+.custom-pad {padding: 60px 0;}   
+}
+
+@media (max-width: 575.98px){
+.custom-pad {padding: 30px 0;}   
+}
+
+@media only screen and (max-width: 480.98px) {	
+    
+}
+
