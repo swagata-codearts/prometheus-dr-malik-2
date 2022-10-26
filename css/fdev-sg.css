@@ -303,15 +303,61 @@ margin-bottom: 16px;;
 .box-text h3 {font-size: 24px;}
 .box-text .custom-paragraph p {font-size: 15px;margin-top: 25px;}
 .male-enhancement-img img {width: 80%;}
-.custom-paragraph p {font-size: 15px;}
-.male-enhancement-content .custom-paragraph p {padding: 15px 0;}
+.male-enhancement-content .custom-paragraph p {padding: 15px 0;font-size: 15px;}
 }
 @media (min-width: 1200px) and (max-width: 1366px){
-
+.main-banner .carousel-caption {left: 75px;bottom: 80px;}
+.main-banner .carousel-caption h1 {font-size: 45px;line-height: 60px;}
+.main-banner .carousel-caption p {font-size: 16px;line-height: 30px;margin-top: 15px;}
+.performed-section-heading .custom-paragraph p {padding: 30px 0 55px 0;}
+.box-text {padding-left: 25px;padding: 35px 0 30px;}
+.performed-section.custom-pad {padding: 70px 0;}
+.male-enhancement.custom-pad {padding: 117px 0 230px 0;}
+.male-enhancement-img::after {width: 80%;height: 520px;top: 0px;}
+.header-left ul li a span {font-size: 12px;}
+.header-left ul li {padding: 0 15px 0px 0px;}
+.header-left ul li::after {right: 4px;height: 51px;bottom: -12px;}
+.header-right a span {font-size: 12px;}
+.navbar-expand-lg .navbar-nav .nav-link {font-size: 12px;}
+.banner-button {margin-top: 30px;}
+.top-header {padding: 12px 0px;}
+.box-text h3 {font-size: 20px;}
+.box-text .custom-paragraph p {font-size: 12px;margin-top: 15px;line-height: 25px;}
+.male-enhancement-img img {width: 80%;}
+.male-enhancement-content .custom-paragraph p {padding: 10px 0;font-size: 13px;}
+.navbar.navbar-expand-lg.py-0 .navbar-brand.ms-0.py-0 img {width: 85%;}
+.navbar-expand-lg .nav-item {padding: 0px 15px;}
+.navbar-brand.ms-0.py-0 {margin-right: 0rem !important;}
+.performed-button {margin-top: 50px;}
+.male-enhancement-1 {margin-top: 25px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-
+.main-banner .carousel-caption {left: 105px;bottom: 50px;}
+.main-banner .carousel-caption h1 {font-size: 40px;line-height: 50px;}
+.main-banner .carousel-caption p {font-size: 16px;line-height: 30px;margin-top: 15px;}
+.performed-section-heading .custom-paragraph p {padding: 30px 0 55px 0;}
+.box-text {padding-left: 25px;padding: 35px 0 30px;}
+.performed-section.custom-pad {padding: 70px 0;}
+.male-enhancement.custom-pad {padding: 117px 0 230px 0;}
+.male-enhancement-img::after {width: 80%;height: 520px;top: 0px;}
+.header-left ul li a span {font-size: 12px;}
+.header-left ul li {padding: 0 4px 0px 0px;}
+.header-left ul li::after {right: 0.5px;height: 38px;bottom: -6px;}
+.header-right a span {font-size: 12px;}
+.navbar-expand-lg .navbar-nav .nav-link {font-size: 12px;}
+.banner-button {margin-top: 26px;}
+.top-header {padding: 6px 0px;}
+.box-text h3 {font-size: 20px;}
+.box-text .custom-paragraph p {font-size: 12px;margin-top: 15px;line-height: 25px;}
+.male-enhancement-img img {width: 80%;}
+.male-enhancement-content .custom-paragraph p {padding: 10px 0;font-size: 13px;}
+.navbar.navbar-expand-lg.py-0 .navbar-brand.ms-0.py-0 img {width: 85%;}
+.navbar-expand-lg .nav-item {padding: 0px 10px;}
+.navbar-brand.ms-0.py-0 {margin-right: 0rem !important;}
+.performed-button {margin-top: 50px;}
+.male-enhancement-1 {margin-top: 25px;}
+.navbar-brand.ms-0.py-0 {width: 24%;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
