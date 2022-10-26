@@ -66,7 +66,7 @@
     text-align: center;
   }
 .atlanta .custom-paragraph p{
-    padding: 0 70px;
+    padding: 0 126px;
 }
 .atlanta .atlanta-box {
   position: relative;
@@ -118,6 +118,10 @@
   background-color: var(--c-white);
 }
 .atlanta .atlanta-box-content-wrap {
-  padding: 70px 35px;
+  padding: 70px;
+}
+
+.atlanta .container-fluid{
+  max-width: 1642px;
 }
 /*atlanta-end*/
