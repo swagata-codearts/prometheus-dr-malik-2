@@ -3,23 +3,23 @@
 
 
 @media (min-width: 1920px) and (max-width: 2500px){
-	
+
 }
 
 @media (min-width: 1600px) and (max-width: 1920px){
-	
+
 }
 
 @media (min-width: 1200px) and (max-width: 1600px){
-	.custom-button {padding: 24px 34px;font-size: 15px;}
+.custom-button {padding: 22px 34px;font-size: 15px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	
+
 }
 
 @media only screen and (max-width: 991.98px) {    
@@ -36,14 +36,14 @@
 
 
 @media (max-width: 767.98px){
-    
+
 }
 
 @media (max-width: 575.98px){
-    
+
 }
 
 @media only screen and (max-width: 480.98px) {	
-    
+
 }
 
