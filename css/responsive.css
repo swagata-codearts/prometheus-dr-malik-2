@@ -15,12 +15,12 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-.custom-button {padding: 20px 30px;font-size: 13px;}
+.custom-button {padding: 18px 26px;font-size: 13px;}
 .custom-button span {font-size: 13px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-.custom-button {padding: 20px 30px;font-size: 13px;}
+.custom-button {padding: 18px 26px;font-size: 13px;}
 .custom-button span {font-size: 13px;}
 }
 
