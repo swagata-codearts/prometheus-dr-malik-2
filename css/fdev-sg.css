@@ -391,12 +391,11 @@ margin-bottom: 16px;;
 }
 
 @media only screen and (max-width: 991.98px) {    
-.main-banner .carousel-caption {left: 0;bottom: 70px;text-align: center;}
+.main-banner .carousel-caption {left: 0;bottom: 80px;text-align: center;}
 .main-banner .carousel-caption h1 {font-size: 35px;line-height: 50px;}
 .main-banner .carousel-caption p {font-size: 16px;line-height: 30px;margin-top: 15px;}
 .performed-section-heading .custom-paragraph p {padding: 25px 0 30px 0;}
 .box-text {padding-left: 25px;padding: 35px 0 30px;}
-.performed-section.custom-pad {padding: 60px 0;}
 .male-enhancement.custom-pad {padding: 87px 0 250px 0;}
 .male-enhancement-img::after {width: 81%;height: 675px;left: 20px;top: -20px;}
 .header-left ul li {padding: 0 97px;}
@@ -445,14 +444,38 @@ margin-bottom: 16px;;
 
 
 @media (max-width: 767.98px){
+.main-banner .carousel-caption.container.d-none.d-md-block {display: block !important;}
+.header-left ul li {padding: 0px 57px;}
+.main-banner .carousel-caption h1 {font-size: 30px;line-height: 40px;}
+.main-banner .carousel-caption p {font-size: 14px;margin-top: 10px;box-shadow: 0 0 10px rgb(255, 255, 255);background-color: rgba(255,255,255,0.6);}
+.main-banner .d-block.w-100 {object-fit: cover;height: 38vh;}
+.nav-button {right: 80px;top: 12px;}
+.box-text {text-align: center;}
+.male-enhancement-img::after {height: 500px;left: 20px;top: -5px;}
+.male-enhancement.custom-pad {padding: 67px 0 240px 0;}
+.main-banner .carousel-caption {bottom: 90px;}
 
 }
 
 @media (max-width: 575.98px){
-
+.nav-button {display: none;}
+.male-enhancement-img::after {height: 415px;}
+.navbar-brand.ms-0.py-0 {width: 45%;}
+.main-banner .carousel-caption {bottom: 60px;}
+.main-banner .carousel-caption h1 {font-size: 27px;}
+.navbar-toggler {height: 35px !important;}
+.navbar-header {top: 20px;}
+.performed-button {margin-top: 40px;}
 }
 
 @media only screen and (max-width: 480.98px) {	
-
+.main-banner .carousel-caption p {font-size: 13px;line-height: 22px;}
+.main-banner .d-block.w-100 {height: 36vh;}
+.navbar-brand.ms-0.py-0 {width: 50%;}
+.box-text {padding: 20px 0 10px;}
+.male-enhancement-img::after {height: 270px;left: 10px;top: 5px;border: 1px solid var(--c-white);}
+.male-enhancement-2 .custom-button {margin-left: 0px;margin-top: 15px;}
+.male-enhancement.custom-pad {padding: 47px 0 240px 0;}
+.main-banner .carousel-caption {bottom: 65px;}
 }
 /*responsive-end-Supriyo*/
