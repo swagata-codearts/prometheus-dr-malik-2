@@ -1,25 +1,30 @@
 /*about-start*/
 
-.about-specialist .specialist-content-wrap {
+.about-specialist {
+  padding: 140px 0 115px 0;
   position: relative;
-  margin-right: 93px;
+  overflow: hidden;
 }
-
-.about-specialist .specialist-content-wrap::before {
+.about-specialist::before {
   position: absolute;
   content: '';
   background-color: #f5f6fa;
-  width: 154%;
-  height: 455px;
+  width: 100%;
+  height: 506px;
   z-index: -1;
-  left: -332px;
-  top: 264px;
+  left: 0;
+  bottom: 14px;
 }
+
+.about-specialist .specialist-content-wrap {
+  margin-right: 93px;
+}
+
 .about-specialist .demo1 {
   padding: 35px 0;
 }
 .about-specialist .demo2 {
-  padding-bottom: 35px;
+  padding-bottom: 25px;
 }
 .about-specialist .demo1 {
     padding-bottom: 35px;
@@ -47,6 +52,11 @@
 
 .about-specialist .specialist-image-wrap img {
     width: 100%;
+  }
+  .specialist-image-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
 /*about-end*/
