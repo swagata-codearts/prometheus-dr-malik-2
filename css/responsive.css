@@ -20,8 +20,8 @@
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-.custom-button {padding: 18px 26px;font-size: 13px;}
-.custom-button span {font-size: 13px;}
+.custom-button {padding: 16px 24px;font-size: 13px;}
+.custom-button span {font-size: 12px;}
 }
 
 @media only screen and (max-width: 991.98px) { 
@@ -35,6 +35,8 @@
 .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .navbar-header {display: block;}
+.custom-button {padding: 16px 24px;font-size: 13px;}
+.custom-button span {font-size: 12px;}
 }
 
 @media (max-width: 767.98px){
