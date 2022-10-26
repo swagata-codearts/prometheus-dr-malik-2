@@ -33,7 +33,7 @@
 
 .about-specialist .specialist-image-wrap img {
     width: 100%;
-    height: 627px;
+    height: 628px;
     object-fit: cover;
   }
 
@@ -45,5 +45,24 @@
   }
 .atlanta .custom-paragraph p{
     padding: 0 128px;
+}
+.atlanta .atlanta-box {
+  position: relative;
+  padding: 30px;
+  box-shadow: 1px 1px 20px #bebebe;
+  z-index: 1;
+}
+.atlanta .atlanta-box::after {
+  position: absolute;
+  content: '';
+  border: 2px solid var(--c-primary);
+  z-index: 9;
+  width: 90%;
+  height: 90%;
+  left: 25px;
+  top: 20px;
+}
+.atlanta .atlanta-box-wrap {
+    padding-top: 60px;
 }
 /*atlanta-end*/
