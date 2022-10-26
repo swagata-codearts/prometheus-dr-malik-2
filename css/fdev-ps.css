@@ -184,31 +184,54 @@ padding: 21px 0;
 }
 
 @media (min-width: 1600px) and (max-width: 1920px){
-	
+/* fdev-ps */
+/* footer start */	
+
+/* fdev-ps */
 }
 
 @media (min-width: 1200px) and (max-width: 1600px){
-	.custom-button {padding: 24px 34px;font-size: 15px;}
+/* fdev-ps */
+/* footer start */
+.footer-wrap .column-wrap {padding: 34px 30px 34px 0;}
+.footer-wrap .column-col:not(:first-child) .column-wrap {padding-left: 40px;}
+/* fdev-ps */
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+/* fdev-ps */
+/* footer start */
+.footer-wrap {padding: 60px 0 50px 0;}
+.footer-wrap .column-wrap .column-bottom-text {margin-top: 30px;}
+.footer-wrap .column-wrap .footer-logo img {width: 90%;}
+.footer-wrap .column-wrap {padding: 34px 14px 34px 0;}
+.footer-wrap .column-col:not(:first-child) .column-wrap {padding-left: 20px;}
+.footer-wrap .column-wrap .column-bottom-text ul li span i {padding-right: 10px;font-size: 20px;}
+.footer-wrap .column-wrap .column-bottom-text p, .footer-wrap .column-wrap .column-bottom-text p a, .footer-wrap .column-wrap .column-bottom-text ul li a, .footer-wrap .column-wrap .column-bottom-text ul li, .footer-bottom .footer-bottom-text p {font-size: 14px;line-height: 24px;}
+/* fdev-ps */
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	
+/* fdev-ps */
+/* footer start */
+.footer-wrap {padding: 45px 0 35px 0;}
+.footer-wrap .column-wrap .footer-logo img {width: 80%;}
+.footer-wrap .column-wrap {padding: 34px 14px 34px 0;}
+/* fdev-ps */	
 }
 
 @media only screen and (max-width: 991.98px) { 
 /* fdev-ps */
 /* Contact Us start */
-.contact-us .contact-left {padding-top: 32px;padding-left: 80px;width: 550px;}
+.contact-us .contact-left {padding-top: 32px;padding-left: 80px;width: 550px;margin-left: 0;}
 .contact-us .contact-left .contact-left-bottom {padding: 20px;}
 .contact-us .contact-right {padding: 30px;right: 15px;width: 362px;}
 .contact-us .contact-left .contact-left-bottom ul li .media .contact-icon {font-size: 18px;padding: 6px 12px;
 margin-right: 8px;}
 .contact-us .contact-left .contact-left-bottom ul li h4 {font-size: 14px;padding-bottom: 0px;}
 .contact-us .contact-left .contact-left-bottom ul li p, .contact-us .contact-left .contact-left-bottom ul li a {font-size: 20px;line-height: 30px;}
+.contact-us .contact-right form .form-group .form-wrap input, .contact-us .contact-right form .form-group .form-wrap textarea {font-size: 13px;padding: 15px;margin-bottom: 10px;}
+.contact-us .contact-right form .form-btn .custom-button {margin-top: 10px;}
 /* footer start */
 .footer-wrap {padding: 40px 0;}
 .footer-wrap .column-wrap .footer-logo img {width: 80%;}
