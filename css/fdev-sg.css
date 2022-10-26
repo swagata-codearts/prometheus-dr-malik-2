@@ -132,6 +132,9 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
+.performed-section-wrap {
+    padding: 0 124px;
+  }
 .performed-box {
 background-color: var(--c-white);
 padding: 15px;
@@ -193,6 +196,9 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
+.male-enhancement-wrap {
+    padding: 0 124px;
+  }
 .male-enhancement.custom-pad {
 padding: 177px 0 290px 0;
 }
