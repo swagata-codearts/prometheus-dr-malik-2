@@ -146,7 +146,7 @@
   border-radius: 50%;
   display: inline-block;
   background: var(--c-primary-text);
-  margin: 0 8px;
+  margin: 0 6px;
 }
 .testimonial .owl-dots button.owl-dot.active {
   background-color: var(--c-secondary);
@@ -156,3 +156,33 @@
 }
 .testimonial .owl-nav{display: none;}
 /*testimonial-end*/
+
+/*responsive-start-Deep*/
+@media (min-width:1366px) and (max-width:1600px){
+
+}
+
+@media (min-width:1200px) and (max-width:1366px){
+  
+}
+
+@media (min-width:1024px) and (max-width:1200px){
+  
+}
+
+@media (min-width:992px) and (max-width:1024px){
+  
+}
+
+@media only screen and (max-width:991.98px){
+
+}
+
+@media only screen and (max-width:767.98px){
+  
+}
+
+@media only screen and (max-width:575.98px){
+  
+}
+/*responsive-start-Deep*/
