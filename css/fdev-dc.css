@@ -125,3 +125,34 @@
   max-width: 1642px;
 }
 /*atlanta-end*/
+/*testimonial-start*/
+.testimonial {
+  text-align: center;
+}
+.testimonial .container-fluid{
+  max-width: 1642px;
+}
+.testimonial .custom-heading h3{
+  line-height: 64px;
+  margin-bottom: 75px;
+}
+.testimonial .owl-dots {
+  text-align: center;
+  padding-top: 50px;
+}
+.testimonial .owl-dots button.owl-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  background: var(--c-primary-text);
+  margin: 0 8px;
+}
+.testimonial .owl-dots button.owl-dot.active {
+  background-color: var(--c-secondary);
+}
+.testimonial .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.testimonial .owl-nav{display: none;}
+/*testimonial-end*/
