@@ -4,6 +4,9 @@
   background-position: center;
   position: relative;
 }
+.custom-bef-aft-content .container {
+  max-width: 1642px;
+}
 .cus-hide {
   display: none !important;
 }
