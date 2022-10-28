@@ -91,7 +91,10 @@
 
 @media (min-width: 1200px) and (max-width: 1600px){}
 
-@media (min-width: 1024px) and (max-width: 1200px){}
+@media (min-width: 1024px) and (max-width: 1200px){
+.custom-bef-aft-content [class*="col-"]:nth-child(2n+1) {padding: 18px 18px 18px 15px;}
+.custom-bef-aft-content [class*="col-"]:nth-child(2n) {padding: 18px 15px 18px 18px;}
+}
 
 @media (min-width: 992px) and (max-width: 1024px) {
 /*  */
