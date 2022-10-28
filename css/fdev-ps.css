@@ -236,11 +236,13 @@ margin-top: 35px;
 @media (min-width: 992px) and (max-width: 1024px) {
 /* fdev-ps */
 /* footer start */
-.footer-wrap {padding: 45px 0 35px 0;}
+.footer-wrap .column-col:nth-child(1) .column-wrap {padding: 39px 4px 39px 0px;}
+.footer-wrap .column-col:nth-child(2) .column-wrap {padding: 39px 0px 39px 25px;}
+.footer-wrap .column-col:nth-child(3) .column-wrap {padding: 39px 0 39px 20px;}
+.footer-wrap .footer-bottom-wrap {margin-top: 20px;}
 .footer-wrap .column-wrap .footer-logo img {width: 80%;}
-.footer-wrap .column-wrap {padding: 34px 0px 34px 0;}
-.footer-wrap .column-col:not(:first-child) .column-wrap {padding-left: 15px;}
-.footer-wrap .column-wrap .column-bottom-text p, .footer-wrap .column-wrap .column-bottom-text p a, .footer-wrap .column-wrap .column-bottom-text ul li a, .footer-wrap .column-wrap .column-bottom-text ul li, .footer-bottom .footer-bottom-text p {font-size: 14px;}
+.footer-wrap .column-wrap .column-bottom-text p, .footer-wrap .column-wrap .column-bottom-text p a, .footer-wrap .column-wrap .column-bottom-text ul li a, .footer-wrap .column-wrap .column-bottom-text ul li, 
+.footer-wrap .footer-bottom-wrap .footer-bottom-text p {font-size: 14px;}
 .footer-wrap .column-wrap .column-bottom-text ul li span i {padding-right: 10px;font-size: 18px;}
 .footer-wrap .column-wrap .column-bottom-text {margin-top: 30px;}
 /* fdev-ps */	
