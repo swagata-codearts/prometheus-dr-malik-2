@@ -61,6 +61,7 @@ width: 1062px;
 .contact-us .contact-left .custom-heading h3{
 color: var(--c-white);
 margin-bottom: 98px;
+padding-right: 55px;
 }
 .contact-us .contact-left .contact-left-bottom{
 background-color: var(--c-secondary);
@@ -135,7 +136,7 @@ background-color: var(--c-white);
 /* Footer Start */
 .footer-wrap{
 background-color: var(--c-primary);
-padding-top: 45px;
+padding-top: 58px;
 }
 .footer-wrap .column-wrap .column-heading h2{
 font-family: var(--ff-primary);
@@ -144,11 +145,11 @@ font-weight: 700;
 color: var(--c-white);
 }
 .footer-wrap .column-wrap .column-bottom-text{
-margin-top: 35px;
+margin-top: 45px;
 }
 .footer-wrap .column-wrap {
 padding: 39px 70px 39px 0;
-margin-bottom: 22px;
+margin-bottom: 35px;
 }
 .footer-wrap .column-wrap .column-bottom-text p,.footer-wrap .column-wrap .column-bottom-text p a,.footer-wrap .column-wrap .column-bottom-text ul li a,.footer-wrap .column-wrap .column-bottom-text ul li,
 .footer-wrap .footer-bottom-wrap .footer-bottom-text p{
@@ -161,9 +162,12 @@ color: var(--c-white-100);
 .footer-wrap .column-wrap .column-bottom-text p a:hover,.footer-wrap .column-wrap .column-bottom-text ul li a:hover{
 color: var(--c-secondary);
 }
-.footer-wrap .second-col .column-bottom-text p,.footer-wrap .column-wrap .column-bottom-text ul li{
+.footer-wrap .second-col .column-bottom-text p{
 padding-bottom: 12px;
 } 
+.footer-wrap .column-wrap .column-bottom-text ul li{
+padding-bottom: 18px;
+}
 .footer-wrap .column-wrap .column-bottom-text ul li span i{
 color: var(--c-secondary);
 padding-right: 14px;
