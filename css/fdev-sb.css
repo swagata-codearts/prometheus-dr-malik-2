@@ -1,3 +1,9 @@
+.custom-bef-aft {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
 .cus-hide {
   display: none !important;
 }
