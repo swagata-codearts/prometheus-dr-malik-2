@@ -265,6 +265,39 @@ z-index: -1;
 margin-bottom: 16px;;
 }
 /*male-enhancement-end-supriyo*/
+/*About-us-inner-start-supriyo*/
+.info-img {
+text-align: center;
+position: relative;
+}
+.info-img::after {
+position: absolute;
+content: '';
+border: 3px solid var(--c-secondary);
+height: 680px;
+width: 80%;
+top: -42px;
+left: 22px;
+z-index: -1;
+}
+.dr-img {
+overflow: hidden;
+}
+.dr-img img {
+width: 80%;
+object-fit: cover;
+}
+.info-content .custom-paragraph p {
+padding: 18px 0;
+}
+.info-content .custom-heading h3 {
+margin-bottom: 25px;
+}
+.facilities .custom-heading {
+    text-align: center;
+  }
+  
+/*About-us-inner-end-supriyo*/
 /*responsive-start-Supriyo*/
 @media (min-width: 1920px) and (max-width: 2500px){
 
