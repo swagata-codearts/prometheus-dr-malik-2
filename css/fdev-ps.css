@@ -132,7 +132,7 @@ margin-top: 18px;
 }
 .contact-us .contact-right form .form-btn .custom-button:hover{
 color: var(--c-secondary);
-background-color: var(--c-white);
+background-color: transparent;
 }
 /* Footer Start */
 .footer-wrap{
