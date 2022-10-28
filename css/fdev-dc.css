@@ -167,10 +167,23 @@ font-weight: 400;
 
 /*responsive-start-Deep*/
 @media (min-width:1366px) and (max-width:1600px){
+  /*about-start*/
+  .about-specialist .specialist-image-wrap img{width: 80%;}
+  .about-specialist .specialist-image-wrap{right: -147px;}
+  .about-specialist .specialist-content-wrap {padding-right: 150px;}
+  .about-specialist{padding: 100px 0 0 0;}
+  /*about-end*/
 
 }
 
 @media (min-width:1200px) and (max-width:1366px){
+  /*about-start*/
+  .about-specialist{padding: 42px 0 0 0;}
+  .about-specialist .specialist-image-wrap{right: -184px;}
+  .about-specialist .specialist-image-wrap img {width: 75%;}
+  .about-specialist .specialist-content-wrap {padding-right: 146px;}
+  .about-specialist .specialist-content-wrap .custom-paragraph p:nth-child(2){padding: 40px 0 20px 0;}
+  /*about-end*/
   
 }
 
