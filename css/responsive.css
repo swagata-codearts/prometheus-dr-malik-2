@@ -13,21 +13,21 @@
 @media (min-width: 1200px) and (max-width: 1600px){
 .custom-button {padding: 20px 30px;font-size: 13px;}
 .custom-heading h5 {font-size: 18px;margin-bottom: 20px;}
-.custom-heading h3 {font-size: 40px;line-height: 50px;}
+.custom-heading h3 {font-size: 35px;line-height: 46px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
 .custom-button {padding: 18px 26px;font-size: 13px;}
 .custom-button span {font-size: 13px;}
 .custom-heading h5 {font-size: 16px;margin-bottom: 16px;}
-.custom-heading h3 {font-size: 35px;line-height: 50px;}
+.custom-heading h3 {font-size: 30px;line-height: 44px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
 .custom-button {padding: 16px 24px;font-size: 13px;}
 .custom-button span {font-size: 12px;}
 .custom-heading h5 {font-size: 16px;margin-bottom: 16px;}
-.custom-heading h3 {font-size: 35px;line-height: 50px;}
+.custom-heading h3 {font-size: 30px;line-height: 44px;}
 }
 
 @media only screen and (max-width: 991.98px) { 
@@ -44,13 +44,13 @@
 .custom-button {padding: 20px 30px;font-size: 15px;}
 .custom-button span {font-size: 12px;}
 .custom-heading h5 {font-size: 16px;margin-bottom: 16px;}
-.custom-heading h3 {font-size: 35px;line-height: 50px;}
+.custom-heading h3 {font-size: 30px;line-height: 44px;}
 .custom-paragraph p {font-size: 14px;line-height: 20px;}
 }
 
 @media (max-width: 767.98px){
 .custom-button {padding: 14px 22px;font-size: 12px;}
-.custom-heading h3 {line-height: 45px;}
+.custom-heading h3 {font-size: 25px;line-height: 40px;}
 }
 
 @media (max-width: 575.98px){
