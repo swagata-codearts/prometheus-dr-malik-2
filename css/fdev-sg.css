@@ -10,13 +10,16 @@ width: 100%;
 }
 .top-header {
 border-bottom: 1px solid #dbdbdb;
-padding: 20px 0px;
+padding: 18px 0px;
 }
 .header-left ul li {
 display: inline-block;
-padding: 0 30px 0px 0px;
+padding: 0 46px 0px 0px;
 vertical-align: middle;
 position: relative;
+}
+.header-left ul li:last-child {
+padding: 0 46px 0px 18px;
 }
 .header-left ul li::after {
 position: absolute;
@@ -24,7 +27,7 @@ content: '';
 width: 1px;
 height: 66px;
 background-color: #dbdbdb;
-bottom: -20px;
+bottom: -18px;
 right: 14px;
 }
 .header-left ul li:last-child::after {
@@ -32,7 +35,7 @@ display: none;
 }
 .header-left ul li a {
 text-decoration: none;
-font-size: 17px;
+font-size: 20px;
 color: var(--c-tertiary-text);
 }
 .header-left ul li a span {
@@ -46,7 +49,7 @@ color: var(--c-secondary-text);
 }
 .header-right a {
 text-decoration: none;
-font-size: 17px;
+font-size: 20px;
 color: var(--c-tertiary-text);
 }
 .header-right a span {
@@ -62,7 +65,7 @@ color: var(--c-secondary-text);
 text-align: end;
 }
 .navbar.navbar-expand-lg.py-0 {
-padding: 20px 0px !important;
+padding: 37px 0px !important;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
 font-family: var(--ff-primary);
@@ -132,7 +135,6 @@ margin-top: 65px;
 max-width: 1642px;
 }
 .performed-section {
-background-image: url(../images/performed-bg.jpg);
 text-align: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -179,14 +181,14 @@ border: 2px solid var(--c-secondary);
 .box-text .custom-paragraph p {
 font-size: 17px;
 line-height: 32px;
-margin-top: 35px;
+margin-top: 25px;
 }
 .performed-section-heading .custom-heading h3 {
 color: var(--c-white);
 margin-bottom: 0px;
 }
 .performed-section-heading .custom-paragraph p {
-padding: 65px 0 90px 0;
+padding: 48px 0 90px 0;
 color:var(--c-white-200);
 }
 /*perfomed-procedures-end-supriyo*/
@@ -195,11 +197,11 @@ color:var(--c-white-200);
 max-width: 1642px;
 }
 .male-enhancement {
-background-image: url(../images/enlargement-procedures-bg.png);
 text-align: center;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
+clip-path: polygon(100% 0, 100% 88%, 43% 89%, 0 100%, 0 0);
 }
 .male-enhancement.custom-pad {
 padding: 177px 0 290px 0;
