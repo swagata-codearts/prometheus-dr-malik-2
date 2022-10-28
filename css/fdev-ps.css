@@ -135,7 +135,7 @@ background-color: var(--c-white);
 /* Footer Start */
 .footer-wrap{
 background-color: var(--c-primary);
-padding: 70px 0 60px 0;
+padding-top: 45px;
 }
 .footer-wrap .column-wrap .column-heading h2{
 font-family: var(--ff-primary);
@@ -147,9 +147,11 @@ color: var(--c-white);
 margin-top: 35px;
 }
 .footer-wrap .column-wrap {
-padding: 34px 72px 34px 0;
+padding: 39px 70px 39px 0;
+margin-bottom: 22px;
 }
-.footer-wrap .column-wrap .column-bottom-text p,.footer-wrap .column-wrap .column-bottom-text p a,.footer-wrap .column-wrap .column-bottom-text ul li a,.footer-wrap .column-wrap .column-bottom-text ul li,.footer-bottom .footer-bottom-text p{
+.footer-wrap .column-wrap .column-bottom-text p,.footer-wrap .column-wrap .column-bottom-text p a,.footer-wrap .column-wrap .column-bottom-text ul li a,.footer-wrap .column-wrap .column-bottom-text ul li,
+.footer-wrap .footer-bottom-wrap .footer-bottom-text p{
 font-family: var(--ff-primary);
 font-size: 16px;
 line-height: 26px;
@@ -174,7 +176,7 @@ border-right: 1px solid var(--c-blue-200);
 .footer-wrap .column-col:not(:first-child) .column-wrap{
     padding-left: 90px;
 }
-.footer-bottom{
+.footer-wrap .footer-bottom-wrap{
 border-top: 1px solid var(--c-blue-200);
 background-color: var(--c-primary);
 text-align: center;
