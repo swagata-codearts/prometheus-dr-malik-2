@@ -171,7 +171,7 @@ font-size: 20px;
 font-weight: 700;
 font-family: var(--ff-primary);
 color: var(--c-secondary);
-margin-bottom: 30px;
+margin-bottom: 20px;
 text-transform: capitalize;
 }
 
@@ -181,7 +181,7 @@ font-family: var(--ff-primary);
 font-weight: 700;
 color: var(--c-primary-text);
 text-transform: capitalize;
-margin-bottom: 45px;
+margin-bottom: 40px;
 }
 
 /*custom-heading-end-Deep*/
