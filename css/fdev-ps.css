@@ -1,6 +1,5 @@
 /* Enhancement */
 .enhance{
-background-image: url(../images/male-enhacement-bg.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -53,7 +52,9 @@ position: relative;
 padding-bottom: 133px;
 }
 .contact-us .contact-left{
-background-color: var(--c-primary);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 padding-top: 110px;
 padding-left: 300px;
 width: 1062px;
@@ -99,7 +100,6 @@ color: var(--c-white);
 line-height: 34px;
 }
 .contact-us .contact-right{
-background-image: url(../images/contact-bg-2.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -240,7 +240,7 @@ padding: 21px 0;
 .enhance .enhance-right .custom-paragraph p {padding-bottom: 17px;}
 .enhance .enhance-right {padding-left: 15px;}
 .enhance .enhance-right .custom-heading h3 {font-size: 26px;line-height: 35px;margin-bottom: 25px;}
-.enhance .enhance-left .enhance-left-top-img img {height: 754px;}
+.enhance .enhance-left .enhance-left-top-img img {height: 754px;width: 100%;}
 .enhance .enhance-left {padding-left: 30px;}
 .enhance .enhance-left .enhance-left-bottom-img img {width: 219px;height: 190px;}
 /* Contact Us start */
