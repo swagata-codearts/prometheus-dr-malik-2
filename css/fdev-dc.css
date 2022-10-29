@@ -193,9 +193,9 @@ font-weight: 400;
   .atlanta.custom-pad {padding: 100px 0 100px 0;}
   .atlanta .atlanta-box-wrap {padding: 60px 0 0 0;}
   .atlanta .atlanta-box-content-wrap {padding: 50px;}
-  .atlanta .atlanta-box::after{left: 20px;}
   .atlanta .custom-paragraph p {padding: 0 40px;}
   .atlanta .atlanta-box-content-wrap .atlanta-paragraph p {font-size: 15px;}
+  .atlanta .atlanta-box::after{left: 18px;}
   /*atlanta-end*/
 
   
