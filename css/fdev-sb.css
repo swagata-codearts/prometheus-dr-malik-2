@@ -91,9 +91,21 @@
 
 @media (min-width: 1200px) and (max-width: 1600px){}
 
-@media (min-width: 1024px) and (max-width: 1200px){}
+@media (min-width: 1024px) and (max-width: 1200px){
+.custom-bef-aft-content [class*="col-"]:nth-child(2n+1) {padding: 18px 18px 18px 15px;}
+.custom-bef-aft-content [class*="col-"]:nth-child(2n) {padding: 18px 15px 18px 18px;}
+}
 
-@media (min-width: 992px) and (max-width: 1024px) {}
+@media (min-width: 992px) and (max-width: 1024px) {
+/*  */
+.custom-pad {padding: 80px 0;}
+/*  */
+.custom-bef-aft .custom-heading h3 {margin-bottom: 29px;}
+.custom-bef-aft-content [class*="col-"]:nth-child(2n+1) {padding: 15px;}
+.custom-bef-aft-content [class*="col-"]:nth-child(2n) {padding: 15px;}
+.gal-img-heading h5 {font-size: 24px;padding-bottom: 27px;}
+.custom-bef-aft-button {margin-top: 40px;}
+}
 
 @media only screen and (max-width: 991.98px) { 
 /* fdev-sb */

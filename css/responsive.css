@@ -13,7 +13,7 @@
 @media (min-width: 1200px) and (max-width: 1600px){
 .custom-button {padding: 20px 30px;font-size: 13px;}
 .custom-heading h5 {font-size: 18px;margin-bottom: 20px;}
-.custom-heading h3 {font-size: 35px;line-height: 46px;}
+.custom-heading h3 {font-size: 40px;line-height: 46px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){

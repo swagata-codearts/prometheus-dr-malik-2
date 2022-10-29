@@ -294,9 +294,140 @@ padding: 18px 0;
 margin-bottom: 25px;
 }
 .facilities .custom-heading {
-    text-align: center;
-  }
-  
+text-align: center;
+}
+.facilities .custom-heading h3 {
+color: var(--c-white);
+}
+.content-box ul li {
+padding: 20px 30px;
+font-family: var(--ff-primary);
+font-size: 18px;
+color: var(--c-tertiary-text);
+font-weight: 400;
+border-bottom: 1px dashed var(--c-black-700);
+}
+.content-box ul li:last-child {
+padding-bottom: 0;
+border-bottom: none;
+}
+.content-box ul li span {
+margin-right: 10px;
+}
+.content-box {
+background-color: var(--c-secondary);
+padding: 50px 50px;
+border-radius: 5px;
+}
+.img-box img {
+width: 100%;
+object-fit: cover;
+}
+.facilities-content {
+margin-top: 30px;
+}
+.about-contact {
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+position: relative;
+z-index: 3;
+background-attachment: fixed;
+}
+.about-contact::after {
+position: absolute;
+content: '';
+background-color: rgba(14,22,61,0.9);
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+}
+.about-contact-content h2 {
+font-family: var(--ff-primary);
+font-size: 55px;
+font-weight: 700;
+color: var(--c-white);
+text-transform: capitalize;
+}
+.about-contact-button {
+display: inline-block;
+margin-top: 40px;
+}
+.about-contact-button-2 {
+display: inline-block;
+margin: 40px 0px 0 20px;
+}
+.about-contact-button .custom-button {
+background-color: var(--c-white);
+color: var(--c-primary);
+border: 2px solid transparent;
+}
+.about-contact-button .custom-button:hover {
+background-color: transparent;
+color: var(--c-white);
+border: 2px solid var(--c-white);
+}
+.about-contact-button-2 .custom-button {
+background-color: var(--c-secondary);
+color: var(--c-primary);
+border: 2px solid transparent;
+}
+.about-contact-button-2 .custom-button:hover {
+background-color: transparent;
+color: var(--c-white);
+border: 2px solid var(--c-secondary);
+}
+/*about-post*/
+/*
+.post-box-content {
+overflow: hidden;
+position: relative;
+padding-bottom: 40px;
+border-bottom: 2px solid var(--c-primary);
+transition: all 0.3s ease-in-out;
+}
+.post-box-content:hover {
+background-color: var(--c-white-100);
+}
+.post-box-content img {
+width: 100%;
+object-fit: cover;
+}
+.date {
+position: absolute;
+top: 0;
+left: 0;
+background-color: var(--c-primary);
+padding: 20px;
+border-radius: 10px 0 0px 0;
+}
+.date h5 {
+font-family: var(--ff-primary);
+font-size: 16px;
+color: var(--c-white-100);
+font-weight: 500;
+}
+.post-box {
+margin-top: 30px;
+}
+.post-box-text .custom-paragraph p {
+padding: 30px 0;
+}
+.post-box-text {
+padding: 0 10px;
+}
+.post-box-text .custom-button {
+background-color: var(--c-primary);
+border: 2px solid var(--c-primary);
+}
+.post-box-text .custom-button:hover {
+color: var(--c-primary);
+background-color: var(--c-white-100);
+}
+*/
 /*About-us-inner-end-supriyo*/
 /*responsive-start-Supriyo*/
 @media (min-width: 1920px) and (max-width: 2500px){
@@ -339,6 +470,14 @@ margin-bottom: 25px;
 .box-text .custom-paragraph p {font-size: 15px;margin-top: 25px;}
 .male-enhancement-img img {width: 80%;}
 .male-enhancement-content .custom-paragraph p {padding: 15px 0;font-size: 15px;}
+/*about-inner-supriyo*/
+.custom-inner-banner {padding: 240px 0 80px 0;}
+.info-img::after {height: 640px;}
+.about-contact-content h2 {font-size: 48px;}
+.info-content .custom-paragraph p {font-size: 16px;}
+.about-contact.custom-pad {padding: 80px 0;}
+.facilities.custom-pad {padding: 80px 0;}
+/*about-inner-supriyo*/
 }
 @media (min-width: 1200px) and (max-width: 1366px){
 .main-banner .carousel-caption {left: 75px;bottom: 90px;}
@@ -366,6 +505,17 @@ margin-bottom: 25px;
 .navbar-brand.ms-0.py-0 {margin-right: 0rem !important;}
 .performed-button {margin-top: 50px;}
 .male-enhancement-1 {margin-top: 25px;}
+/*about-inner-supriyo*/
+.custom-inner-banner {padding: 210px 0 70px 0;}
+.info-img::after {height: 560px;}
+.about-contact-content h2 {font-size: 44px;}
+.inner-banner-content h1 {font-size: 55px;}
+.about-us-info.custom-pad {padding: 80px 0;}
+.info-content .custom-paragraph p {font-size: 16px;}
+.content-box ul li {font-size: 16px;}
+.about-contact.custom-pad {padding: 80px 0;}
+.facilities.custom-pad {padding: 80px 0;}
+/*about-inner-supriyo*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -398,6 +548,22 @@ margin-bottom: 25px;
 .performed-button {margin-top: 50px;}
 .male-enhancement-1 {margin-top: 25px;}
 .navbar-brand.ms-0.py-0 {width: 24%;}
+/*about-inner-supriyo*/
+.custom-inner-banner {padding: 190px 0 70px 0;}
+.info-img::after {height: 480px;}
+.about-contact-content h2 {font-size: 38px;}
+.inner-banner-content h1 {font-size: 48px;}
+.about-us-info.custom-pad {padding: 80px 0;}
+.info-content .custom-paragraph p {font-size: 14px; line-height: 30px;}
+.content-box ul li {font-size: 16px;}
+.about-contact.custom-pad {padding: 70px 0;}
+.facilities.custom-pad {padding: 70px 0;}
+.inner-banner-text .breadcrumb-item a {font-size: 20px;}
+.inner-banner-text .breadcrumb-item.active {font-size: 20px;}
+.info-content .custom-paragraph p {padding: 8px 0;}
+.facilities-content {margin-top: 10px;}
+.content-box {padding: 30px 30px;}
+/*about-inner-supriyo*/
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -432,6 +598,22 @@ margin-bottom: 25px;
 .navbar-brand.ms-0.py-0 {width: 24%;}
 .performed-box {padding: 12px;}
 .header-left ul li a span {margin-left: 0px;}
+/*about-inner-supriyo*/
+.custom-inner-banner {padding: 190px 0 70px 0;}
+.info-img::after {height: 460px;top: -32px;}
+.about-contact-content h2 {font-size: 38px;}
+.inner-banner-content h1 {font-size: 48px;}
+.about-us-info.custom-pad {padding: 80px 0;}
+.info-content .custom-paragraph p {font-size: 14px; line-height: 30px;}
+.content-box ul li {font-size: 16px;}
+.about-contact.custom-pad {padding: 70px 0;}
+.facilities.custom-pad {padding: 70px 0;}
+.inner-banner-text .breadcrumb-item a {font-size: 20px;}
+.inner-banner-text .breadcrumb-item.active {font-size: 20px;}
+.info-content .custom-paragraph p {padding: 8px 0;}
+.facilities-content {margin-top: 10px;}
+.content-box {padding: 30px 30px;}
+/*about-inner-supriyo*/
 }
 
 @media only screen and (max-width: 991.98px) {    
