@@ -283,6 +283,7 @@ font-weight: 400;
   .atlanta .atlanta-box-wrap {padding: 20px 0px 0 0px;}
   .atlanta .atlanta-box::after{left: 28px;}
   .atlanta .atlanta-box{box-shadow: inset 1px 1px 40px 40px #f7f7f7,1px 1px 40px 10px #ececec;}
+  .atlanta .custom-paragraph p {padding: 0;}
   /*atlanta-end*/
   
 }
