@@ -96,11 +96,25 @@ justify-content: center !important;
 .navbar-expand-lg .nav-item {
 padding: 0px 26px;
 transition: all 0.3s ease-in-out;
-border-bottom: 2px solid transparent;
+position: relative;
 }
-.navbar-expand-lg .nav-item:hover {
-border-bottom: 2px solid var(--c-secondary);
+.navbar-expand-lg .nav-item::after {
+position:absolute;
+content: '';
+bottom: 0;
+width: 0;
+left: auto;
+right: 0;
+height: 2px;
+background-color: var(--c-secondary);
+transition: all 0.3s ease-in-out;
 }
+.navbar-expand-lg .nav-item:hover::after {
+width: 100%;
+right: auto;
+left: 0;
+}
+
 .navbar-expand-lg .nav-item:hover .nav-link.active {
 color: var(--c-secondary);
 }
