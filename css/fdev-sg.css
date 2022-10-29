@@ -514,19 +514,23 @@ background-color: var(--c-white-100);
 .performed-section.custom-pad {padding: 70px 0;}
 .male-enhancement.custom-pad {padding: 107px 0 210px 0;}
 .male-enhancement-img::after {width: 80%;height: 520px;top: 0px;}
-.header-left ul li a span {font-size: 12px;}
-.header-left ul li {padding: 0 15px 0px 0px;}
-.header-left ul li::after {right: -1px;height: 54px;bottom: -12px;}
-.header-right a span {font-size: 12px;}
-.header-right a span {top: -2px;}
+.header-left ul li a span {font-size: 16px;top: 0px;}
+.header-left ul li {padding: 0 18px 0px 0px;}
+.header-left ul li::after {right: 6px;height: 54px;bottom: -12px;}
+.header-right a span {font-size: 16px;}
+.header-right a {font-size:12px;padding-left: 20px;}
+.header-left ul li:last-child {padding: 0 0px 0px 0px;}
+.custom-header .navbar-expand-lg .navbar-nav .nav-link {font-size: 14px;}
+.custom-header .navbar-expand-lg .nav-item {padding: 0px 16px;}
+.custom-header .navbar-brand.ms-0.py-0 img {width: 250px;}
+.header-left ul li a {font-size: 12px;}
+.custom-header .navbar.navbar-expand-lg.py-0 {padding: 30px 0px !important;}
 .banner-button {margin-top: 30px;}
 .top-header {padding: 12px 0px;}
 .box-text h3 {font-size: 20px;}
 .box-text .custom-paragraph p {font-size: 12px;margin-top: 15px;line-height: 25px;}
 .male-enhancement-img img {width: 80%;}
 .male-enhancement-content .custom-paragraph p {padding: 10px 0;font-size: 13px;}
-
-
 .performed-button {margin-top: 50px;}
 .male-enhancement-1 {margin-top: 25px;}
 /*about-inner-supriyo*/
@@ -551,25 +555,25 @@ background-color: var(--c-white-100);
 .performed-section.custom-pad {padding: 70px 0;}
 .male-enhancement.custom-pad {padding: 77px 0 170px 0;}
 .male-enhancement-img::after {width: 81%;height: 440px;top: 0px;}
-.header-left ul li a span {font-size: 12px;}
-.header-left ul li {padding: 0 4px 0px 0px;}
-.header-left ul li::after {right: -5px;height: 38px;bottom: -6px;}
-.header-right a span {font-size: 12px;}
-.header-left ul li a {font-size: 16px;}
-.header-right a {font-size: 16px;}
-.header-left ul li:last-child {padding: 0 0px 0px 9px;}
-
+.header-left ul li a span {font-size: 16px;top: 0px;}
+.header-left ul li {padding: 0 18px 0px 0px;}
+.header-left ul li::after {right: 6px;height: 35px;bottom: -7px;}
+.header-right a span {font-size: 14px;}
+.header-right a {font-size:14px;padding-left: 20px;}
+.header-left ul li:last-child {padding: 0 0px 0px 0px;}
+.custom-header .navbar-expand-lg .navbar-nav .nav-link {font-size: 12px;}
+.custom-header .navbar-expand-lg .nav-item {padding: 0px 10px;}
+.custom-header .navbar-brand.ms-0.py-0 img {width: 220px;}
+.header-left ul li a {font-size: 12px;margin-left: 20px;}
+.custom-header .navbar.navbar-expand-lg.py-0 {padding: 20px 0px !important;}
 .banner-button {margin-top: 26px;}
 .top-header {padding: 6px 0px;}
 .box-text h3 {font-size: 20px;}
 .box-text .custom-paragraph p {font-size: 12px;margin-top: 15px;line-height: 25px;}
 .male-enhancement-img img {width: 80%;}
 .male-enhancement-content .custom-paragraph p {padding: 6px 0;font-size: 13px;}
-
-.custom-header .navbar-brand.ms-0.py-0 {margin-right: 0rem !important;}
 .performed-button {margin-top: 50px;}
 .male-enhancement-1 {margin-top: 25px;}
-
 /*about-inner-supriyo*/
 .custom-inner-banner {padding: 190px 0 70px 0;}
 .info-img::after {height: 480px;}
@@ -597,26 +601,26 @@ background-color: var(--c-white-100);
 .performed-section.custom-pad {padding: 60px 0;}
 .male-enhancement.custom-pad {padding: 77px 0 170px 0;}
 .male-enhancement-img::after {width: 81%;height: 428px;left: 20px;top: 0px;}
-.header-left ul li a span {font-size: 12px;}
-.header-left ul li {padding: 0 1px 0px 0px;}
-.header-left ul li::after {right: -5px;height: 38px;bottom: -6px;}
-.header-right a span {font-size: 12px;}
-.header-left ul li a {font-size: 14px;}
-.header-right a {font-size: 14px;}
-.header-left ul li:last-child {padding: 0 0px 0px 7px;}
-
+.header-left ul li a span {font-size: 14px;top: 1px;}
+.header-left ul li {padding: 0 6px 0px 0px;}
+.header-left ul li::after {right: 0px;height: 35px;bottom: -7px;}
+.header-right a span {font-size: 14px;margin-left: 0px;}
+.header-right a {font-size:14px;padding-left: 20px;}
+.header-left ul li:last-child {padding: 0 0px 0px 0px;}
+.custom-header .navbar-expand-lg .navbar-nav .nav-link {font-size: 12px;}
+.custom-header .navbar-expand-lg .nav-item {padding: 0px 8px;}
+.custom-header .navbar-brand.ms-0.py-0 img {width: 220px;}
+.header-left ul li a {font-size: 12px;margin-left: 16px;}
+.custom-header .navbar.navbar-expand-lg.py-0 {padding: 20px 0px !important;}
 .banner-button {margin-top: 26px;}
 .top-header {padding: 6px 0px;}
 .box-text h3 {font-size: 20px;}
 .box-text .custom-paragraph p {font-size: 12px;margin-top: 15px;line-height: 25px;}
 .male-enhancement-img img {width: 80%;}
 .male-enhancement-content .custom-paragraph p {padding: 6px 0;font-size: 13px;}
-
 .performed-button {margin-top: 50px;}
 .male-enhancement-1 {margin-top: 25px;}
-
 .performed-box {padding: 12px;}
-.header-left ul li a span {margin-left: 0px;}
 /*about-inner-supriyo*/
 .custom-inner-banner {padding: 190px 0 70px 0;}
 .info-img::after {height: 460px;top: -32px;}
