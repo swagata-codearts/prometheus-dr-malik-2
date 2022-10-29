@@ -822,6 +822,9 @@ margin-top: 20px;
 .facilities-content .accordion-body {font-size: 12px;line-height: 28px;}
 .about-us-info.custom-pad {padding: 60px 0 30px;}
 /*about-inner-supriyo*/
+/*service-inner-supriyo*/
+.service-post.custom-pad .custom-heading {text-align: center;}
+/*service-inner-supriyo*/
 }
 
 @media only screen and (max-width: 480.98px) {	
