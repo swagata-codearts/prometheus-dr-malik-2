@@ -449,10 +449,10 @@ color: var(--c-white-100);
 font-weight: 500;
 }
 .post-box {
-margin-top: 30px;
+margin: 30px 0 40px 0;
 }
 .post-box-text .custom-paragraph p {
-padding: 30px 0;
+padding: 40px 0;
 }
 .post-box-text {
 padding: 0 10px;
@@ -464,6 +464,9 @@ border: 2px solid var(--c-primary);
 .post-box-text .custom-button:hover {
 color: var(--c-primary);
 background-color: var(--c-white-100);
+}
+.service-post.custom-pad {
+padding: 110px 0 80px 0;
 }
 /*service-inner-end-supriyo*/
 /*responsive-start-Supriyo*/
