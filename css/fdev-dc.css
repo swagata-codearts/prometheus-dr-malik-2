@@ -177,6 +177,7 @@ font-weight: 400;
   .atlanta.custom-pad {padding: 100px 0 100px 0;}
   .atlanta .atlanta-box-content-wrap {padding: 55px;}
   .atlanta .atlanta-box-content-wrap .atlanta-paragraph p{font-size: 17px;}
+  .atlanta .custom-paragraph p {padding: 0;}
   /*atlanta-end*/
 
 }
@@ -196,6 +197,7 @@ font-weight: 400;
   .atlanta .custom-paragraph p {padding: 0 40px;}
   .atlanta .atlanta-box-content-wrap .atlanta-paragraph p {font-size: 15px;}
   .atlanta .atlanta-box::after{left: 18px;}
+  .atlanta .custom-paragraph p {padding: 0;}
   /*atlanta-end*/
 
   
@@ -220,6 +222,7 @@ font-weight: 400;
   .atlanta .atlanta-box-content-wrap .atlanta-paragraph p {font-size: 15px;}
   .atlanta .atlanta-box::after{left: 16px;}
   .atlanta .custom-paragraph p {padding: 0 40px;}
+  .atlanta .custom-paragraph p {padding: 0;}
   /*atlanta-end*/
 }
 
