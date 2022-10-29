@@ -27,6 +27,7 @@
 .inner-banner-content h1 {font-size: 48px;}
 .inner-banner-text .breadcrumb-item a {font-size: 20px;}
 .inner-banner-text .breadcrumb-item.active {font-size: 20px;}
+.custom-paragraph p {font-size: 17px;line-height: 28px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -38,6 +39,7 @@
 .inner-banner-content h1 {font-size: 48px;}
 .inner-banner-text .breadcrumb-item a {font-size: 20px;}
 .inner-banner-text .breadcrumb-item.active {font-size: 20px;}
+.custom-paragraph p {font-size: 16px;line-height: 27px;}
 }
 
 @media only screen and (max-width: 991.98px) { 
@@ -60,6 +62,7 @@
 .inner-banner-text .breadcrumb-item.active {font-size: 20px;}
 .inner-banner-content h1 {font-size: 48px;}
 .custom-inner-banner {padding: 190px 0 70px 0;}
+.custom-paragraph p {font-size: 15px;line-height: 26px;}
 }
 
 @media (max-width: 767.98px){
