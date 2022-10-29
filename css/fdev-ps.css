@@ -290,18 +290,22 @@ enhance .enhance-left .enhance-left-top-img {padding-right: 7%;}
 .enhance .enhance-right {padding-left: 15px;text-align: center;}
 .enhance .enhance-right .custom-paragraph {padding-right: 0;}
 .enhance .enhance-left .enhance-left-top-img img {height: 754px;}
-.nhance .enhance-left .enhance-left-bottom-img img {width: 300px;height: 250px;}
+.enhance .enhance-left .enhance-left-bottom-img img {width: 300px;height: 250px;}
 .enhance .enhance-left {padding-left: 70px;}
 /* Contact Us start */
-.contact-us .contact-left {padding-top: 32px;padding-left: 80px;width: 550px;margin-left: 0;}
-.contact-us .contact-left .contact-left-bottom {padding: 20px;}
-.contact-us .contact-right {padding: 30px;right: 15px;width: 362px;}
-.contact-us .contact-left .contact-left-bottom ul li .media .contact-icon {font-size: 18px;padding: 6px 12px;
-margin-right: 8px;}
-.contact-us .contact-left .contact-left-bottom ul li h4 {font-size: 14px;padding-bottom: 0px;}
-.contact-us .contact-left .contact-left-bottom ul li p, .contact-us .contact-left .contact-left-bottom ul li a {font-size: 20px;line-height: 30px;}
-.contact-us .contact-right form .form-group .form-wrap input, .contact-us .contact-right form .form-group .form-wrap textarea {font-size: 13px;padding: 15px;margin-bottom: 10px;}
+.contact-us .contact-right {position: relative;width: 100%;padding: 70px;right: 0px;}
+.contact-us .contact-left {width: 100%;padding-top: 60px;padding-left: 180px;}
+.contact-us .contact-left .custom-heading h3 {margin-bottom: 50px;padding-right: 140px;line-height: 38px;}
+.contact-us .contact-left .contact-left-bottom {padding: 30px 0 0 30px;}
+.contact-us .contact-left .contact-left-bottom ul li p, .contact-us .contact-left .contact-left-bottom ul li a {font-size: 20px;line-height: 28px;}
+.contact-us .contact-left .contact-left-bottom ul li .media .contact-icon {font-size: 22px;width: 48px;
+height: 48px;margin-right: 12px;}
+.contact-us .contact-left .contact-left-bottom ul li {padding-bottom: 26px;}
+.contact-us .contact-left .contact-left-bottom ul li h4 {font-size: 15px;padding-bottom: 2px;}
+.contact-us .contact-right form .form-group .form-wrap input, .contact-us .contact-right form .form-group .form-wrap textarea {font-size: 14px;padding: 13px;margin-bottom: 10px;}
 .contact-us .contact-right form .form-btn .custom-button {margin-top: 10px;}
+.contact-us .contact-right form .form-group .form-wrap input, .contact-us .contact-right form .form-group .form-wrap textarea {font-size: 12px;padding: 10px;margin-bottom: 7px;}
+.contact-us .contact-right form .form-btn .custom-button {margin-top: 5px;}
 /* footer start */
 .footer-wrap {padding-top: 60px;}
 .footer-wrap .column-wrap .footer-logo img {width: 80%;}
@@ -328,6 +332,14 @@ margin-right: 8px;}
 .enhance .enhance-left .enhance-left-bottom-img {bottom: 70px;}
 .enhance .enhance-right {padding: 33px 0px;}
 /* Contact Us Start */
+.contact-us .contact-left .custom-heading h3 {line-height: 32px;}
+.contact-us .contact-left .contact-left-bottom ul li h4 {padding-bottom: 0px;font-size: 14px;}
+.contact-us .contact-left .contact-left-bottom ul li .media .contact-icon {font-size: 20px;width: 45px;
+height: 45px;margin-right: 8px;}
+.contact-us .contact-left .contact-left-bottom {padding: 20px 0 0 20px;}
+.contact-us .contact-left .contact-left-bottom ul li p, .contact-us .contact-left .contact-left-bottom ul li a {font-size: 17px;line-height: 22px;}
+.contact-us .contact-left .contact-left-bottom ul li {padding-bottom: 20px;}
+.contact-us .contact-right {padding: 45px;}
 /* footer start */
 .footer-wrap .footer-bottom-wrap {padding: 12px 0;margin-top: 15px;}
 .footer-wrap .column-wrap .footer-logo img {width: 47%;}
