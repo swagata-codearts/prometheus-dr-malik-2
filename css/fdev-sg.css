@@ -33,13 +33,14 @@ right: 22px;
 .header-left ul li:last-child::after {
 display: none;
 }
-.header-left ul li a {
+.header-left ul li a h5 {
 font-family: var(--ff-primary);
 font-weight: 400;
 font-size: 16px;
 margin-left: 30px;
 text-decoration: none;
 color: var(--c-primary-text);
+transition: all 0.3s ease-in-out;
 }
 .header-left ul li a span {
 text-decoration: none;
@@ -47,33 +48,34 @@ font-size: 20px;
 color: var(--c-tertiary-text);
 position: absolute;
 left: 0;
-top: -2px;
+top: -5px;
 }
-.header-left ul li a:hover {
+.header-left ul li a h5:hover {
 color: var(--c-secondary-text);
 }
-.header-right a {
+.header-right a h5 {
 font-family: var(--ff-primary);
 font-weight: 400;
 font-size: 16px;
 padding-left: 30px;
 text-decoration: none;
 color: var(--c-primary-text);
-position: relative;
+transition: all 0.3s ease-in-out;
 }
 .header-right a span {
 text-decoration: none;
 font-size: 20px;
 color: var(--c-tertiary-text);
 position: absolute;
-left: 0;
+right: 29%;
 top: -6px;
 }
-.header-right a:hover {
+.header-right a h5:hover {
 color: var(--c-secondary-text);
 }
 .header-right {
 text-align: end;
+position: relative;
 }
 .custom-header .navbar.navbar-expand-lg.py-0 {
 padding: 37px 0px !important;
@@ -483,7 +485,7 @@ background-color: var(--c-white-100);
 .performed-section.custom-pad {padding: 80px 0;}
 .male-enhancement.custom-pad {padding: 127px 0 230px 0;}
 .male-enhancement-img::after {width: 80%;height: 593px;}
-.header-left ul li a span {font-size: 18px;}
+.header-left ul li a span {font-size: 18px;top: -3px;}
 .header-left ul li {padding: 0 18px 0px 0px;}
 .header-left ul li::after {right: 6px;height: 54px;bottom: -12px;}
 .header-right a span {font-size: 18px;}
@@ -491,7 +493,7 @@ background-color: var(--c-white-100);
 .banner-button {margin-top: 30px;}
 .top-header {padding: 12px 0px;}
 .box-text h3 {font-size: 24px;}
-.header-right a span {top: -3px;}
+.header-right a span {top: -3px;right: 35%;}
 .box-text .custom-paragraph p {font-size: 15px;margin-top: 25px;}
 .male-enhancement-img img {width: 80%;}
 .male-enhancement-content .custom-paragraph p {padding: 15px 0;font-size: 15px;}
@@ -514,16 +516,16 @@ background-color: var(--c-white-100);
 .performed-section.custom-pad {padding: 70px 0;}
 .male-enhancement.custom-pad {padding: 107px 0 210px 0;}
 .male-enhancement-img::after {width: 80%;height: 520px;top: 0px;}
-.header-left ul li a span {font-size: 16px;top: 0px;}
+.header-left ul li a span {font-size: 16px;top: -6px;}
 .header-left ul li {padding: 0 18px 0px 0px;}
-.header-left ul li::after {right: 6px;height: 54px;bottom: -12px;}
-.header-right a span {font-size: 16px;}
-.header-right a {font-size:12px;padding-left: 20px;}
+.header-left ul li::after {right: 6px;height: 56px;bottom: -14px;}
+.header-right a span {font-size: 16px;right: 30%;}
+.header-right a h5 {font-size:12px;padding-left: 20px;}
 .header-left ul li:last-child {padding: 0 0px 0px 0px;}
 .custom-header .navbar-expand-lg .navbar-nav .nav-link {font-size: 14px;}
 .custom-header .navbar-expand-lg .nav-item {padding: 0px 16px;}
 .custom-header .navbar-brand.ms-0.py-0 img {width: 250px;}
-.header-left ul li a {font-size: 12px;}
+.header-left ul li a h5 {font-size: 12px;}
 .custom-header .navbar.navbar-expand-lg.py-0 {padding: 30px 0px !important;}
 .banner-button {margin-top: 30px;}
 .top-header {padding: 12px 0px;}
@@ -555,16 +557,16 @@ background-color: var(--c-white-100);
 .performed-section.custom-pad {padding: 70px 0;}
 .male-enhancement.custom-pad {padding: 77px 0 170px 0;}
 .male-enhancement-img::after {width: 81%;height: 440px;top: 0px;}
-.header-left ul li a span {font-size: 16px;top: 0px;}
+.header-left ul li a span {font-size: 16px;top: -6px;}
 .header-left ul li {padding: 0 18px 0px 0px;}
 .header-left ul li::after {right: 6px;height: 35px;bottom: -7px;}
-.header-right a span {font-size: 14px;}
-.header-right a {font-size:14px;padding-left: 20px;}
+.header-right a span {font-size: 14px;margin-left: 0px;top: -4px;right: 36%;}
+.header-right a h5 {font-size:12px;padding-left: 15px;}
 .header-left ul li:last-child {padding: 0 0px 0px 0px;}
 .custom-header .navbar-expand-lg .navbar-nav .nav-link {font-size: 12px;}
 .custom-header .navbar-expand-lg .nav-item {padding: 0px 10px;}
 .custom-header .navbar-brand.ms-0.py-0 img {width: 220px;}
-.header-left ul li a {font-size: 12px;margin-left: 20px;}
+.header-left ul li a h5 {font-size: 12px;margin-left: 20px;}
 .custom-header .navbar.navbar-expand-lg.py-0 {padding: 20px 0px !important;}
 .banner-button {margin-top: 26px;}
 .top-header {padding: 6px 0px;}
@@ -601,16 +603,16 @@ background-color: var(--c-white-100);
 .performed-section.custom-pad {padding: 60px 0;}
 .male-enhancement.custom-pad {padding: 77px 0 170px 0;}
 .male-enhancement-img::after {width: 81%;height: 428px;left: 20px;top: 0px;}
-.header-left ul li a span {font-size: 14px;top: 1px;}
+.header-left ul li a span {font-size: 14px;top: -4px;}
 .header-left ul li {padding: 0 6px 0px 0px;}
 .header-left ul li::after {right: 0px;height: 35px;bottom: -7px;}
-.header-right a span {font-size: 14px;margin-left: 0px;}
-.header-right a {font-size:14px;padding-left: 20px;}
+.header-right a span {font-size: 14px;margin-left: 0px;top: -4px;right: 37%;}
+.header-right a h5 {font-size:12px;padding-left: 15px;}
 .header-left ul li:last-child {padding: 0 0px 0px 0px;}
 .custom-header .navbar-expand-lg .navbar-nav .nav-link {font-size: 12px;}
 .custom-header .navbar-expand-lg .nav-item {padding: 0px 8px;}
 .custom-header .navbar-brand.ms-0.py-0 img {width: 220px;}
-.header-left ul li a {font-size: 12px;margin-left: 16px;}
+.header-left ul li a h5 {font-size: 12px;margin-left: 16px;}
 .custom-header .navbar.navbar-expand-lg.py-0 {padding: 20px 0px !important;}
 .banner-button {margin-top: 26px;}
 .top-header {padding: 6px 0px;}
@@ -647,10 +649,8 @@ background-color: var(--c-white-100);
 .box-text {padding: 35px 25px 24px;text-align: center;}
 .male-enhancement.custom-pad {padding: 87px 0 230px 0;}
 .male-enhancement-img::after {width: 81%;height: 675px;left: 20px;top: -20px;}
-.header-left ul li {padding: 0 97px;}
-.header-left ul li:last-child {padding: 0 95px;}
-.header-left ul li::after {right: -2px;height: 42px;bottom: -6px;}
-.header-right a span {display:none;}
+.header-left ul li::after {right: 100px;height: 33px;bottom: -16px;}
+.header-right a h5 {display:none;}
 .header-right {text-align: center;}
 .custom-header .navbar-expand-lg .navbar-nav .nav-link {font-size: 12px;margin-left: 10px;}
 .banner-button {margin-top: 26px;}
@@ -666,9 +666,13 @@ background-color: var(--c-white-100);
 .male-enhancement-1 {margin-top: 25px;}
 .custom-header .navbar-brand.ms-0.py-0 {width: 30%;}
 .performed-box {padding: 12px;margin-top: 25px;}
-.header-left ul li a span {display: none;}
+.header-left ul li a h5 {display: none;}
+.header-left ul li a span {display: block;}
+.header-right a span {right: 0%;top: -12px;font-size: 16px;}
+.header-left ul li a span {top: -14px;font-size: 16px;}
+.header-left ul li {width: 49%;}
 .main-banner .carousel-caption h1 br {display: none;}
-.navbar.navbar-expand-lg.py-0 {padding: 20px 0px !important;position: relative;}
+.custom-header .navbar.navbar-expand-lg.py-0 {padding: 25px 0px !important;position: relative;}
 .main-banner .carousel-caption p br {display: none;}
 .nav-button {right: 100px;position: absolute;top: 10px;}
 .custom-header .navbar.navbar-expand-lg.py-0 #navbarSupportedContent {background-color: var(--c-tertiary-text);margin-top: 20px;}
@@ -706,11 +710,11 @@ background-color: var(--c-white-100);
 .male-enhancement-img::after {height: 500px;left: 20px;top: -5px;}
 .male-enhancement.custom-pad {padding: 67px 0 200px 0;}
 .main-banner .carousel-caption {bottom: 90px;}
-.top-header .col-md-5.col-sm-6 {display: none;}
 .header-left ul li:last-child {padding: 0 0px;width: 49%;}
 .performed-section.custom-pad {padding: 50px 0;}
 .box-text .custom-paragraph p {font-size: 13px;}
 .custom-header .navbar-header {top: 10px;}
+.header-left ul li::after {right: 60px;}
 }
 
 @media (max-width: 575.98px){
@@ -724,6 +728,8 @@ background-color: var(--c-white-100);
 .performed-button {margin-top: 40px;}
 .performed-box {margin-top: 10px;}
 .male-enhancement {clip-path: polygon(100% 0, 100% 87%, 43% 88%, 0 92%, 0 0);}
+.header-right a span {top: -23px;}
+.header-left ul li::after {display: none;}
 }
 
 @media only screen and (max-width: 480.98px) {	
@@ -735,7 +741,6 @@ background-color: var(--c-white-100);
 .male-enhancement-2 .custom-button {margin-left: 0px;margin-top: 15px;}
 .male-enhancement.custom-pad {padding: 47px 0 200px 0;}
 .main-banner .carousel-caption {bottom: 80px;}
-.header-left ul li {padding: 0px 65px;}
 .performed-section-heading .custom-heading h3 {font-size: 24px;line-height: 32px;}
 .male-enhancement {clip-path: polygon(100% 0, 100% 87%, 43% 88%, 0 91%, 0 0);}
 }
