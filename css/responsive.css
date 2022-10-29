@@ -21,6 +21,7 @@
 .custom-button span {font-size: 13px;}
 .custom-heading h5 {font-size: 16px;margin-bottom: 16px;}
 .custom-heading h3 {font-size: 30px;line-height: 44px;}
+.custom-paragraph p {font-size: 17px;line-height: 28px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -28,6 +29,7 @@
 .custom-button span {font-size: 12px;}
 .custom-heading h5 {font-size: 16px;margin-bottom: 16px;}
 .custom-heading h3 {font-size: 30px;line-height: 44px;}
+.custom-paragraph p {font-size: 16px;line-height: 27px;}
 }
 
 @media only screen and (max-width: 991.98px) { 
