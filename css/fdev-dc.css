@@ -263,6 +263,7 @@ font-weight: 400;
   .atlanta .atlanta-sub-heading h5{font-size: 20px;}
   .atlanta .atlanta-box::after{left: 18px;}
   .atlanta .custom-heading h3{margin-bottom: 30px;}
+  .atlanta .custom-paragraph p {padding: 0;}
   /*atlanta-end*/
 
 }
