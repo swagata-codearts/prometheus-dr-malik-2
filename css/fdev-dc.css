@@ -194,6 +194,8 @@ font-weight: 400;
   .atlanta .atlanta-box-wrap {padding: 60px 0 0 0;}
   .atlanta .atlanta-box-content-wrap {padding: 50px;}
   .atlanta .atlanta-box::after{left: 20px;}
+  .atlanta .custom-paragraph p {padding: 0 40px;}
+  .atlanta .atlanta-box-content-wrap .atlanta-paragraph p {font-size: 15px;}
   /*atlanta-end*/
 
   
@@ -212,11 +214,12 @@ font-weight: 400;
   /*about-end*/
   /*atlanta-start*/
   .atlanta.custom-pad {padding: 100px 0 100px 0;}
-  .atlanta .atlanta-sub-heading h5{font-size: 18px;}
+  .atlanta .atlanta-sub-heading h5{font-size: 16px;}
   .atlanta .atlanta-heading h3{padding: 20px 0 20px 0;font-size: 40px;}
   .atlanta .atlanta-box-content-wrap {padding: 48px;}
-  .atlanta .atlanta-box-content-wrap .atlanta-paragraph p {font-size: 17px;}
+  .atlanta .atlanta-box-content-wrap .atlanta-paragraph p {font-size: 15px;}
   .atlanta .atlanta-box::after{left: 16px;}
+  .atlanta .custom-paragraph p {padding: 0 40px;}
   /*atlanta-end*/
 }
 
@@ -233,11 +236,13 @@ font-weight: 400;
   /*about-end*/
   /*atlanta-start*/
   .atlanta.custom-pad {padding: 80px 0 80px 0;}
-  .atlanta .atlanta-sub-heading h5{font-size: 18px;}
+  .atlanta .atlanta-sub-heading h5{font-size: 16px;}
   .atlanta .atlanta-heading h3{font-size: 40px;padding: 20px 0 20px 0;}
   .atlanta .atlanta-box-content-wrap {padding: 50px;}
   .atlanta .atlanta-box::after{left: 16px;}
   .atlanta .atlanta-box-wrap {padding: 60px 0px 0 0px;}
+  .atlanta .atlanta-box-content-wrap .atlanta-paragraph p {font-size: 15px;}
+  .atlanta .custom-paragraph p {padding: 0;}
   /*atlanta-end*/
   
 }
@@ -257,6 +262,7 @@ font-weight: 400;
   .atlanta .atlanta-box-content-wrap {padding: 50px;}
   .atlanta .atlanta-sub-heading h5{font-size: 20px;}
   .atlanta .atlanta-box::after{left: 18px;}
+  .atlanta .custom-heading h3{margin-bottom: 30px;}
   /*atlanta-end*/
 
 }
@@ -275,7 +281,8 @@ font-weight: 400;
   .atlanta .atlanta-box::after{left: 28px;}
   .atlanta.custom-pad {padding: 30px 0 30px 0;}
   .atlanta .atlanta-box-wrap {padding: 20px 0px 0 0px;}
-  .atlanta .atlanta-box::after{left: 18px;}
+  .atlanta .atlanta-box::after{left: 28px;}
+  .atlanta .atlanta-box{box-shadow: inset 1px 1px 40px 40px #f7f7f7,1px 1px 40px 10px #ececec;}
   /*atlanta-end*/
   
 }
@@ -287,5 +294,12 @@ font-weight: 400;
   .about-specialist .specialist-image-wrap{top: 20px;}
   .about-specialist .custom-button-wrap{padding-top: 20px;}
   /*about-end*/
+  /*atlanta-start*/
+  .atlanta .custom-heading h3{margin-bottom: 10px;}
+  .atlanta .atlanta-box::after {left: 18px;}
+  .atlanta .atlanta-heading h3{font-size: 40px;padding: 20px 0 20px 0;}
+  .atlanta .custom-paragraph p {padding: 0;}
+  /*atlanta-end*/
+
 }
 /*responsive-start-Deep*/
