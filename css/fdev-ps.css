@@ -262,10 +262,13 @@ margin-top: 35px;
 @media (min-width: 992px) and (max-width: 1024px) {
 /* fdev-ps */
 /* Enhancement Start */
+.enhance {padding: 120px 0 100px 0;}
 .enhance .enhance-left {padding-left: 70px;}
 .enhance .enhance-left .enhance-left-bottom-img img {width: 280px;height: 240px;}
 .enhance .enhance-right {padding: 35px 0px;}
 .enhance .enhance-right .custom-paragraph p {padding-bottom: 20px;}
+.enhance .enhance-right .enhance-right-button .custom-button {margin-right: 12px;}
+.enhance .enhance-left .enhance-left-top-img {padding-right: 8%;}
 /* footer start */
 .footer-wrap .column-col:nth-child(1) .column-wrap {padding: 39px 4px 39px 0px;}
 .footer-wrap .column-col:nth-child(2) .column-wrap {padding: 39px 0px 39px 25px;}
