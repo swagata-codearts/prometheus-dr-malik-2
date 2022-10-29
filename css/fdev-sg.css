@@ -19,7 +19,7 @@ vertical-align: middle;
 position: relative;
 }
 .header-left ul li:last-child {
-padding: 0 46px 0px 18px;
+padding: 0 46px 0px 0px;
 }
 .header-left ul li::after {
 position: absolute;
@@ -28,35 +28,46 @@ width: 1px;
 height: 66px;
 background-color: #dbdbdb;
 bottom: -18px;
-right: 14px;
+right: 22px;
 }
 .header-left ul li:last-child::after {
 display: none;
 }
 .header-left ul li a {
-text-decoration: none;
-font-size: 20px;
-color: var(--c-tertiary-text);
-}
-.header-left ul li a span {
 font-family: var(--ff-primary);
 font-weight: 400;
 font-size: 16px;
-margin-left: 5px;
+margin-left: 30px;
+text-decoration: none;
+color: var(--c-primary-text);
+}
+.header-left ul li a span {
+text-decoration: none;
+font-size: 20px;
+color: var(--c-tertiary-text);
+position: absolute;
+left: 0;
+top: -2px;
 }
 .header-left ul li a:hover {
 color: var(--c-secondary-text);
 }
 .header-right a {
-text-decoration: none;
-font-size: 20px;
-color: var(--c-tertiary-text);
-}
-.header-right a span {
 font-family: var(--ff-primary);
 font-weight: 400;
 font-size: 16px;
-margin-left: 5px;
+padding-left: 30px;
+text-decoration: none;
+color: var(--c-primary-text);
+position: relative;
+}
+.header-right a span {
+text-decoration: none;
+font-size: 20px;
+color: var(--c-tertiary-text);
+position: absolute;
+left: 0;
+top: -7px;
 }
 .header-right a:hover {
 color: var(--c-secondary-text);
