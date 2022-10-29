@@ -14,6 +14,8 @@
 .custom-button {padding: 20px 30px;font-size: 13px;}
 .custom-heading h5 {font-size: 18px;margin-bottom: 20px;}
 .custom-heading h3 {font-size: 40px;line-height: 46px;}
+.custom-inner-banner {padding: 210px 0 70px 0;}
+.inner-banner-content h1 {font-size: 55px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -21,6 +23,10 @@
 .custom-button span {font-size: 13px;}
 .custom-heading h5 {font-size: 16px;margin-bottom: 16px;}
 .custom-heading h3 {font-size: 30px;line-height: 44px;}
+.custom-inner-banner {padding: 190px 0 70px 0;}
+.inner-banner-content h1 {font-size: 48px;}
+.inner-banner-text .breadcrumb-item a {font-size: 20px;}
+.inner-banner-text .breadcrumb-item.active {font-size: 20px;}
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -28,6 +34,10 @@
 .custom-button span {font-size: 12px;}
 .custom-heading h5 {font-size: 16px;margin-bottom: 16px;}
 .custom-heading h3 {font-size: 30px;line-height: 44px;}
+.custom-inner-banner {padding: 190px 0 70px 0;}
+.inner-banner-content h1 {font-size: 48px;}
+.inner-banner-text .breadcrumb-item a {font-size: 20px;}
+.inner-banner-text .breadcrumb-item.active {font-size: 20px;}
 }
 
 @media only screen and (max-width: 991.98px) { 
@@ -46,11 +56,21 @@
 .custom-heading h5 {font-size: 16px;margin-bottom: 16px;}
 .custom-heading h3 {font-size: 30px;line-height: 44px;}
 .custom-paragraph p {font-size: 14px;line-height: 20px;}
+.inner-banner-text .breadcrumb-item a {font-size: 20px;}
+.inner-banner-text .breadcrumb-item.active {font-size: 20px;}
+.inner-banner-content h1 {font-size: 48px;}
+.custom-inner-banner {padding: 190px 0 70px 0;}
 }
 
 @media (max-width: 767.98px){
 .custom-button {padding: 14px 22px;font-size: 12px;}
 .custom-heading h3 {font-size: 25px;line-height: 40px;}
+.inner-banner-content h1 {font-size: 38px;}
+.inner-banner-text .breadcrumb-item {width: 44%;}
+.inner-banner-text .breadcrumb-item.active {width: 56%;}
+.inner-banner-text .breadcrumb-item a {font-size: 17px;}
+.inner-banner-text .breadcrumb-item.active {font-size: 17px;}
+.custom-inner-banner {padding: 160px 0 60px 0;}
 }
 
 @media (max-width: 575.98px){
@@ -65,5 +85,11 @@
 
 @media only screen and (max-width: 480.98px) {	
 .custom-heading h3 {font-size: 26px;line-height: 38px;}
+.inner-banner-content h1 {font-size: 32px;}
+.inner-banner-text .breadcrumb-item a {font-size: 15px;}
+.inner-banner-text .breadcrumb-item.active {font-size: 15px;}
+.inner-banner-text .breadcrumb-item {width: 41%;}
+.inner-banner-text .breadcrumb-item.active {width: 59%;}
+.custom-inner-banner {padding: 140px 0 40px 0;}
 }
 
