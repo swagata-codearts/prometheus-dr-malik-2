@@ -326,29 +326,40 @@ text-align: center;
 .facilities .custom-heading h3 {
 color: var(--c-white);
 }
-.content-box ul li {
-padding: 20px 30px;
+.facilities-content .accordion-button.collapsed {
 font-family: var(--ff-primary);
 font-size: 18px;
 color: var(--c-tertiary-text);
+font-weight: 500;
+}
+.facilities-content .accordion-button {
+font-family: var(--ff-primary);
+font-size: 18px;
+color: var(--c-tertiary-text) !important;
 font-weight: 400;
-border-bottom: 1px dashed var(--c-black-700);
 }
-.content-box ul li:last-child {
-padding-bottom: 0;
-border-bottom: none;
+.facilities-content  .accordion-body {
+padding: 1rem 1.25rem;
+font-size: 16px;
+font-family: var(--ff-primary);
+font-weight: 400;
+color: var(--c-secondary-text);
+line-height: 34px;
+text-transform: capitalize;
+background-color: var(--c-white-100);
 }
-.content-box ul li span {
-margin-right: 10px;
+.facilities-content .accordion-button::after {
+height: 3.25rem;
 }
-.content-box {
+.facilities-content .accordion-item {
 background-color: var(--c-secondary);
-padding: 50px 50px;
-border-radius: 5px;
+border: 1px dotted var(--c-tertiary-text);
 }
-.img-box img {
-width: 100%;
-object-fit: cover;
+.facilities-content .accordion-button.collapsed {
+background-color: var(--c-secondary);
+}
+.facilities-content .accordion-button {
+background-color: var(--c-secondary);
 }
 .facilities-content {
 margin-top: 30px;
@@ -695,7 +706,29 @@ background-color: var(--c-white-100);
 .custom-header .navbar-toggler .icon-bar:nth-child(3){opacity: 0}
 .custom-header .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .custom-header .navbar-header {display: block;position: absolute;right: 0;background-color: var(--c-tertiary-text);top: 16px;border-radius: 4px;}
-
+/*about-inner-supriyo*/
+.custom-inner-banner {padding: 190px 0 70px 0;}
+.info-img::after {height: 725px;top: -32px;left: 40px;}
+.about-contact-content h2 {font-size: 38px;}
+.inner-banner-content h1 {font-size: 48px;}
+.about-us-info.custom-pad {padding: 80px 0;}
+.info-content .custom-paragraph p {font-size: 14px; line-height: 30px;}
+.content-box ul li {font-size: 16px;}
+.about-contact.custom-pad {padding: 70px 0;}
+.facilities.custom-pad {padding: 70px 0;}
+.inner-banner-text .breadcrumb-item a {font-size: 20px;}
+.inner-banner-text .breadcrumb-item.active {font-size: 20px;}
+.info-content .custom-paragraph p {padding: 8px 0;}
+.facilities-content {margin-top: 10px;}
+.content-box {padding: 30px 30px;}
+.info-content {margin-top: 40px;}
+.info-content .custom-heading h3 {margin-bottom: 15px;}
+.facilities-content .accordion-button.collapsed {font-size: 16px;}
+.facilities-content .accordion-button::after {height: 2.25rem;}
+.facilities-content .accordion-body {font-size: 13px;line-height: 30px;}
+.facilities-content .accordion-button {font-size: 16px;}
+.about-contact-content h2 {font-size: 34px;}
+/*about-inner-supriyo*/
 }
 
 
@@ -715,6 +748,22 @@ background-color: var(--c-white-100);
 .box-text .custom-paragraph p {font-size: 13px;}
 .custom-header .navbar-header {top: 10px;}
 .header-left ul li::after {right: 60px;}
+/*about-inner-supriyo*/
+.inner-banner-content h1 {font-size: 38px;}
+.inner-banner-text .breadcrumb-item a {font-size: 17px;}
+.inner-banner-text .breadcrumb-item.active {font-size: 17px;}
+.info-img::after {height: 535px;top: -32px;left: 20px;}
+.inner-banner-text .breadcrumb-item {width: 44%;}
+.inner-banner-text .breadcrumb-item.active {width: 56%;}
+.custom-inner-banner {padding: 160px 0 60px 0;}
+.about-us-info.custom-pad {padding: 80px 0 50px;}
+.facilities-content {margin-top: 0px;}
+.about-contact-content h2 {font-size: 26px;}
+.about-contact-button-2 {margin: 30px 0px 0px 20px;}
+.about-contact-button {margin-top: 30px;}
+.facilities.custom-pad {padding: 50px 0;}
+.about-contact.custom-pad {padding: 50px 0;}
+/*about-inner-supriyo*/
 }
 
 @media (max-width: 575.98px){
@@ -730,6 +779,15 @@ background-color: var(--c-white-100);
 .male-enhancement {clip-path: polygon(100% 0, 100% 87%, 43% 88%, 0 92%, 0 0);}
 .header-right a span {top: -23px;}
 .header-left ul li::after {display: none;}
+/*about-inner-supriyo*/
+.info-img::after {height: 445px;}
+.info-content .custom-heading {text-align: center;}
+.info-content .custom-paragraph {text-align: center;}
+.facilities-content .accordion-button.collapsed {font-size: 14px;}
+.facilities-content .accordion-button {font-size: 14px;}
+.facilities-content .accordion-body {font-size: 12px;line-height: 28px;}
+.about-us-info.custom-pad {padding: 60px 0 30px;}
+/*about-inner-supriyo*/
 }
 
 @media only screen and (max-width: 480.98px) {	
@@ -743,5 +801,15 @@ background-color: var(--c-white-100);
 .main-banner .carousel-caption {bottom: 80px;}
 .performed-section-heading .custom-heading h3 {font-size: 24px;line-height: 32px;}
 .male-enhancement {clip-path: polygon(100% 0, 100% 87%, 43% 88%, 0 91%, 0 0);}
+/*about-inner-supriyo*/
+.about-contact-button-2 {margin: 20px 0px 0px 0px;}
+.info-img::after {height: 295px;left: 10px;top: -22px;}
+.inner-banner-content h1 {font-size: 32px;}
+.inner-banner-text .breadcrumb-item a {font-size: 15px;}
+.inner-banner-text .breadcrumb-item.active {font-size: 15px;}
+.inner-banner-text .breadcrumb-item {width: 41%;}
+.inner-banner-text .breadcrumb-item.active {width: 59%;}
+.custom-inner-banner {padding: 140px 0 40px 0;}
+/*about-inner-supriyo*/
 }
 /*responsive-end-Supriyo*/
