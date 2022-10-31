@@ -736,7 +736,7 @@ margin-top: 20px;
 @media (max-width: 767.98px){
 .main-banner .carousel-caption.container.d-none.d-md-block {display: block !important;}
 .main-banner .carousel-caption h1 {font-size: 30px;line-height: 40px;}
-.main-banner .carousel-caption p {font-size: 14px;margin-top: 10px;box-shadow: 0 0 10px rgb(255, 255, 255);background-color: rgba(255,255,255,0.6);}
+.main-banner .carousel-caption p {font-size: 14px;margin-top: 10px;}
 .main-banner .d-block.w-100 {object-fit: cover;height: 38vh;}
 .nav-button {right: 80px;top: 12px;}
 .box-text {text-align: center;}
