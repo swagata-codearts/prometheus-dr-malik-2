@@ -9,6 +9,9 @@
 @media (min-width: 1600px) and (max-width: 1920px){
 
 }
+@media (min-width: 1200px) and (max-width: 1366px){
+    .custom-paragraph p {font-size: 17px;line-height: 28px;}
+}
 
 @media (min-width: 1200px) and (max-width: 1600px){
 .custom-button {padding: 20px 30px;font-size: 13px;}
@@ -67,6 +70,7 @@
 .custom-inner-banner {padding: 190px 0 70px 0;}
 .custom-paragraph p {font-size: 15px;line-height: 26px;}
 .custom-pad {padding: 60px 0;}
+.custom-paragraph p {font-size: 16px;line-height: 26px;}
 }
 
 @media (max-width: 767.98px){
@@ -84,11 +88,11 @@
 
 @media (max-width: 575.98px){   
 .custom-heading h3 {font-size: 30px;}
+.custom-paragraph p {font-size: 15px;line-height: 22px;}
 }
 
 @media (max-width: 575.98px){
 .custom-pad {padding: 30px 0;} 
-.custom-paragraph p {font-size: 13px;line-height: 18px;}  
 }
 
 @media only screen and (max-width: 480.98px) {	
