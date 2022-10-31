@@ -9,9 +9,6 @@
 @media (min-width: 1600px) and (max-width: 1920px){
 
 }
-@media (min-width: 1200px) and (max-width: 1366px){
-    .custom-paragraph p {font-size: 17px;line-height: 28px;}
-}
 
 @media (min-width: 1200px) and (max-width: 1600px){
 .custom-button {padding: 20px 30px;font-size: 13px;}
@@ -20,6 +17,10 @@
 .custom-inner-banner {padding: 210px 0 70px 0;}
 .inner-banner-content h1 {font-size: 55px;}
 .custom-pad {padding: 100px 0;}
+}
+
+@media (min-width: 1200px) and (max-width: 1366px){
+    .custom-paragraph p {font-size: 17px;line-height: 29px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
