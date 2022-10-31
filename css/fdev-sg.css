@@ -185,8 +185,7 @@ color: var(--c-primary-text);
 margin-top: 35px;
 }
 .box-text {
-padding: 45px 0;
-padding-left: 40px;
+padding: 22px 30px 22px 30px;
 }
 .performed-button {
 margin-top: 75px;
@@ -575,7 +574,7 @@ color: var(--c-white);
 .main-banner .carousel-caption h1 {font-size: 55px;line-height: 70px;}
 .main-banner .carousel-caption p {font-size: 18px;line-height: 35px;margin-top: 15px;}
 .performed-section-heading .custom-paragraph p {padding: 40px 0 65px 0;}
-.box-text {padding: 35px 25px 25px;}
+.box-text {padding: 30px 25px 20px;}
 .performed-section.custom-pad {padding: 80px 0;}
 .male-enhancement.custom-pad {padding: 127px 0 230px 0;}
 .male-enhancement-img::after {width: 80%;height: 593px;}
@@ -588,7 +587,7 @@ color: var(--c-white);
 .top-header {padding: 12px 0px;}
 .box-text h3 {font-size: 24px;}
 .header-right a span {top: -3px;right: 35%;}
-.box-text .custom-paragraph p {font-size: 15px;margin-top: 25px;}
+.box-text .custom-paragraph p {font-size: 16px;margin-top: 25px;}
 .male-enhancement-img img {width: 80%;}
 .male-enhancement-content .custom-paragraph p {padding: 15px 0;font-size: 15px;}
 .custom-header .navbar-expand-lg .navbar-nav .nav-link {font-size: 15px;}
@@ -612,7 +611,7 @@ color: var(--c-white);
 .main-banner .carousel-caption h1 {font-size: 45px;line-height: 60px;}
 .main-banner .carousel-caption p {font-size: 16px;line-height: 30px;margin-top: 15px;}
 .performed-section-heading .custom-paragraph p {padding: 30px 0 55px 0;}
-.box-text {padding: 35px 25px 25px;}
+.box-text {padding: 30px 25px 20px;}
 .performed-section.custom-pad {padding: 70px 0;}
 .male-enhancement.custom-pad {padding: 107px 0 210px 0;}
 .male-enhancement-img::after {width: 80%;height: 520px;top: 0px;}
