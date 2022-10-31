@@ -74,6 +74,7 @@
 .inner-banner-text .breadcrumb-item a {font-size: 17px;}
 .inner-banner-text .breadcrumb-item.active {font-size: 17px;}
 .custom-inner-banner {padding: 160px 0 60px 0;}
+.custom-heading h3 {margin-bottom: 0px;}
 }
 
 @media (max-width: 575.98px){
@@ -87,7 +88,7 @@
 }
 
 @media only screen and (max-width: 480.98px) {	
-.custom-heading h3 {font-size: 26px;line-height: 38px;}
+.custom-heading h3 {font-size: 22px;line-height: 32px;}
 .inner-banner-content h1 {font-size: 32px;}
 .inner-banner-text .breadcrumb-item a {font-size: 15px;}
 .inner-banner-text .breadcrumb-item.active {font-size: 15px;}
