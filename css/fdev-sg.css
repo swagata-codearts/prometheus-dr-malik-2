@@ -498,6 +498,16 @@ border-radius: 12px;
 .inner-service-content {
 padding-left: 50px;
 }
+.inner-service-content-2 {
+text-align: left;
+margin-top: 50px;
+}
+.inner-service-content-2 .custom-paragraph p {
+padding: 10px 0;
+}
+.inner-service-content-2 .custom-paragraph p:last-child {
+padding: 10px 0 0px 0;
+}
 .what-we-do-box {
 border: 2px solid var(--c-secondary);
 border-radius: 5px;
@@ -831,6 +841,7 @@ color: var(--c-white);
 .facilities-content .accordion-body {font-size: 13px;line-height: 30px;}
 .facilities-content .accordion-button {font-size: 16px;}
 .about-contact-content h2 {font-size: 34px;}
+.inner-service-content-2 {margin-top: 10px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
 .service-info-content-box {padding: 20px 30px;}
@@ -839,7 +850,7 @@ color: var(--c-white);
 /*Inner-service-supriyo*/
 .inner-service-img img {width: 80%;}
 .inner-service-right::after {width: 80%;height: 300px;top: -30px;left: 40px;}
-.inner-service-content {padding-left: 10px;}
+.inner-service-content {padding-left: 0px;}
 .inner-service.custom-pad {padding: 110px 0 60px 0;}
 .what-we-do-box-content h4 {font-size: 22px;}
 .inner-service-content {margin-top: 30px;}
@@ -911,6 +922,7 @@ color: var(--c-white);
 .facilities-content .accordion-body {font-size: 12px;line-height: 28px;}
 .about-us-info.custom-pad {padding: 60px 0 30px;}
 .about-contact-content h2 {font-size: 20px;}
+.inner-service-content-2 {text-align: center;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
 .service-post.custom-pad .custom-heading {text-align: center;}
