@@ -296,7 +296,7 @@
   .atlanta .custom-heading h3{margin-bottom: 20px;}
   .atlanta .custom-paragraph p {padding:0;}
   .atlanta .atlanta-box{padding: 40px;}
-  .atlanta .atlanta-sub-heading h5{font-size: 18px;}
+  .atlanta .atlanta-sub-heading h5{font-size: 20px;}
   .atlanta .atlanta-heading h3{font-size: 40px;padding: 20px 0 20px 0;}
   .atlanta .atlanta-box::after{left: 40px;top: 16px;}
   .atlanta .atlanta-box-wrap {padding-top: 30px;}
@@ -325,6 +325,7 @@
   .atlanta .custom-paragraph p {padding: 0;}
   .atlanta .custom-heading h3{margin-bottom: 10px;}
   .atlanta .atlanta-box::after {left: 30px;top: 18px;}
+  .atlanta .atlanta-sub-heading h5{font-size: 18px;}
   /*atlanta-end*/
   /*testimonial-start*/
   .testimonial .item iframe {width: 270px;}
