@@ -468,6 +468,9 @@ margin-top: 20px;
 }
 /*service-inner-end-supriyo*/
 /*Inner service page-start-supriyo*/
+.inner-service.custom-pad {
+padding: 140px 0 110px 0;
+}
 .what-we-do.custom-pad .custom-heading {
 text-align: center;
 }
@@ -495,6 +498,56 @@ border-radius: 12px;
 }
 .inner-service-content {
 padding-left: 50px;
+}
+.what-we-do-box {
+border: 2px solid var(--c-secondary);
+border-radius: 5px;
+padding: 15px 15px;
+height: 300px;
+margin-top: 25px;
+cursor: pointer;
+position: relative;
+}
+.what-we-do-box::after {
+position: absolute;
+content: '';
+background-color: rgba(212,191,163,0.2);
+width: 0;
+height: 100%;
+top: 0;
+left: auto;
+transition: all 0.3s ease-in-out;
+right: 0;
+}
+.what-we-do-box:hover::after {
+width: 100%;
+right: auto;
+left: 0;
+}
+.what-we-do-box-content span {
+font-size: 60px;
+color: var(--c-white);
+transition: all 0.3s ease-in-out;
+}
+.what-we-do-box-content h4 {
+font-family: var(--ff-primary);
+font-size: 26px;
+font-weight: 600;
+color: var(--c-secondary);
+text-transform: capitalize;
+margin-top: 10px;
+transition: all 0.3s ease-in-out;
+}
+.what-we-do-box-content .custom-paragraph p {
+color: var(--c-white-200);
+padding: 20px 0;
+}
+.what-we-do-box:hover span {
+padding-left: 30px;
+color: var(--c-secondary);
+}
+.what-we-do-box:hover h4 {
+color: var(--c-white);
 }
 /*Inner service page-end-supriyo*/
 /*responsive-start-Supriyo*/
