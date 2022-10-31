@@ -767,7 +767,7 @@ color: var(--c-white);
 .main-banner .carousel-caption h1 {font-size: 35px;line-height: 50px;}
 .main-banner .carousel-caption p {font-size: 16px;line-height: 30px;margin-top: 15px;}
 .performed-section-heading .custom-paragraph p {padding: 25px 0 30px 0;}
-.box-text {padding: 35px 25px 24px;text-align: center;}
+.box-text {padding: 35px 0px 24px;text-align: center;}
 .male-enhancement.custom-pad {padding: 87px 0 230px 0;}
 .male-enhancement-img::after {width: 81%;height: 675px;left: 20px;top: -20px;}
 .header-left ul li::after {right: 13px;height: 33px;bottom: -16px;}
@@ -784,7 +784,7 @@ color: var(--c-white);
 .performed-button {margin-top: 50px;}
 .male-enhancement-1 {margin-top: 25px;}
 .custom-header .navbar-brand.ms-0.py-0 {width: 30%;}
-.performed-box {padding: 12px;margin-top: 10px;}
+.performed-box {padding: 12px;margin-top: 20px;}
 .header-left ul li a h5 {display: none;}
 .header-left ul li a span {display: block;}
 .header-right a span {right: 0%;top: -12px;font-size: 16px;}
@@ -802,7 +802,7 @@ color: var(--c-white);
 .custom-header .navbar-expand-lg .nav-item:hover .nav-link {color: var(--c-tertiary-text);}
 .custom-header .navbar-expand-lg .nav-item:hover .nav-link.active {color: var(--c-tertiary-text);}
 .male-enhancement-content {margin-top: 40px;text-align: center;}
-.male-enhancement {clip-path: polygon(100% 0, 100% 88%, 43% 89%, 0 93%, 0 0);}
+.male-enhancement {clip-path: polygon(100% 0, 100% 88%, 43% 89%, 0 91%, 0 0);}
 .main-banner .carousel-item.active::after {position: absolute;content: '';background-color: rgba(255,255,255,0.7);width: 100%;top: 0;left: 0;z-index: 0;height: 100vh;}
 .main-banner .carousel-indicators [data-bs-target] {background-color: var(--c-secondary-text);}
 .performed-section-heading .custom-heading h3 br {display: none;}
@@ -857,12 +857,13 @@ color: var(--c-white);
 .box-text {text-align: center;}
 .male-enhancement-img::after {height: 500px;left: 20px;top: -5px;}
 .male-enhancement.custom-pad {padding: 67px 0 200px 0;}
-.main-banner .carousel-caption {bottom: 90px;}
+.main-banner .carousel-caption {bottom: 40px;}
 .header-left ul li:last-child {padding: 0 0px;width: 49%;}
 .performed-section.custom-pad {padding: 50px 0;}
 .custom-header .navbar-header {top: 10px;}
 .box-text {padding: 35px 5px 24px;}
 .male-enhancement .custom-heading h3 {margin-bottom: 0px;}
+.performed-box {margin-top: 10px;}
 /*about-inner-supriyo*/
 .info-img::after {height: 535px;top: -32px;left: 20px;}
 .about-us-info.custom-pad {padding: 80px 0 50px;}
@@ -889,7 +890,7 @@ color: var(--c-white);
 .nav-button {display: none;}
 .male-enhancement-img::after {height: 415px;}
 .custom-header .navbar-brand.ms-0.py-0 {width: 45%;}
-.main-banner .carousel-caption {bottom: 70px;}
+.main-banner .carousel-caption {bottom: 26px;}
 .main-banner .carousel-caption h1 {font-size: 27px;}
 .custom-header .navbar-toggler {height: 35px !important;}
 .custom-header .navbar-header {top: 20px;}
@@ -931,7 +932,7 @@ color: var(--c-white);
 .male-enhancement-img::after {height: 270px;left: 10px;top: 5px;border: 1px solid var(--c-white);}
 .male-enhancement-2 .custom-button {margin-left: 0px;margin-top: 15px;}
 .male-enhancement.custom-pad {padding: 47px 0 200px 0;}
-.main-banner .carousel-caption {bottom: 80px;}
+.main-banner .carousel-caption {bottom: 26px;}
 .performed-section-heading .custom-heading h3 {font-size: 22px;line-height: 32px;}
 .male-enhancement {clip-path: polygon(100% 0, 100% 87%, 43% 88%, 0 91%, 0 0);}
 .custom-header .navbar.navbar-expand-lg.py-0 .navbar-brand.ms-0.py-0 img {height: 20px;}
