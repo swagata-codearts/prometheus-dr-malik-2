@@ -346,17 +346,17 @@ text-transform: capitalize;
 background-color: var(--c-white-100);
 }
 .facilities-content .accordion-button::after {
-padding: 25px 0;
+padding: 15px 0;
 }
 .facilities-content .accordion-item {
-background-color: var(--c-secondary);
+background-color: var(--c-white);
 border: 1px dotted var(--c-tertiary-text);
 }
 .facilities-content .accordion-button.collapsed {
-background-color: var(--c-secondary);
+background-color: var(--c-white);
 }
 .facilities-content .accordion-button {
-background-color: var(--c-secondary);
+background-color: var(--c-white);
 }
 .facilities-content {
 margin-top: 30px;
@@ -940,6 +940,10 @@ color: var(--c-white);
 /*about-inner-supriyo*/
 .about-contact-button-2 {margin: 20px 0px 0px 0px;}
 .info-img::after {height: 295px;left: 10px;top: -22px;}
+.about-contact-button-2 .custom-button {padding: 14px 7px;}
+.about-contact-button-2 .custom-button span {margin-left: 5px;}
+.about-contact-button .custom-button {padding: 14px 7px;}
+.about-contact-button .custom-button span {margin-left: 5px;}
 /*about-inner-supriyo*/
 /*Inner-service-supriyo*/
 .inner-service-right::after {height: 130px;top: -15px;left: 7px;border: 2px solid var(--c-secondary);border-radius: 7px;width: 85%;}
