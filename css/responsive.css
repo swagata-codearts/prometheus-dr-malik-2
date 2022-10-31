@@ -62,7 +62,7 @@
 .inner-banner-text .breadcrumb-item.active {font-size: 20px;}
 .inner-banner-content h1 {font-size: 48px;}
 .custom-inner-banner {padding: 190px 0 70px 0;}
-.custom-paragraph p {font-size: 15px;line-height: 26px;}
+.custom-paragraph p {font-size: 16px;line-height: 26px;}
 }
 
 @media (max-width: 767.98px){
