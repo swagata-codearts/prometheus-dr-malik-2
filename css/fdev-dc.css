@@ -177,6 +177,16 @@
   margin-left: 5px;
 }
 /*testimonial-end*/
+/*thank-you-start*/
+.thank-you {
+  text-align: center;
+}
+.thank-you-content {
+  padding: 50px;
+  box-shadow: 1px 1px 40px 20px #ececec;
+}
+.thank-you .custom-button{margin-top: 50px;}
+/*thank-you-end*/
 
 /*responsive-start-Deep*/
 @media (min-width:1366px) and (max-width:1600px){
