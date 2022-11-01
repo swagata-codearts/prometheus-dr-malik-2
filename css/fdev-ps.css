@@ -218,35 +218,90 @@ padding: 21px 0;
 margin-top: 35px;
 }
 /* +++++++Contact-start++++++++ */
+.address-section{
+    background-color: var(--c-white-100);
+}
 .address-section .left-part{
     text-align: left;
 }
 .address-section .left-part .card-wrap .card{
-    height: 250px;
-    padding: 20px;
-    background-color: var(--c-secondary);
-    text-align: center;    
-box-shadow: 10px 10px grey;
+height: 160px;
+width: 270px;
+padding: 20px;
+background-color: var(--c-secondary);
+text-align: center;    
+box-shadow: 8px 8px var(--c-secondary-text);
+border: 0;
+border-radius: 10px;
 }
 .address-section .left-part .card-wrap .card span i{
     color: var(--c-primary);
 font-size: 40px;
 }
-.address-section .left-part .card-wrap .card .card-title{
+.address-section .left-part .card-wrap .card .card-body{
+    padding: 12px 0 0;
+    margin: 0;
+}
+.address-section .custom-heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.address-section .custom-heading h3{
+    margin-bottom: 13px;
+}
+.address-section .custom-heading p{
 font-family: var(--ff-primary);
-font-size: 20px;
+font-size: 18px;
+font-weight: 400;
+color: var(--c-secondary-text);
+line-height: 25px;
+}
+.address-section .left-part .card-wrap .card .card-body .card-title{
+font-family: var(--ff-primary);
+font-size: 17px;
 font-weight: 700;
 color: var(--c-primary-text);
 }
-.address-section .left-part .card-wrap .card a,.address-section .left-part .card-wrap .card p{
-    font-size: 16px;
+.address-section .left-part .card-wrap .card .card-body a,.address-section .left-part .card-wrap .card .card-body p{
+    font-size: 13px;
     font-family: var(--ff-primary);
     font-weight: 400;
     color: var(--c-secondary-text);
     line-height: 20px;
 }
-.map-section .map-wrap iframe{
+.address-section .img-wrap img{
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+/* .contact-form-section{
+    background-color: var(--c-secondary-text);
+} */
+.contact-form-section .map-wrap iframe{
 width: 100%;
+height: 430px;
+border-radius: 20px;
+}
+.contact-form-section .card{
+    padding:35px 50px;
+    box-shadow: 0px 0px 12px 9px rgb(161 151 151 / 15%);
+    border-radius: 30px;
+}
+.contact-form-section .contact-form-sec-left{
+    padding: 50px 70px;
+    border-radius: 40px;
+}
+.contact-form-section .contact-form-sec-left form .form-group .form-wrap input,.contact-form-section .contact-form-sec-left form .form-group .form-wrap textarea{
+font-size: 13px;
+padding: 14px;
+margin-bottom: 10px;
+border: 0;
+}
+.contact-form-section .contact-form-sec-left form .form-group .form-wrap textarea{
+    height: 150px;
+}
+.contact-form-section .contact-form-sec-left form .form-group .form-btn .custom-button{
+    margin-top: 15px;
 }
 /* +++++++Resposive-start++++++++ */
 
@@ -397,6 +452,14 @@ height: 48px;margin-right: 12px;}
 .footer-wrap .column-wrap .column-bottom-text {margin-top: 24px;}
 .footer-wrap .column-wrap .column-bottom-text li span {top: 0px;}
 .footer-wrap .column-wrap .column-bottom-text ul li {padding-bottom: 11px;padding-left: 19px;}
+/* Contact Us Inner start */
+.address-section .custom-heading h3 {margin-bottom: 0px;}
+.address-section .custom-heading {margin-bottom: 25px;}
+.address-section .custom-heading p {font-size: 16px;line-height: 20px;}
+.address-section .left-part .card-wrap .card {height: 150px;width: 210px;padding: 15px;}
+.address-section .left-part .card-wrap .card span i {font-size: 30px;}
+.address-section .left-part .card-wrap .card .card-body {padding: 6px 0 0;}
+.address-section .left-part .card-wrap .card .card-body .card-title {font-size: 16px;margin-bottom: 6px;}
 /* fdev-ps */
 }
 @media (max-width: 767.98px){
