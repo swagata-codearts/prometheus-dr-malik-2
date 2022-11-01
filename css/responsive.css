@@ -20,7 +20,8 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1366px){
-    .custom-paragraph p {font-size: 17px;line-height: 29px;}
+.custom-paragraph p {font-size: 17px;line-height: 29px;}
+.container {max-width: 1170px;}
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -78,8 +79,6 @@
 .custom-button {padding: 14px 22px;font-size: 12px;}
 .custom-heading h3 {font-size: 25px;line-height: 40px;}
 .inner-banner-content h1 {font-size: 34px;}
-.inner-banner-text .breadcrumb-item {width: 44%;}
-.inner-banner-text .breadcrumb-item.active {width: 56%;}
 .inner-banner-text .breadcrumb-item a {font-size: 17px;}
 .inner-banner-text .breadcrumb-item.active {font-size: 17px;}
 .custom-inner-banner {padding: 160px 0 60px 0;}
@@ -101,8 +100,6 @@
 .inner-banner-content h1 {font-size: 24px;}
 .inner-banner-text .breadcrumb-item a {font-size: 12px;}
 .inner-banner-text .breadcrumb-item.active {font-size: 12px;}
-.inner-banner-text .breadcrumb-item {width: 41%;}
-.inner-banner-text .breadcrumb-item.active {width: 59%;}
 .custom-inner-banner {padding: 140px 0 40px 0;}
 .custom-pad {padding: 30px 0;}
 }

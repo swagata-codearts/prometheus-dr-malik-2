@@ -159,7 +159,7 @@ color: var(--c-tertiary-text);
 background-color: var(--c-white);
 }
 .custom-button span {
-margin-left: 10px;
+margin-left: 15px;
 font-size: 15px;
 }
 /*custom-button-end-supriyo*/
@@ -231,9 +231,10 @@ text-transform: uppercase;
 margin-top: 10px;
 }
 .inner-banner-text .breadcrumb-item {
-display: flex;
-width: 48%;
-justify-content: flex-start;
+margin: 0;
+}
+.inner-banner-text .breadcrumb {
+justify-content: center;
 }
 .inner-banner-text .breadcrumb-item a {
 display: block;
@@ -255,7 +256,6 @@ font-family: var(--ff-secondary);
 font-weight: 600;
 transition: all 0.2s ease-in-out;
 color: var(--c-primary-text);
-width: 52%;
 }
 .inner-banner-text .breadcrumb-item + .breadcrumb-item::before {
 color: var(--c-primary);
