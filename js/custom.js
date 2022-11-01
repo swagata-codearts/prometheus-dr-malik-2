@@ -10,7 +10,7 @@ jQuery('#testimonial-carousel').owlCarousel({
         577:{
             items:2
         },
-        1024:{
+        1025:{
             items:3
         }
     }
