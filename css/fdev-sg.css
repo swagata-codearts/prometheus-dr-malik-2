@@ -417,7 +417,7 @@ border: 2px solid var(--c-tertiary-text);
 }
 /*About-us-inner-end-supriyo*/
 /*service-inner-start-supriyo*/
-.post-box-content {
+/*.post-box-content {
 overflow: hidden;
 position: relative;
 padding-bottom: 40px;
@@ -448,7 +448,7 @@ border: 2px solid var(--c-primary);
 .post-box-text .custom-button:hover {
 color: var(--c-primary);
 background-color: var(--c-white-100);
-}
+}*/
 .service-info.custom-pad {
 background-color: #f5f6fa;
 }
@@ -456,14 +456,42 @@ background-color: #f5f6fa;
 padding: 30px 50px;
 background-color: var(--c-white);
 border-radius: 10px;
-border: 2px dashed var(--c-secondary);
-box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
 }
 .service-info.custom-pad .custom-heading {
 text-align: center;
 }
 .service-info-content {
 margin-top: 20px;
+}
+.service-info-content-box h4 {
+font-family: var(--ff-primary);
+font-size: 28px;
+font-weight: 600;
+color: var(--c-primary);
+margin-bottom: 15px;
+}
+.service-info-img {
+text-align: center;
+position: relative;
+}
+.service-info-img::after {
+position: absolute;
+content: '';
+border: 3px solid var(--c-secondary);
+height: 760px;
+width: 80%;
+top: -42px;
+left: 22px;
+z-index: 1;
+}
+.info-enhancement-img{
+overflow: hidden;
+z-index: 5;
+position: relative;
+}
+.info-enhancement-img img {
+width: 80%;
+object-fit: cover;
 }
 /*service-inner-end-supriyo*/
 /*Inner service page-start-supriyo*/
@@ -560,6 +588,27 @@ color: var(--c-white);
 }
 /*Inner service page-end-supriyo*/
 /*testimonial-inner-page-start-supriyo*/
+.info-img {
+text-align: center;
+position: relative;
+}
+.info-img::after {
+position: absolute;
+content: '';
+border: 3px solid var(--c-secondary);
+height: 680px;
+width: 80%;
+top: -42px;
+left: 22px;
+z-index: -1;
+}
+.dr-img {
+overflow: hidden;
+}
+.dr-img img {
+width: 80%;
+object-fit: cover;
+}
 .review-list li {
 display: inline-block;
 vertical-align: middle;
