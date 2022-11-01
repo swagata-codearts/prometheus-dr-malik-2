@@ -217,6 +217,37 @@ text-align: center;
 padding: 21px 0;
 margin-top: 35px;
 }
+/* +++++++Contact-start++++++++ */
+.address-section .left-part{
+    text-align: left;
+}
+.address-section .left-part .card-wrap .card{
+    height: 250px;
+    padding: 20px;
+    background-color: var(--c-secondary);
+    text-align: center;    
+box-shadow: 10px 10px grey;
+}
+.address-section .left-part .card-wrap .card span i{
+    color: var(--c-primary);
+font-size: 40px;
+}
+.address-section .left-part .card-wrap .card .card-title{
+font-family: var(--ff-primary);
+font-size: 20px;
+font-weight: 700;
+color: var(--c-primary-text);
+}
+.address-section .left-part .card-wrap .card a,.address-section .left-part .card-wrap .card p{
+    font-size: 16px;
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    color: var(--c-secondary-text);
+    line-height: 20px;
+}
+.map-section .map-wrap iframe{
+width: 100%;
+}
 /* +++++++Resposive-start++++++++ */
 
 @media (min-width: 1920px) and (max-width: 2500px){
