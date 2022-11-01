@@ -15,7 +15,24 @@ jQuery('#testimonial-carousel').owlCarousel({
         }
     }
 });
-
+/*inner-testimonial-page-fdev-sg*/
+jQuery('#inner-testimonial-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        577:{
+            items:1
+        },
+        1024:{
+            items:1
+        }
+    }
+});
+/*inner-testimonial-page-fdev-sg*/
 
 jQuery( ".gallery-a-btn" ).each(function() {
     jQuery(this).on("click", function(){
