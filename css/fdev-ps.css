@@ -300,11 +300,11 @@ margin-top: 35px;
 .enhance .enhance-right .enhance-right-button .custom-button {margin-right: 12px;}
 .enhance .enhance-left .enhance-left-top-img {padding-right: 8%;}
 /* Contact Us start */
-.contact-us {padding: 0;}
-.contact-us .contact-right {position: relative;width: 100%;padding: 70px 85px;right: 0px;margin: 2px 0;}
+.contact-us {padding: 0 !important;}
+.contact-us .contact-right {position: relative;width: 100%;padding: 140px 85px 70px 85px;right: 0px;margin: 2px 0;z-index: 0;}
 .contact-us .contact-left {width: 100%;padding: 70px 80px 50px 80px;}
 .contact-us .contact-left .custom-heading h3 {margin-bottom: 70px;}
-.contact-us .contact-left .contact-left-bottom {padding: 35px 0 0px 35px;}
+.contact-us .contact-left .contact-left-bottom {padding: 35px 0 0px 35px;margin-bottom: -140px;position: relative;z-index: 999;}
 .contact-us .contact-left .contact-left-bottom ul li {padding-bottom: 25px;}
 .contact-us .contact-left .contact-left-bottom ul li .media .contact-icon {margin-right: 12px;}
 .contact-us .contact-left .contact-left-bottom ul li h4 {padding-bottom: 0px;}
@@ -340,10 +340,11 @@ enhance .enhance-left .enhance-left-top-img {padding-right: 7%;}
 .enhance .enhance-left {padding-left: 70px;}
 /* Contact Us start */
 .contact-us {padding: 0 !important;}
-.contact-us .contact-right {position: relative;width: 100%;padding: 60px;right: 0px;margin:2px 0;}
+.contact-us .contact-right {position: relative;width: 100%;padding: 120px 60px 60px 60px;right: 0px;margin:2px 0;z-index: 0;}
 .contact-us .contact-left {width: 100%;padding: 50px 60px 30px 60px;}
 .contact-us .contact-left .custom-heading h3 {margin-bottom: 50px;padding-right: 0px;line-height: 38px;}
-.contact-us .contact-left .contact-left-bottom {padding: 30px 0 0 30px;}
+.contact-us .contact-left .contact-left-bottom {padding: 30px 0 0 30px;position: relative;z-index: 999;
+margin-bottom: -114px;}
 .contact-us .contact-left .contact-left-bottom ul li p, .contact-us .contact-left .contact-left-bottom ul li a {font-size: 20px;line-height: 28px;}
 .contact-us .contact-left .contact-left-bottom ul li .media .contact-icon {font-size: 22px;width: 48px;
 height: 48px;margin-right: 12px;}
@@ -384,10 +385,10 @@ height: 48px;margin-right: 12px;}
 .contact-us .contact-left .contact-left-bottom ul li h4 {padding-bottom: 0px;font-size: 14px;}
 .contact-us .contact-left .contact-left-bottom ul li .media .contact-icon {font-size: 20px;width: 45px;
 height: 45px;margin-right: 8px;}
-.contact-us .contact-left .contact-left-bottom {padding: 20px 0 0 20px;}
+.contact-us .contact-left .contact-left-bottom {padding: 20px 0 0 20px;margin-bottom: -103px;}
 .contact-us .contact-left .contact-left-bottom ul li p, .contact-us .contact-left .contact-left-bottom ul li a {font-size: 17px;line-height: 22px;}
 .contact-us .contact-left .contact-left-bottom ul li {padding-bottom: 20px;}
-.contact-us .contact-right {padding: 45px;}
+.contact-us .contact-right {padding: 100px 45px 45px 45px;}
 ontact-us .contact-left {padding: 50px 50px 25px 50px;}
 /* footer start */
 .footer-wrap .footer-bottom-wrap {padding: 12px 0;margin-top: 15px;}
@@ -419,17 +420,15 @@ ontact-us .contact-left {padding: 50px 50px 25px 50px;}
 .enhance .enhance-right .enhance-right-button .custom-button {margin-bottom: 5px;}
 .enhance .enhance-right .custom-paragraph p {padding-bottom: 14px;}
 /* Contact Us Start*/
-.contact-us .contact-right {padding: 18px;}
+.contact-us .contact-right {padding: 75px 18px 22px 18px;}
 .contact-us .contact-right form .form-group .form-wrap textarea{height: 120px;}
 .contact-us .contact-left {padding: 30px 30px 15px 30px;}
 .contact-us .contact-left .custom-heading h3 {margin-bottom: 22px; }
-.contact-us .contact-right form .form-btn .custom-button {margin-top: 5px;}
-.contact-us .contact-right form .form-group .form-wrap input, .contact-us .contact-right form .form-group .form-wrap textarea {margin-bottom: 6px;}
 .contact-us .contact-left .contact-left-bottom ul li .media .contact-icon {font-size: 16px;width: 35px;
 height: 35px;margin-right: 4px;}
 .contact-us .contact-left .contact-left-bottom ul li p, .contact-us .contact-left .contact-left-bottom ul li a {font-size: 14px;line-height: 21px;}
 .contact-us .contact-left .contact-left-bottom ul li h4 {font-size: 12px;}
-.contact-us .contact-left .contact-left-bottom {padding: 15px 0 0 15px;}
+.contact-us .contact-left .contact-left-bottom {padding: 15px 0 0 15px;margin-bottom: -70px;}
 .contact-us .contact-left .contact-left-bottom ul li {padding-bottom: 15px;}
 /* footer start */
 .footer-wrap {padding-top: 30px;}
