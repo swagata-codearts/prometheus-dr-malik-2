@@ -658,11 +658,11 @@ top: 60px;
 }
 .carousel-section.custom-pad .owl-prev span {
 font-size: 100px;
-color: var(--c-white);
+color: var(--c-secondary);
 transition: all 0.2s ease-in-out;
 }
 .carousel-section.custom-pad .owl-prev span:hover {
-color: var(--c-secondary);
+    color: var(--c-white);
 }
 .carousel-section.custom-pad .owl-next {
 position: absolute;
@@ -671,11 +671,11 @@ top: 60px;
 }
 .carousel-section.custom-pad .owl-next span {
 font-size: 100px;
-color: var(--c-white);
+color: var(--c-secondary);
 transition: all 0.2s ease-in-out;
 }
 .carousel-section.custom-pad .owl-next span:hover {
-color: var(--c-secondary);
+color: var(--c-white);
 }
 .carousel-section.custom-pad .custom-paragraph p {
 color: var(--c-white-100);
