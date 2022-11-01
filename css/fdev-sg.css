@@ -662,7 +662,7 @@ color: var(--c-secondary);
 transition: all 0.2s ease-in-out;
 }
 .carousel-section.custom-pad .owl-prev span:hover {
-    color: var(--c-white);
+color: var(--c-white);
 }
 .carousel-section.custom-pad .owl-next {
 position: absolute;
