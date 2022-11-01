@@ -559,6 +559,96 @@ color: var(--c-secondary);
 color: var(--c-white);
 }
 /*Inner service page-end-supriyo*/
+/*testimonial-inner-page-start-supriyo*/
+.review-list li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .review-list li span img {
+    width: 15%;
+  }
+  .review-list-content {
+    padding-left: 30px;
+  }
+  .review-list {
+    border-bottom: 1px solid var(--c-white-200);
+    padding: 40px 0 40px 0;
+  }
+.review-list li h4 {
+    font-family: var(--ff-primary);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--c-tertiary-text);
+  }
+  .expert-content .custom-paragraph p {
+    margin-top: 30px;
+}
+.review-list li h5 {
+    padding: 15px 0;
+    font-family: var(--ff-primary);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--c-tertiary-text);
+  }
+  .expert-content-button {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .carousel-section.custom-pad .custom-heading h3 {
+    color: var(--c-white);
+}
+.carousel-section.custom-pad .custom-heading {
+    text-align: center;
+  }
+.carousel-section.custom-pad .item {
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+  }
+.carousel-section.custom-pad .owl-prev {
+    position: absolute;
+    left: -50px;
+    top: 60px;
+  }
+  .carousel-section.custom-pad .owl-prev span {
+    font-size: 100px;
+    color: var(--c-white);
+    transition: all 0.2s ease-in-out;
+  }
+.carousel-section.custom-pad .owl-prev span:hover {
+    color: var(--c-secondary);
+}
+.carousel-section.custom-pad .owl-next {
+    position: absolute;
+    right: -50px;
+    top: 60px;
+  }
+  .carousel-section.custom-pad .owl-next span {
+    font-size: 100px;
+    color: var(--c-white);
+    transition: all 0.2s ease-in-out;
+  }
+.carousel-section.custom-pad .owl-next span:hover {
+    color: var(--c-secondary);
+}
+.carousel-section.custom-pad .custom-paragraph p {
+    color: var(--c-white-100);
+}
+.carousel-section.custom-pad .item h4 {
+    font-family: var(--ff-primary);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--c-white);
+    margin-top: 25px;
+  }
+  .carousel-section.custom-pad .owl-dots {
+    display: none;
+  }
+  .inner-testimonial-carousel .qoute {
+    color: var(--c-secondary);
+    font-size: 80px;
+  }
+/*testimonial-inner-page-end-supriyo*/
 /*responsive-start-Supriyo*/
 @media (min-width: 1920px) and (max-width: 2500px){
 
