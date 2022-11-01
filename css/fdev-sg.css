@@ -453,6 +453,7 @@ background-color: #f5f6fa;
 padding: 30px 50px;
 background-color: var(--c-white);
 border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
 }
 .service-info.custom-pad .custom-heading {
 text-align: center;
@@ -1002,7 +1003,6 @@ font-size: 80px;
 .inner-service-content-2 {margin-top: 10px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
-.service-info-content-box {box-shadow: 0px 0px 10px rgba(0,0,0,0.2);}
 .service-info-content-box {padding: 20px 20px;}
 .service-info-img::after {height: 810px;}
 .service-info-content-box h4 {font-size: 24px;}
