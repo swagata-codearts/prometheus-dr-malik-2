@@ -322,19 +322,19 @@ color: var(--c-white);
 }
 .facilities-content .accordion-button.collapsed {
 font-family: var(--ff-primary);
-font-size: 18px;
+font-size: 20px;
 color: var(--c-tertiary-text);
-font-weight: 500;
+font-weight: 600;
 }
 .facilities-content .accordion-button {
 font-family: var(--ff-primary);
-font-size: 18px;
+font-size: 20px;
 color: var(--c-tertiary-text) !important;
-font-weight: 400;
+font-weight: 600;
 }
 .facilities-content  .accordion-body {
 padding: 1rem 1.25rem;
-font-size: 16px;
+font-size: 18px;
 font-family: var(--ff-primary);
 font-weight: 400;
 color: var(--c-secondary-text);
@@ -743,6 +743,7 @@ font-size: 80px;
 .about-contact-content h2 {font-size: 48px;}
 .about-contact.custom-pad {padding: 80px 0;}
 .facilities.custom-pad {padding: 80px 0;}
+.info-content {padding: 0 50px 0 0;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
 .service-info-img::after {height: 720px;}
@@ -792,6 +793,8 @@ font-size: 80px;
 .content-box ul li {font-size: 16px;}
 .about-contact.custom-pad {padding: 80px 0;}
 .facilities.custom-pad {padding: 80px 0;}
+.info-content {padding: 0 40px 0 0;}
+.facilities-content .accordion-body {font-size: 17px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
 .service-info-img::after {height: 620px;}
@@ -847,6 +850,8 @@ font-size: 80px;
 .info-content .custom-paragraph p {padding: 8px 0;}
 .facilities-content {margin-top: 10px;}
 .content-box {padding: 30px 30px;}
+.info-content {padding: 0 30px 0 0;}
+.facilities-content .accordion-body {font-size: 17px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
 .service-info-content-box {padding: 20px 20px;}
@@ -909,6 +914,8 @@ font-size: 80px;
 .info-content .custom-paragraph p {padding: 8px 0;}
 .facilities-content {margin-top: 10px;}
 .content-box {padding: 30px 30px;}
+.info-content {padding: 0 30px 0 0;}
+.facilities-content .accordion-body {font-size: 16px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
 .service-info-content-box {padding: 20px 20px;}
@@ -997,10 +1004,10 @@ font-size: 80px;
 .content-box {padding: 30px 30px;}
 .info-content {margin-top: 30px;}
 .facilities-content .accordion-button.collapsed {font-size: 16px;}
-.facilities-content .accordion-body {font-size: 13px;line-height: 30px;}
 .facilities-content .accordion-button {font-size: 16px;}
 .about-contact-content h2 {font-size: 34px;}
 .inner-service-content-2 {margin-top: 10px;}
+.facilities-content .accordion-body {font-size: 16px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
 .service-info-content-box {padding: 20px 20px;}
@@ -1095,9 +1102,9 @@ font-size: 80px;
 .info-img::after {height: 445px;}
 .info-content .custom-heading {text-align: center;}
 .info-content .custom-paragraph {text-align: center;}
-.facilities-content .accordion-button.collapsed {font-size: 14px;}
+.facilities-content .accordion-button.collapsed {font-size: 15px;line-height: 24px;}
 .facilities-content .accordion-button {font-size: 14px;}
-.facilities-content .accordion-body {font-size: 12px;line-height: 28px;}
+.facilities-content .accordion-body {font-size: 15px;line-height: 22px;}
 .about-us-info.custom-pad {padding: 60px 0 30px;}
 .about-contact-content h2 {font-size: 20px;}
 .inner-service-content-2 {text-align: center;}
@@ -1134,9 +1141,9 @@ font-size: 80px;
 /*about-inner-supriyo*/
 .about-contact-button-2 {margin: 20px 0px 0px 0px;}
 .info-img::after {height: 295px;left: 10px;top: -22px;}
-.about-contact-button-2 .custom-button {padding: 14px 7px;}
+.about-contact-button-2 .custom-button {padding: 14px 11px;font-size: 11px;}
 .about-contact-button-2 .custom-button span {margin-left: 5px;}
-.about-contact-button .custom-button {padding: 14px 7px;}
+.about-contact-button .custom-button {padding: 14px 11px;font-size: 11px;}
 .about-contact-button .custom-button span {margin-left: 5px;}
 /*about-inner-supriyo*/
 /*Inner-service-supriyo*/
