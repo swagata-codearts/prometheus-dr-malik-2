@@ -602,6 +602,7 @@ line-height: 22px;}
 .address-section .left-part .card-wrap .card .card-body {padding: 8px 0px 0;}
 .map-section .map-wrap iframe {height: 165px;}
 .address-section .custom-heading p {font-size: 13px;line-height: 16px;}
+.map-section .custom-heading {margin-bottom: 0px;}
 /* fdev-ps */  
 }
 
