@@ -279,10 +279,10 @@ z-index: 9;
 position: absolute;
 content: '';
 border: 3px solid var(--c-white);
-width: 79%;
-height: 713px;
+width: 80%;
+height: 96%;
 left: 30px;
-top: -20px;
+top: -21px;
 z-index: -1;
 }
 .male-enhancement .custom-heading h3 {
@@ -422,7 +422,7 @@ position: relative;
 position: absolute;
 content: '';
 border: 3px solid var(--c-secondary);
-height: 760px;
+height: 99%;
 width: 80%;
 top: -42px;
 left: 22px;
@@ -461,7 +461,7 @@ position: absolute;
 content: '';
 border: 3px solid var(--c-secondary);
 width: 100%;
-height: 360px;
+height: 100%;
 top: -30px;
 left: -30px;
 z-index: -1;
@@ -540,7 +540,7 @@ position: relative;
 position: absolute;
 content: '';
 border: 3px solid var(--c-secondary);
-height: 680px;
+height: 99%;
 width: 80%;
 top: -42px;
 left: 22px;
@@ -619,7 +619,7 @@ padding: 0 0 110px 0;
 .box-text {padding: 30px 25px 20px;}
 .performed-section.custom-pad {padding: 80px 0;}
 .male-enhancement.custom-pad {padding: 127px 0 230px 0;}
-.male-enhancement-img::after {width: 80%;height: 593px;}
+.male-enhancement-img::after {width: 80%;height: 96%;}
 .header-left ul li a span {font-size: 18px;top: -3px;}
 .header-left ul li {padding: 0 18px 0px 0px;}
 .header-left ul li::after {right: 6px;height: 54px;bottom: -12px;}
@@ -634,18 +634,18 @@ padding: 0 0 110px 0;
 .male-enhancement-content .custom-paragraph p {padding: 15px 0;font-size: 15px;}
 .custom-header .navbar-expand-lg .navbar-nav .nav-link {font-size: 15px;}
 /*about-inner-supriyo*/
-.info-img::after {height: 640px;}
+.info-img::after {height: 99%;}
 .about-contact-content h2 {font-size: 48px;}
 .about-contact.custom-pad {padding: 80px 0;}
 .facilities.custom-pad {padding: 80px 0;}
 .info-content {padding: 0 50px 0 0;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
-.service-info-img::after {height: 720px;}
+.service-info-img::after {height: 99%;}
 /*service-inner-supriyo*/
 /*Inner-service-supriyo*/
 .inner-service-img img {width: 80%;}
-.inner-service-right::after {width: 80%;height: 270px;top: -30px;left: 35px;}
+.inner-service-right::after {width: 80%;top: -30px;left: 35px;}
 .inner-service.custom-pad {padding: 120px 0 110px 0;}
 /*Inner-service-supriyo*/
 }
@@ -657,7 +657,7 @@ padding: 0 0 110px 0;
 .box-text {padding: 30px 25px 20px;}
 .performed-section.custom-pad {padding: 70px 0;}
 .male-enhancement.custom-pad {padding: 107px 0 210px 0;}
-.male-enhancement-img::after {width: 80%;height: 520px;top: 0px;}
+.male-enhancement-img::after {width: 80%;height: 95%;top: 0px;}
 .header-left ul li a span {font-size: 16px;top: -6px;}
 .header-left ul li {padding: 0 18px 0px 0px;}
 .header-left ul li::after {right: 6px;height: 56px;bottom: -14px;}
@@ -678,7 +678,7 @@ padding: 0 0 110px 0;
 .performed-button {margin-top: 50px;}
 .male-enhancement-1 {margin-top: 25px;}
 /*about-inner-supriyo*/
-.info-img::after {height: 560px;}
+.info-img::after {height: 99%;}
 .about-contact-content h2 {font-size: 44px;}
 .about-us-info.custom-pad {padding: 80px 0;}
 .content-box ul li {font-size: 16px;}
@@ -688,11 +688,11 @@ padding: 0 0 110px 0;
 .facilities-content .accordion-body {font-size: 17px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
-.service-info-img::after {height: 620px;}
+.service-info-img::after {height: 99%;}
 /*service-inner-supriyo*/
 /*Inner-service-supriyo*/
 .inner-service-img img {width: 80%;}
-.inner-service-right::after {width: 80%;height: 238px;top: -30px;left: 30px;}
+.inner-service-right::after {width: 80%;top: -30px;left: 30px;}
 .inner-service.custom-pad {padding: 100px 0 90px 0;}
 .inner-service-content {padding-left: 10px;}
 /*Inner-service-supriyo*/
@@ -706,7 +706,7 @@ padding: 0 0 110px 0;
 .box-text {padding: 35px 15px 20px;}
 .performed-section.custom-pad {padding: 70px 0;}
 .male-enhancement.custom-pad {padding: 77px 0 170px 0;}
-.male-enhancement-img::after {width: 81%;height: 440px;top: 0px;}
+.male-enhancement-img::after {width: 81%;height: 94%;top: 0px;}
 .header-left ul li a span {font-size: 16px;top: -6px;}
 .header-left ul li {padding: 0 18px 0px 0px;}
 .header-left ul li::after {right: 6px;height: 35px;bottom: -7px;}
@@ -727,7 +727,7 @@ padding: 0 0 110px 0;
 .performed-button {margin-top: 50px;}
 .male-enhancement-1 {margin-top: 25px;}
 /*about-inner-supriyo*/
-.info-img::after {height: 480px;}
+.info-img::after {height: 99%;}
 .about-contact-content h2 {font-size: 38px;}
 .about-us-info.custom-pad {padding: 80px 0;}
 .content-box ul li {font-size: 16px;}
@@ -740,11 +740,11 @@ padding: 0 0 110px 0;
 .facilities-content .accordion-body {font-size: 17px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
-.service-info-img::after {height: 530px;}
+.service-info-img::after {height: 99%;}
 /*service-inner-supriyo*/
 /*Inner-service-supriyo*/
 .inner-service-img img {width: 80%;}
-.inner-service-right::after {width: 80%;height: 200px;top: -30px;left: 20px;}
+.inner-service-right::after {width: 80%;top: -30px;left: 20px;}
 .inner-service.custom-pad {padding: 80px 0 80px 0;}
 .inner-service-content {padding-left: 10px;}
 .what-we-do-box-content h4 {font-size: 22px;}
@@ -753,6 +753,7 @@ padding: 0 0 110px 0;
 .review-list {text-align: center;}
 .review-list-content {padding-top: 20px;padding-left: 0;}
 .expert-content .custom-paragraph p {text-align: center;}
+.inner-page-testimonial-carousel .testimonial.custom-pad {padding: 0 0 80px 0;}
 /*testimonial-inner-supriyo*/
 }
 
@@ -764,7 +765,7 @@ padding: 0 0 110px 0;
 .box-text {padding: 35px 15px 20px;}
 .performed-section.custom-pad {padding: 60px 0;}
 .male-enhancement.custom-pad {padding: 77px 0 170px 0;}
-.male-enhancement-img::after {width: 81%;height: 428px;left: 20px;top: 0px;}
+.male-enhancement-img::after {width: 81%;height: 94%;left: 20px;top: 0px;}
 .header-left ul li a span {font-size: 14px;top: -4px;}
 .header-left ul li {padding: 0 6px 0px 0px;}
 .header-left ul li::after {right: 0px;height: 35px;bottom: -7px;}
@@ -786,7 +787,7 @@ padding: 0 0 110px 0;
 .male-enhancement-1 {margin-top: 25px;}
 .performed-box {padding: 12px;}
 /*about-inner-supriyo*/
-.info-img::after {height: 460px;top: -32px;}
+.info-img::after {height: 99%;top: -32px;}
 .about-contact-content h2 {font-size: 38px;}
 .about-us-info.custom-pad {padding: 80px 0;}
 .content-box ul li {font-size: 16px;}
@@ -799,11 +800,11 @@ padding: 0 0 110px 0;
 .facilities-content .accordion-body {font-size: 16px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
-.service-info-img::after {height: 520px;}
+.service-info-img::after {height: 99%;}
 /*service-inner-supriyo*/
 /*Inner-service-supriyo*/
 .inner-service-img img {width: 80%;}
-.inner-service-right::after {width: 80%;height: 200px;top: -30px;left: 20px;}
+.inner-service-right::after {width: 80%;top: -30px;left: 20px;}
 .inner-service-content {padding-left: 10px;}
 .inner-service.custom-pad {padding: 80px 0 80px 0;}
 .what-we-do-box-content h4 {font-size: 22px;}
@@ -812,6 +813,7 @@ padding: 0 0 110px 0;
 .review-list {text-align: center;}
 .review-list-content {padding-top: 20px;padding-left: 0;}
 .expert-content .custom-paragraph p {text-align: center;}
+.inner-page-testimonial-carousel .testimonial.custom-pad {padding: 0 0 80px 0;}
 /*testimonial-inner-supriyo*/
 }
 
@@ -822,7 +824,7 @@ padding: 0 0 110px 0;
 .performed-section-heading .custom-paragraph p {padding: 25px 0 30px 0;}
 .box-text {padding: 35px 0px 24px;text-align: center;}
 .male-enhancement.custom-pad {padding: 87px 0 230px 0;}
-.male-enhancement-img::after {width: 81%;height: 675px;left: 20px;top: -20px;}
+.male-enhancement-img::after {width: 81%;height: 96%;left: 20px;top: -20px;}
 .header-left ul li::after {right: 13px;height: 33px;bottom: -16px;}
 .header-right a h5 {display:none;}
 .header-right {text-align: center;}
@@ -871,7 +873,7 @@ padding: 0 0 110px 0;
 .custom-header .navbar-toggler .icon-bar:nth-child(4){transform:rotate(45deg) translateY(-4px) translateX(-3px);}
 .custom-header .navbar-header {display: block;position: absolute;right: 0;background-color: var(--c-tertiary-text);top: 16px;border-radius: 4px;}
 /*about-inner-supriyo*/
-.info-img::after {height: 725px;top: -32px;left: 40px;}
+.info-img::after {height: 99%;top: -32px;left: 40px;}
 .about-contact-content h2 {font-size: 38px;}
 .content-box ul li {font-size: 16px;}
 .facilities.custom-pad {padding: 70px 0;}
@@ -886,12 +888,13 @@ padding: 0 0 110px 0;
 .facilities-content .accordion-body {font-size: 16px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
-.service-info-img::after {height: 810px;}
+.service-info-img::after {height: 99%;}
 .service-provide.custom-pad {padding: 110px 0 60px 0;}
+.info-enhancement-img img {width: 80%;object-fit: cover;height: 500px;}
 /*service-inner-supriyo*/
 /*Inner-service-supriyo*/
 .inner-service-img img {width: 80%;}
-.inner-service-right::after {width: 80%;height: 300px;top: -30px;left: 40px;}
+.inner-service-right::after {width: 80%;top: -30px;left: 40px;}
 .inner-service-content {padding-left: 0px;}
 .inner-service.custom-pad {padding: 110px 0 60px 0;}
 .what-we-do-box-content h4 {font-size: 22px;}
@@ -911,12 +914,12 @@ padding: 0 0 110px 0;
 .main-banner .carousel-caption.container.d-none.d-md-block {display: block !important;}
 .main-banner .carousel-caption h1 {font-size: 30px;line-height: 40px;}
 .main-banner .carousel-caption p {font-size: 14px;margin-top: 10px;}
-.main-banner .d-block.w-100 {object-fit: cover;height: 38vh;}
+.main-banner .d-block.w-100 {object-fit: cover;height: 28vh;}
 .nav-button {right: 80px;top: 12px;}
 .box-text {text-align: center;}
-.male-enhancement-img::after {height: 500px;left: 20px;top: -5px;}
+.male-enhancement-img::after {height: 95%;left: 20px;top: -5px;}
 .male-enhancement.custom-pad {padding: 67px 0 200px 0;}
-.main-banner .carousel-caption {bottom: 40px;}
+.main-banner .carousel-caption {bottom: 70px;}
 .header-left ul li:last-child {padding: 0 0px;width: 49%;}
 .performed-section.custom-pad {padding: 50px 0;}
 .custom-header .navbar-header {top: 10px;}
@@ -924,7 +927,7 @@ padding: 0 0 110px 0;
 .male-enhancement .custom-heading h3 {margin-bottom: 0px;}
 .performed-box {margin-top: 10px;}
 /*about-inner-supriyo*/
-.info-img::after {height: 535px;top: -32px;left: 20px;}
+.info-img::after {height: 99%;top: -32px;left: 20px;}
 .about-us-info.custom-pad {padding: 80px 0 50px;}
 .facilities-content {margin-top: 30px;}
 .about-contact-content h2 {font-size: 22px;}
@@ -933,13 +936,13 @@ padding: 0 0 110px 0;
 .facilities.custom-pad {padding: 50px 0;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
-.service-info-img::after {height: 610px;}
+.service-info-img::after {height: 99%;}
 .service-provide.custom-pad {padding: 90px 0 50px 0;}
 .service-info-content-box h4 {font-size: 20px;}
 /*service-inner-supriyo*/
 /*Inner-service-supriyo*/
 .inner-service.custom-pad {padding: 90px 0 50px 0;}
-.inner-service-right::after {height: 230px;top: -30px;left: 30px;}
+.inner-service-right::after {top: -30px;left: 30px;}
 .what-we-do-box {height: 250px;}
 /*Inner-service-supriyo*/
 /*testimonial-inner-supriyo*/
@@ -953,9 +956,9 @@ padding: 0 0 110px 0;
 
 @media (max-width: 575.98px){
 .nav-button {display: none;}
-.male-enhancement-img::after {height: 415px;}
+.male-enhancement-img::after {height: 94%;}
 .custom-header .navbar-brand.ms-0.py-0 {width: 45%;}
-.main-banner .carousel-caption {bottom: 26px;}
+.main-banner .carousel-caption {bottom: 50px;}
 .main-banner .carousel-caption h1 {font-size: 27px;}
 .custom-header .navbar-toggler {height: 35px !important;}
 .custom-header .navbar-header {top: 20px;}
@@ -968,11 +971,11 @@ padding: 0 0 110px 0;
 .custom-header .navbar.navbar-expand-lg.py-0 .navbar-brand.ms-0.py-0 img {height: 25px;}
 .box-text .custom-paragraph p {margin-top: 15px;}
 /*about-inner-supriyo*/
-.info-img::after {height: 445px;}
+.info-img::after {height: 99%;}
 .info-content .custom-heading {text-align: center;}
 .info-content .custom-paragraph {text-align: center;}
 .facilities-content .accordion-button.collapsed {font-size: 15px;line-height: 24px;}
-.facilities-content .accordion-button {font-size: 14px;}
+.facilities-content .accordion-button {font-size: 15px;line-height: 24px;}
 .facilities-content .accordion-body {font-size: 15px;line-height: 22px;}
 .about-us-info.custom-pad {padding: 60px 0 30px;}
 .about-contact-content h2 {font-size: 20px;}
@@ -980,12 +983,13 @@ padding: 0 0 110px 0;
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
 .service-post.custom-pad .custom-heading {text-align: center;}
-.service-info-img::after {height: 500px;top: -32px;}
+.service-info-img::after {height: 99%;top: -32px;}
 .service-provide.custom-pad {padding: 80px 0 40px 0;}
+.info-enhancement-img img {height: 400px;}
 /*service-inner-supriyo*/
 /*Inner-service-supriyo*/
 .inner-service-content {text-align: center;}
-.inner-service-right::after {height: 188px;top: -25px;left: 20px;}
+.inner-service-right::after {top: -25px;left: 20px;}
 .inner-service.custom-pad {padding: 70px 0 40px 0;}
 .what-we-do-box-content .custom-paragraph p {padding: 15px 0;}
 /*Inner-service-supriyo*/
@@ -996,13 +1000,12 @@ padding: 0 0 110px 0;
 
 @media only screen and (max-width: 480.98px) {	
 .main-banner .carousel-caption p {font-size: 13px;line-height: 22px;}
-.main-banner .d-block.w-100 {height: 36vh;}
 .custom-header .navbar-brand.ms-0.py-0 {width: 50%;}
 .box-text {padding: 20px 0 10px;}
-.male-enhancement-img::after {height: 270px;left: 10px;top: 5px;border: 1px solid var(--c-white);}
+.male-enhancement-img::after {height: 90%;left: 10px;top: 5px;border: 1px solid var(--c-white);}
 .male-enhancement-2 .custom-button {margin-left: 0px;margin-top: 15px;}
 .male-enhancement.custom-pad {padding: 47px 0 200px 0;}
-.main-banner .carousel-caption {bottom: 26px;}
+.main-banner .carousel-caption {bottom: 66px;}
 .performed-section-heading .custom-heading h3 {font-size: 22px;line-height: 32px;}
 .male-enhancement {clip-path: polygon(100% 0, 100% 87%, 43% 88%, 0 91%, 0 0);}
 .custom-header .navbar.navbar-expand-lg.py-0 .navbar-brand.ms-0.py-0 img {height: 20px;}
@@ -1011,19 +1014,22 @@ padding: 0 0 110px 0;
 .male-enhancement-1 .custom-button {padding: 14px 40px;}
 /*about-inner-supriyo*/
 .about-contact-button-2 {margin: 20px 0px 0px 0px;}
-.info-img::after {height: 295px;left: 10px;top: -22px;}
+.info-img::after {left: 10px;top: -22px;height: 99%;border: 2px solid var(--c-secondary);}
 .about-contact-button-2 .custom-button {padding: 14px 11px;font-size: 11px;}
 .about-contact-button-2 .custom-button span {margin-left: 5px;}
 .about-contact-button .custom-button {padding: 14px 11px;font-size: 11px;}
 .about-contact-button .custom-button span {margin-left: 5px;}
 /*about-inner-supriyo*/
+/*service-inner-supriyo*/
+.service-info-img::after {height: 99%;top: -22px;border: 2px solid var(--c-secondary);left: 12px;}
+.info-enhancement-img img {height: 300px;}
+/*service-inner-supriyo*/
 /*Inner-service-supriyo*/
 .inner-service-content {margin-top: 20px;}
 .service-provide.custom-pad {padding: 50px 0 30px 0;}
 .what-we-do-box {height: 270px;}
 .inner-service-img img {width: 85%;}
-.service-info-img::after {height: 330px;top: -22px;border: 2px solid var(--c-secondary);left: 12px;}
-.inner-service-right::after {height: 132px;top: -15px;left: 8px;border: 2px solid var(--c-secondary);width: 85%;border-radius: 7px;}
+.inner-service-right::after {top: -15px;left: 8px;border: 2px solid var(--c-secondary);width: 85%;border-radius: 7px;}
 /*Inner-service-supriyo*/
 /*testimonial-inner-supriyo*/
 .carousel-section.custom-pad .item h4 {font-size: 18px;}
