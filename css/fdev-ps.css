@@ -278,11 +278,14 @@ color: var(--c-primary-text);
 /* .contact-form-section{
     background-color: var(--c-secondary-text);
 } */
-.contact-form-section .map-wrap iframe{
+.map-section .map-wrap iframe{
 width: 100%;
 height: 430px;
 border-radius: 20px;
 }
+.map-section .custom-heading {
+    text-align: center;
+  }
 .contact-form-section .card{
     padding:35px 50px;
     box-shadow: 0px 0px 12px 9px rgb(161 151 151 / 15%);
@@ -291,6 +294,7 @@ border-radius: 20px;
 .contact-form-section .contact-form-sec-left{
     padding: 50px 70px;
     border-radius: 40px;
+    background-color: #e5e7ef;
 }
 .contact-form-section .contact-form-sec-left form .form-group .form-wrap input,.contact-form-section .contact-form-sec-left form .form-group .form-wrap textarea{
 font-size: 13px;
@@ -434,7 +438,7 @@ border: 0;
 .address-section .left-part .card-wrap .card {width: 220px;padding: 18px;height: 143px;}
 .contact-form-section .contact-form-sec-left form .form-group .form-wrap input, .contact-form-section .contact-form-sec-left form .form-group .form-wrap textarea {padding: 12px;margin-bottom: 8px;}
 .contact-form-section .contact-form-sec-left {padding: 40px 50px;}
-.contact-form-section .map-wrap iframe {height: 390px;}
+.map-section .map-wrap iframe {height: 390px;}
 .contact-form-section .contact-form-sec-left form .form-group .form-btn .custom-button {margin-top: 9px;}
 .address-section .left-part .card-wrap .card span i {font-size: 35px;}
 .address-section .left-part .card-wrap .card .card-body {padding: 8px 0 0;}
@@ -496,9 +500,11 @@ height: 48px;margin-right: 12px;}
 .contact-form-section .contact-form-sec-left {padding: 25px;border-radius: 30px;}
 .contact-form-section .contact-form-sec-left form .form-group .form-wrap input, .contact-form-section .contact-form-sec-left form .form-group .form-wrap textarea {font-size: 12px; padding: 10px;margin-bottom: 7px;}
 .contact-form-section .contact-form-sec-left form .form-group .form-btn .custom-button {margin-top: 8px;}
-.contact-form-section .map-wrap iframe {height: 280px;}
+.map-section .map-wrap iframe {height: 280px;}
 .contact-form-section .contact-form-sec-left form .form-group .form-wrap textarea {height: 135px;}
 .contact-form-section .map-wrap {margin-top: 15px;}
+.map-section .custom-heading h5{margin-bottom: 10px;}
+.map-section .custom-heading{margin-bottom: 12px;}
 /* fdev-ps */
 }
 @media (max-width: 767.98px){
@@ -549,8 +555,10 @@ ontact-us .contact-left {padding: 50px 50px 25px 50px;}
 .address-section {padding: 50px 0;}
 .contact-form-section .card {padding: 15px 20px;}
 .contact-form-section .map-wrap {margin-top: 6px;}
-.contact-form-section .map-wrap iframe {height: 220px;}
+.map-section .map-wrap iframe {height: 220px;}
 .address-section .left-part .card-gap{margin-top: 20px;}
+.map-section .custom-heading h5 {margin-bottom: 7px;}
+.map-section .custom-heading {margin-bottom: 7px;}
 /* fdev-ps */  
 }
 
@@ -592,7 +600,7 @@ line-height: 22px;}
 .contact-form-section .contact-form-sec-left {padding: 18px;border-radius: 25px;}
 .address-section .left-part .card-wrap .card {width: 260px;}
 .address-section .left-part .card-wrap .card .card-body {padding: 8px 0px 0;}
-.contact-form-section .map-wrap iframe {height: 165px;}
+.map-section .map-wrap iframe {height: 165px;}
 .address-section .custom-heading p {font-size: 13px;line-height: 16px;}
 /* fdev-ps */  
 }
