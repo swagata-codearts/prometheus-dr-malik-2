@@ -322,19 +322,19 @@ color: var(--c-white);
 }
 .facilities-content .accordion-button.collapsed {
 font-family: var(--ff-primary);
-font-size: 18px;
+font-size: 20px;
 color: var(--c-tertiary-text);
-font-weight: 500;
+font-weight: 600;
 }
 .facilities-content .accordion-button {
 font-family: var(--ff-primary);
-font-size: 18px;
+font-size: 20px;
 color: var(--c-tertiary-text) !important;
-font-weight: 400;
+font-weight: 600;
 }
 .facilities-content  .accordion-body {
 padding: 1rem 1.25rem;
-font-size: 16px;
+font-size: 18px;
 font-family: var(--ff-primary);
 font-weight: 400;
 color: var(--c-secondary-text);
@@ -414,60 +414,6 @@ border: 2px solid var(--c-tertiary-text);
 }
 /*About-us-inner-end-supriyo*/
 /*service-inner-start-supriyo*/
-/*.post-box-content {
-overflow: hidden;
-position: relative;
-padding-bottom: 40px;
-border-bottom: 2px solid var(--c-primary);
-transition: all 0.3s ease-in-out;
-}
-.post-box-content:hover {
-background-color: var(--c-white-100);
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.post-box-content img {
-width: 100%;
-object-fit: cover;
-}
-.post-box {
-margin: 30px 0 40px 0;
-}
-.post-box-text .custom-paragraph p {
-padding: 40px 0;
-}
-.post-box-text {
-padding: 0 10px;
-}
-.post-box-text .custom-button {
-background-color: var(--c-primary);
-border: 2px solid var(--c-primary);
-}
-.post-box-text .custom-button:hover {
-color: var(--c-primary);
-background-color: var(--c-white-100);
-}*/
-.service-info.custom-pad {
-background-color: #f5f6fa;
-}
-.service-info-content-box {
-padding: 30px 50px;
-background-color: var(--c-white);
-border-radius: 10px;
-box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
-}
-.service-info.custom-pad .custom-heading {
-text-align: center;
-}
-.service-info-content {
-margin-top: 20px;
-}
-.service-info-content-box h4 {
-font-family: var(--ff-primary);
-font-size: 28px;
-font-weight: 600;
-color: var(--c-primary);
-margin-bottom: 15px;
-}
 .service-info-img {
 text-align: center;
 position: relative;
@@ -641,59 +587,8 @@ color: var(--c-tertiary-text);
 .expert-content-button {
 text-align: center;
 }
-.carousel-section.custom-pad .custom-heading h3 {
-color: var(--c-white);
-}
-.carousel-section.custom-pad .custom-heading {
-text-align: center;
-}
-.carousel-section.custom-pad .item {
-text-align: center;
-margin-top: 0px;
-position: relative;
-}
-.carousel-section.custom-pad .owl-prev {
-position: absolute;
-left: -50px;
-top: 60px;
-}
-.carousel-section.custom-pad .owl-prev span {
-font-size: 100px;
-color: var(--c-secondary);
-transition: all 0.2s ease-in-out;
-}
-.carousel-section.custom-pad .owl-prev span:hover {
-color: var(--c-white);
-}
-.carousel-section.custom-pad .owl-next {
-position: absolute;
-right: -50px;
-top: 60px;
-}
-.carousel-section.custom-pad .owl-next span {
-font-size: 100px;
-color: var(--c-secondary);
-transition: all 0.2s ease-in-out;
-}
-.carousel-section.custom-pad .owl-next span:hover {
-color: var(--c-white);
-}
-.carousel-section.custom-pad .custom-paragraph p {
-color: var(--c-white-100);
-}
-.carousel-section.custom-pad .item h4 {
-font-family: var(--ff-primary);
-font-size: 22px;
-font-weight: 600;
-color: var(--c-white);
-margin-top: 25px;
-}
-.carousel-section.custom-pad .owl-dots {
-display: none;
-}
-.inner-testimonial-carousel .qoute {
-color: var(--c-secondary);
-font-size: 80px;
+.inner-page-testimonial-carousel .testimonial.custom-pad {
+padding: 0 0 110px 0;
 }
 /*testimonial-inner-page-end-supriyo*/
 /*responsive-start-Supriyo*/
@@ -743,6 +638,7 @@ font-size: 80px;
 .about-contact-content h2 {font-size: 48px;}
 .about-contact.custom-pad {padding: 80px 0;}
 .facilities.custom-pad {padding: 80px 0;}
+.info-content {padding: 0 50px 0 0;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
 .service-info-img::after {height: 720px;}
@@ -752,10 +648,6 @@ font-size: 80px;
 .inner-service-right::after {width: 80%;height: 270px;top: -30px;left: 35px;}
 .inner-service.custom-pad {padding: 120px 0 110px 0;}
 /*Inner-service-supriyo*/
-/*testimonial-inner-supriyo*/
-.carousel-section.custom-pad .owl-prev {left: -10px;}
-.carousel-section.custom-pad .owl-next {right: -10px;}
-/*testimonial-inner-supriyo*/
 }
 @media (min-width: 1200px) and (max-width: 1366px){
 .main-banner .carousel-caption {left: 75px;bottom: 90px;}
@@ -792,10 +684,11 @@ font-size: 80px;
 .content-box ul li {font-size: 16px;}
 .about-contact.custom-pad {padding: 80px 0;}
 .facilities.custom-pad {padding: 80px 0;}
+.info-content {padding: 0 40px 0 0;}
+.facilities-content .accordion-body {font-size: 17px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
 .service-info-img::after {height: 620px;}
-.service-info-content-box h4 {font-size: 26px;}
 /*service-inner-supriyo*/
 /*Inner-service-supriyo*/
 .inner-service-img img {width: 80%;}
@@ -803,10 +696,6 @@ font-size: 80px;
 .inner-service.custom-pad {padding: 100px 0 90px 0;}
 .inner-service-content {padding-left: 10px;}
 /*Inner-service-supriyo*/
-/*testimonial-inner-supriyo*/
-.carousel-section.custom-pad .owl-prev {left: -25px;}
-.carousel-section.custom-pad .owl-next {right: -25px;}
-/*testimonial-inner-supriyo*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -847,11 +736,11 @@ font-size: 80px;
 .info-content .custom-paragraph p {padding: 8px 0;}
 .facilities-content {margin-top: 10px;}
 .content-box {padding: 30px 30px;}
+.info-content {padding: 0 30px 0 0;}
+.facilities-content .accordion-body {font-size: 17px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
-.service-info-content-box {padding: 20px 20px;}
 .service-info-img::after {height: 530px;}
-.service-info-content-box h4 {font-size: 26px;}
 /*service-inner-supriyo*/
 /*Inner-service-supriyo*/
 .inner-service-img img {width: 80%;}
@@ -861,12 +750,9 @@ font-size: 80px;
 .what-we-do-box-content h4 {font-size: 22px;}
 /*Inner-service-supriyo*/
 /*testimonial-inner-supriyo*/
-.carousel-section.custom-pad .owl-prev {left: 0px;}
-.carousel-section.custom-pad .owl-next {right: 0px;}
 .review-list {text-align: center;}
 .review-list-content {padding-top: 20px;padding-left: 0;}
 .expert-content .custom-paragraph p {text-align: center;}
-.carousel-section.custom-pad .custom-paragraph p {padding: 0px 20px;}
 /*testimonial-inner-supriyo*/
 }
 
@@ -909,11 +795,11 @@ font-size: 80px;
 .info-content .custom-paragraph p {padding: 8px 0;}
 .facilities-content {margin-top: 10px;}
 .content-box {padding: 30px 30px;}
+.info-content {padding: 0 30px 0 0;}
+.facilities-content .accordion-body {font-size: 16px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
-.service-info-content-box {padding: 20px 20px;}
 .service-info-img::after {height: 520px;}
-.service-info-content-box h4 {font-size: 24px;}
 /*service-inner-supriyo*/
 /*Inner-service-supriyo*/
 .inner-service-img img {width: 80%;}
@@ -923,12 +809,9 @@ font-size: 80px;
 .what-we-do-box-content h4 {font-size: 22px;}
 /*Inner-service-supriyo*/
 /*testimonial-inner-supriyo*/
-.carousel-section.custom-pad .owl-prev {left: 0px;}
-.carousel-section.custom-pad .owl-next {right: 0px;}
 .review-list {text-align: center;}
 .review-list-content {padding-top: 20px;padding-left: 0;}
 .expert-content .custom-paragraph p {text-align: center;}
-.carousel-section.custom-pad .custom-paragraph p {padding: 0px 25px;}
 /*testimonial-inner-supriyo*/
 }
 
@@ -997,15 +880,13 @@ font-size: 80px;
 .content-box {padding: 30px 30px;}
 .info-content {margin-top: 30px;}
 .facilities-content .accordion-button.collapsed {font-size: 16px;}
-.facilities-content .accordion-body {font-size: 13px;line-height: 30px;}
 .facilities-content .accordion-button {font-size: 16px;}
 .about-contact-content h2 {font-size: 34px;}
 .inner-service-content-2 {margin-top: 10px;}
+.facilities-content .accordion-body {font-size: 16px;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
-.service-info-content-box {padding: 20px 20px;}
 .service-info-img::after {height: 810px;}
-.service-info-content-box h4 {font-size: 24px;}
 .service-provide.custom-pad {padding: 110px 0 60px 0;}
 /*service-inner-supriyo*/
 /*Inner-service-supriyo*/
@@ -1018,13 +899,10 @@ font-size: 80px;
 .inner-service-content .custom-paragraph {margin-top: 20px;}
 /*Inner-service-supriyo*/
 /*testimonial-inner-supriyo*/
-.carousel-section.custom-pad .owl-prev {left: -5px;}
-.carousel-section.custom-pad .owl-next {right: -5px;}
 .review-list {text-align: center;}
 .review-list-content {padding-top: 20px;padding-left: 0;}
 .expert-content .custom-paragraph p {text-align: center;}
-.carousel-section.custom-pad .custom-paragraph p {padding: 0px 25px;}
-.what-people-say.custom-pad .custom-heading {text-align: center;}
+.inner-page-testimonial-carousel .testimonial.custom-pad {padding: 60px 0 60px 0;}
 /*testimonial-inner-supriyo*/
 }
 
@@ -1055,8 +933,6 @@ font-size: 80px;
 .facilities.custom-pad {padding: 50px 0;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
-.service-info-content-box {margin-top: 20px;}
-.service-info-content {margin-top: 0px;}
 .service-info-img::after {height: 610px;}
 .service-provide.custom-pad {padding: 90px 0 50px 0;}
 .service-info-content-box h4 {font-size: 20px;}
@@ -1095,16 +971,15 @@ font-size: 80px;
 .info-img::after {height: 445px;}
 .info-content .custom-heading {text-align: center;}
 .info-content .custom-paragraph {text-align: center;}
-.facilities-content .accordion-button.collapsed {font-size: 14px;}
+.facilities-content .accordion-button.collapsed {font-size: 15px;line-height: 24px;}
 .facilities-content .accordion-button {font-size: 14px;}
-.facilities-content .accordion-body {font-size: 12px;line-height: 28px;}
+.facilities-content .accordion-body {font-size: 15px;line-height: 22px;}
 .about-us-info.custom-pad {padding: 60px 0 30px;}
 .about-contact-content h2 {font-size: 20px;}
 .inner-service-content-2 {text-align: center;}
 /*about-inner-supriyo*/
 /*service-inner-supriyo*/
 .service-post.custom-pad .custom-heading {text-align: center;}
-.service-info-content-box {padding: 20px 20px;text-align: center;}
 .service-info-img::after {height: 500px;top: -32px;}
 .service-provide.custom-pad {padding: 80px 0 40px 0;}
 /*service-inner-supriyo*/
@@ -1114,6 +989,9 @@ font-size: 80px;
 .inner-service.custom-pad {padding: 70px 0 40px 0;}
 .what-we-do-box-content .custom-paragraph p {padding: 15px 0;}
 /*Inner-service-supriyo*/
+/*testimonial-inner-supriyo*/
+.inner-page-testimonial-carousel .testimonial.custom-pad {padding: 80px 0 80px 0;}
+/*testimonial-inner-supriyo*/
 }
 
 @media only screen and (max-width: 480.98px) {	
@@ -1129,12 +1007,14 @@ font-size: 80px;
 .male-enhancement {clip-path: polygon(100% 0, 100% 87%, 43% 88%, 0 91%, 0 0);}
 .custom-header .navbar.navbar-expand-lg.py-0 .navbar-brand.ms-0.py-0 img {height: 20px;}
 .box-text h3 {font-size: 20px;}
+.banner-button {margin-top: 16px;}
+.male-enhancement-1 .custom-button {padding: 14px 40px;}
 /*about-inner-supriyo*/
 .about-contact-button-2 {margin: 20px 0px 0px 0px;}
 .info-img::after {height: 295px;left: 10px;top: -22px;}
-.about-contact-button-2 .custom-button {padding: 14px 7px;}
+.about-contact-button-2 .custom-button {padding: 14px 11px;font-size: 11px;}
 .about-contact-button-2 .custom-button span {margin-left: 5px;}
-.about-contact-button .custom-button {padding: 14px 7px;}
+.about-contact-button .custom-button {padding: 14px 11px;font-size: 11px;}
 .about-contact-button .custom-button span {margin-left: 5px;}
 /*about-inner-supriyo*/
 /*Inner-service-supriyo*/
@@ -1143,6 +1023,7 @@ font-size: 80px;
 .what-we-do-box {height: 270px;}
 .inner-service-img img {width: 85%;}
 .service-info-img::after {height: 330px;top: -22px;border: 2px solid var(--c-secondary);left: 12px;}
+.inner-service-right::after {height: 132px;top: -15px;left: 8px;border: 2px solid var(--c-secondary);width: 85%;border-radius: 7px;}
 /*Inner-service-supriyo*/
 /*testimonial-inner-supriyo*/
 .carousel-section.custom-pad .item h4 {font-size: 18px;}
