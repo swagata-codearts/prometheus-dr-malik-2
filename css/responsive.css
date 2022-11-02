@@ -63,7 +63,7 @@
 .navbar-header {display: block;}
 .custom-button {padding: 20px 30px;font-size: 15px;}
 .custom-button span {font-size: 12px;}
-.custom-heading h5 {font-size: 16px;margin-bottom: 16px;}
+.custom-heading h5 {font-size: 16px;margin-bottom: 12px;}
 .custom-heading h3 {font-size: 30px;line-height: 44px;margin-bottom: 10px;}
 .custom-paragraph p {font-size: 14px;line-height: 20px;}
 .inner-banner-text .breadcrumb-item a {font-size: 20px;}
@@ -93,6 +93,7 @@
 
 @media (max-width: 575.98px){
 .custom-pad {padding: 30px 0;} 
+.custom-heading h5 {font-size: 14px;margin-bottom: 6px;}
 }
 
 @media only screen and (max-width: 480.98px) {	
