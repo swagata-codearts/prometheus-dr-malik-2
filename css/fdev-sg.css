@@ -587,59 +587,8 @@ color: var(--c-tertiary-text);
 .expert-content-button {
 text-align: center;
 }
-.carousel-section.custom-pad .custom-heading h3 {
-color: var(--c-white);
-}
-.carousel-section.custom-pad .custom-heading {
-text-align: center;
-}
-.carousel-section.custom-pad .item {
-text-align: center;
-margin-top: 0px;
-position: relative;
-}
-.carousel-section.custom-pad .owl-prev {
-position: absolute;
-left: -50px;
-top: 60px;
-}
-.carousel-section.custom-pad .owl-prev span {
-font-size: 100px;
-color: var(--c-secondary);
-transition: all 0.2s ease-in-out;
-}
-.carousel-section.custom-pad .owl-prev span:hover {
-color: var(--c-white);
-}
-.carousel-section.custom-pad .owl-next {
-position: absolute;
-right: -50px;
-top: 60px;
-}
-.carousel-section.custom-pad .owl-next span {
-font-size: 100px;
-color: var(--c-secondary);
-transition: all 0.2s ease-in-out;
-}
-.carousel-section.custom-pad .owl-next span:hover {
-color: var(--c-white);
-}
-.carousel-section.custom-pad .custom-paragraph p {
-color: var(--c-white-100);
-}
-.carousel-section.custom-pad .item h4 {
-font-family: var(--ff-primary);
-font-size: 22px;
-font-weight: 600;
-color: var(--c-white);
-margin-top: 25px;
-}
-.carousel-section.custom-pad .owl-dots {
-display: none;
-}
-.inner-testimonial-carousel .qoute {
-color: var(--c-secondary);
-font-size: 80px;
+.inner-page-testimonial-carousel .testimonial.custom-pad {
+padding: 0 0 110px 0;
 }
 /*testimonial-inner-page-end-supriyo*/
 /*responsive-start-Supriyo*/
@@ -699,10 +648,6 @@ font-size: 80px;
 .inner-service-right::after {width: 80%;height: 270px;top: -30px;left: 35px;}
 .inner-service.custom-pad {padding: 120px 0 110px 0;}
 /*Inner-service-supriyo*/
-/*testimonial-inner-supriyo*/
-.carousel-section.custom-pad .owl-prev {left: -10px;}
-.carousel-section.custom-pad .owl-next {right: -10px;}
-/*testimonial-inner-supriyo*/
 }
 @media (min-width: 1200px) and (max-width: 1366px){
 .main-banner .carousel-caption {left: 75px;bottom: 90px;}
@@ -751,10 +696,6 @@ font-size: 80px;
 .inner-service.custom-pad {padding: 100px 0 90px 0;}
 .inner-service-content {padding-left: 10px;}
 /*Inner-service-supriyo*/
-/*testimonial-inner-supriyo*/
-.carousel-section.custom-pad .owl-prev {left: -25px;}
-.carousel-section.custom-pad .owl-next {right: -25px;}
-/*testimonial-inner-supriyo*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -809,12 +750,9 @@ font-size: 80px;
 .what-we-do-box-content h4 {font-size: 22px;}
 /*Inner-service-supriyo*/
 /*testimonial-inner-supriyo*/
-.carousel-section.custom-pad .owl-prev {left: 0px;}
-.carousel-section.custom-pad .owl-next {right: 0px;}
 .review-list {text-align: center;}
 .review-list-content {padding-top: 20px;padding-left: 0;}
 .expert-content .custom-paragraph p {text-align: center;}
-.carousel-section.custom-pad .custom-paragraph p {padding: 0px 20px;}
 /*testimonial-inner-supriyo*/
 }
 
@@ -871,12 +809,9 @@ font-size: 80px;
 .what-we-do-box-content h4 {font-size: 22px;}
 /*Inner-service-supriyo*/
 /*testimonial-inner-supriyo*/
-.carousel-section.custom-pad .owl-prev {left: 0px;}
-.carousel-section.custom-pad .owl-next {right: 0px;}
 .review-list {text-align: center;}
 .review-list-content {padding-top: 20px;padding-left: 0;}
 .expert-content .custom-paragraph p {text-align: center;}
-.carousel-section.custom-pad .custom-paragraph p {padding: 0px 25px;}
 /*testimonial-inner-supriyo*/
 }
 
@@ -964,13 +899,10 @@ font-size: 80px;
 .inner-service-content .custom-paragraph {margin-top: 20px;}
 /*Inner-service-supriyo*/
 /*testimonial-inner-supriyo*/
-.carousel-section.custom-pad .owl-prev {left: -5px;}
-.carousel-section.custom-pad .owl-next {right: -5px;}
 .review-list {text-align: center;}
 .review-list-content {padding-top: 20px;padding-left: 0;}
 .expert-content .custom-paragraph p {text-align: center;}
-.carousel-section.custom-pad .custom-paragraph p {padding: 0px 25px;}
-.what-people-say.custom-pad .custom-heading {text-align: center;}
+.inner-page-testimonial-carousel .testimonial.custom-pad {padding: 60px 0 60px 0;}
 /*testimonial-inner-supriyo*/
 }
 
@@ -1057,6 +989,9 @@ font-size: 80px;
 .inner-service.custom-pad {padding: 70px 0 40px 0;}
 .what-we-do-box-content .custom-paragraph p {padding: 15px 0;}
 /*Inner-service-supriyo*/
+/*testimonial-inner-supriyo*/
+.inner-page-testimonial-carousel .testimonial.custom-pad {padding: 80px 0 80px 0;}
+/*testimonial-inner-supriyo*/
 }
 
 @media only screen and (max-width: 480.98px) {	
