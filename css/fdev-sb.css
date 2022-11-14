@@ -97,14 +97,14 @@
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-/*  */
+/* fdev-sb */
 .custom-pad {padding: 80px 0;}
-/*  */
 .custom-bef-aft .custom-heading h3 {margin-bottom: 29px;}
 .custom-bef-aft-content [class*="col-"]:nth-child(2n+1) {padding: 15px;}
 .custom-bef-aft-content [class*="col-"]:nth-child(2n) {padding: 15px;}
 .gal-img-heading h5 {font-size: 24px;padding-bottom: 27px;}
 .custom-bef-aft-button {margin-top: 40px;}
+/* fdev-sb */
 }
 
 @media only screen and (max-width: 991.98px) { 
@@ -122,6 +122,7 @@
 /* fdev-sb */
 .custom-bef-aft-content .gallery-img-box, .gallery-image img {height: 350px;}
 .custom-bef-aft-content [class*="col-"]:nth-child(2n+1), .custom-bef-aft-content [class*="col-"]:nth-child(2n) {padding: 20px 15px 0;}
+/* fdev-sb */
 }
 
 @media (max-width: 575.98px){
