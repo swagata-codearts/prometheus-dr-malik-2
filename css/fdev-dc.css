@@ -338,7 +338,7 @@
   .atlanta .atlanta-paragraph p{font-size: 20px;}
   /*atlanta-end*/
   /*testimonial-start*/
-  .testimonial .item iframe {width: 350px;}
+  .testimonial .item iframe {width: 96%;}
   .testimonial .custom-heading h3 {line-height: 30px;margin-bottom: 30px;}
   .testimonial .owl-dots{padding-top: 30px;}
   .testimonial.custom-pad {padding: 0 0 60px 0;margin-top: -60px;}

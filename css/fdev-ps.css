@@ -306,10 +306,16 @@ height: 150px;
 .contact-form-section .contact-form-sec-left form .form-group .form-btn .custom-button{
 margin-top: 15px;
 }
+.footer-wrap [class*="col-"]:nth-child(2) .column-wrap li {
+    padding-left: 0;
+}
+.footer-wrap [class*="col-"]:nth-child(2) .column-wrap .nav-link {
+    padding: 0;
+}
 /* +++++++Resposive-start++++++++ */
 
 @media (min-width: 1920px) and (max-width: 2500px){
-	
+    
 }
 
 @media (min-width: 1600px) and (max-width: 1920px){
@@ -611,7 +617,7 @@ line-height: 22px;}
 .address-section .custom-heading p {font-size: 13px;line-height: 16px;}
 .map-section .custom-heading {margin-bottom: 0px;}
 .contact-form-section .contact-from-right-img-wrap img {height: 288px;}
-.map-section {padding-bottom: 7px;}143
+.map-section {padding-bottom: 7px;}
 /* fdev-ps */  
 }
 

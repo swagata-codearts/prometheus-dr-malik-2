@@ -141,6 +141,8 @@ font-size: 70px;
 font-weight: 700;
 color: var(--c-primary-text);
 line-height: 83px;
+width: 54%;
+margin-left: 0;
 }
 .main-banner .carousel-caption p {
 font-family: var(--ff-primary);
@@ -149,6 +151,7 @@ font-weight: 400;
 color: var(--c-secondary-text);
 margin-top: 25px;
 line-height: 42px;
+width: 33%;
 }
 .banner-button {
 margin-top: 36px;
@@ -210,6 +213,7 @@ margin-top: 25px;
 .performed-section-heading .custom-heading h3 {
 color: var(--c-white);
 margin-bottom: 0px;
+width: 72%;
 }
 .performed-section-heading .custom-paragraph p {
 padding: 48px 0 90px 0;
@@ -333,6 +337,9 @@ color: var(--c-tertiary-text) !important;
 font-weight: 600;
 }
 .facilities-content  .accordion-body {
+padding: 0;
+}
+.facilities-content  .accordion-body p {
 padding: 1rem 1.25rem;
 font-size: 18px;
 font-family: var(--ff-primary);
@@ -488,6 +495,7 @@ height: 300px;
 margin-top: 25px;
 cursor: pointer;
 position: relative;
+z-index: 9;
 }
 .what-we-do-box::after {
 position: absolute;
@@ -499,6 +507,7 @@ top: 0;
 left: auto;
 transition: all 0.3s ease-in-out;
 right: 0;
+z-index: -1;
 }
 .what-we-do-box:hover::after {
 width: 100%;
@@ -591,6 +600,32 @@ text-align: center;
 padding: 0 0 110px 0;
 }
 /*testimonial-inner-page-end-supriyo*/
+
+.custom-pagination {
+display: flex;
+align-items: center;
+justify-content: center;
+  gap: 0 10px;
+}
+.custom-pagination > * {
+margin: 0;
+color: var(--c-primary);
+padding: 5px 10px;
+font-size: 15px;
+}
+.custom-pagination > :hover {
+color: var(--c-primary);
+}
+.custom-pagination .current {
+background-color: var(--c-primary);
+color: var(--c-white) !important;
+}
+.next.page-numbers {
+display: flex;
+align-items: center;
+gap: 7px; 
+}
+
 /*responsive-start-Supriyo*/
 @media (min-width: 1920px) and (max-width: 2500px){
 
@@ -695,6 +730,7 @@ padding: 0 0 110px 0;
 .inner-service-right::after {width: 80%;top: -30px;left: 30px;}
 .inner-service.custom-pad {padding: 100px 0 90px 0;}
 .inner-service-content {padding-left: 10px;}
+.atlanta .atlanta-paragraph p {min-height: 102px;}
 /*Inner-service-supriyo*/
 }
 
@@ -819,8 +855,8 @@ padding: 0 0 110px 0;
 
 @media only screen and (max-width: 991.98px) {    
 .main-banner .carousel-caption {left: 0;bottom: 80px;text-align: center;z-index: 9;}
-.main-banner .carousel-caption h1 {font-size: 35px;line-height: 50px;}
-.main-banner .carousel-caption p {font-size: 16px;line-height: 30px;margin-top: 15px;}
+.main-banner .carousel-caption h1 {font-size: 35px;line-height: 50px;width: 100%;}
+.main-banner .carousel-caption p {font-size: 16px;line-height: 30px;margin-top: 15px;width: 100%;}
 .performed-section-heading .custom-paragraph p {padding: 25px 0 30px 0;}
 .box-text {padding: 35px 0px 24px;text-align: center;}
 .male-enhancement.custom-pad {padding: 87px 0 230px 0;}
@@ -907,6 +943,7 @@ padding: 0 0 110px 0;
 .expert-content .custom-paragraph p {text-align: center;}
 .inner-page-testimonial-carousel .testimonial.custom-pad {padding: 60px 0 60px 0;}
 /*testimonial-inner-supriyo*/
+.performed-section-heading .custom-heading h3 {width: 100%;}
 }
 
 
